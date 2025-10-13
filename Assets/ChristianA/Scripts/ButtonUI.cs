@@ -3,10 +3,12 @@ using UnityEngine.SceneManagement;
 
 public class ButtonUI : MonoBehaviour
 {
+    [SerializeField] private string selectScene = "SelectScene";
     [SerializeField] private string shopScene = "ShopScene";
+    [SerializeField] private string statisticsScene = "StatScene";
     public void StartStreamButton()
     {
-        return;
+        SceneManager.LoadScene(selectScene);
     }
 
     public void OpenShopButton()
@@ -16,6 +18,6 @@ public class ButtonUI : MonoBehaviour
 
     public void StatisticsButton()
     {
-        return;
+        SceneManager.LoadScene(statisticsScene);
     }
 }
