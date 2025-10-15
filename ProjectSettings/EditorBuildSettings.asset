@@ -9,20 +9,20 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/ChristianA/Scenes/ShopScene.unity
-    guid: 587a2609ee7a3654088452c49dc6ee7d
+    path: Assets/Scenes/guiScenes/TitleScreen.unity
+    guid: 16245517686c7264bbe272f703a0fcb7
   - enabled: 1
-    path: Assets/ChristianA/Scenes/TitleScreen.unity
-    guid: 09bdb1d05d236664185c998e3c95200e
+    path: Assets/Scenes/guiScenes/StatScene.unity
+    guid: 010ee769e872e3b49b9f10a7c20ad5bb
   - enabled: 1
-    path: Assets/ChristianA/Scenes/StatScene.unity
-    guid: 9b2f09cd7e463bb43adaaffabc003f6c
+    path: Assets/Scenes/guiScenes/ShopScene.unity
+    guid: cf5ff31e05e8eea47a5eccc6ce130e0e
   - enabled: 1
-    path: Assets/ChristianA/Scenes/SelectScene.unity
-    guid: 874429d1d76a5094c9695cadd9b167a3
+    path: Assets/Scenes/guiScenes/SelectScene.unity
+    guid: d3f51c70e20c74e4893097551420fc8d
   - enabled: 1
-    path: Assets/ChristianA/Scenes/PreStreamScene.unity
-    guid: d0a41fb42ff417d43b421a4858cc077c
+    path: Assets/Scenes/guiScenes/PreStreamScene.unity
+    guid: cd601613b39af0c4eb19f4dee7d83a6b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
