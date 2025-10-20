@@ -11,9 +11,9 @@ public class InventoryManager : MonoBehaviour
     public GameObject inventoryContainer;
 
 
-
     private void Start()
     {
+
         UpdateHotbarUI(); // Call this to refresh UI
     }
 
@@ -43,18 +43,34 @@ public class InventoryManager : MonoBehaviour
     {
 
         // Switch item with Tab
-        if (Input.GetKeyDown(KeyCode.Tab))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             SwitchItem(1); // Cycle forward
         }
 
         // Direct select with number keys
-        if (Input.GetKeyDown(KeyCode.Alpha1)) selectedIndex = 0;
-        if (Input.GetKeyDown(KeyCode.Alpha2)) selectedIndex = 1;
-        if (Input.GetKeyDown(KeyCode.Alpha3)) selectedIndex = 2;
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            selectedIndex = 0;
+            UpdateHotbarUI();
+            Debug.Log("Switched to Item 1");
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            selectedIndex = 1;
+            UpdateHotbarUI();
+            Debug.Log("Switched to Item 2");
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            selectedIndex = 2;
+            UpdateHotbarUI();
+            Debug.Log("Switched to Item 3");
+        }
 
-        // Use item with E
-        if (Input.GetKeyDown(KeyCode.Q))
+
+        // Use item with LeftMouseClick
+        if (Input.GetMouseButtonDown(0))
         {
             UseSelectedItem();
         }
@@ -106,7 +122,7 @@ public class InventoryManager : MonoBehaviour
                 inventory[i] = new ItemInstance(itemData, instance);
                 selectedIndex = i;
                 Debug.Log($"Picked up {itemData.itemName} into slot {i}");
-                
+
                 UpdateHotbarUI();
                 return;
             }

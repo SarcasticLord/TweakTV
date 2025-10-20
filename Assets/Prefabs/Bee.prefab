@@ -219,7 +219,6 @@ MonoBehaviour:
   MaxSpeed: 6
   SightRange: 3
   DetectionRange: 10
-  animator: {fileID: 8572965715143125857}
   Rigidbody: {fileID: 8150655651868274944}
   Target: {fileID: 0}
   FlyHeight: 1
@@ -263,7 +262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disableDuration: 5
-  hitParticle: {fileID: 3567050154118531774, guid: 3f8d026cd8203754ea2721da63e7d5b4, type: 3}
+  hitParticle: {fileID: 3567050154118531774, guid: d501c930473e3e14e8e33c964abb5652, type: 3}
 --- !u!114 &8894412310426765951
 MonoBehaviour:
   m_ObjectHideFlags: 0
