@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Chase : MonoBehaviour
+public class ChaseV2 : MonoBehaviour
 {
     public float MaxSpeed;
     private float Speed;
