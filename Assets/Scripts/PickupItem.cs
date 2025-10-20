@@ -14,7 +14,11 @@ public class PickupItem : MonoBehaviour
 
     private void Start()
     {
+        pickupPrompt.SetActive(false);
+        if (pickupPrompt != null)
+        {
             pickupPrompt.SetActive(false);
+        }
     }
     private void OnTriggerStay(Collider other)
     {
@@ -22,7 +26,11 @@ public class PickupItem : MonoBehaviour
         {
             playerInRange = true;
             inventoryManager = other.GetComponent<InventoryManager>();
-            pickupPrompt.SetActive(true);
+            if (pickupPrompt != null)
+            {
+                pickupPrompt.SetActive(true);
+            }
+
         }
     }
 
@@ -32,8 +40,9 @@ public class PickupItem : MonoBehaviour
         {
             playerInRange = false;
             inventoryManager = null;
-            pickupPrompt.SetActive(false);
         }
+        pickupPrompt.SetActive(false);
+
     }
 
     private void Update()
@@ -63,6 +72,7 @@ public class PickupItem : MonoBehaviour
 
                     inventoryManager.PickUpItem(itemData, instance);
                     pickupPrompt.SetActive(false);
+
             }
         }
     }

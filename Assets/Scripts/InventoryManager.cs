@@ -49,12 +49,12 @@ public class InventoryManager : MonoBehaviour
         }
 
         // Direct select with number keys
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        if (Input.GetKeyDown(KeyCode.Alpha1)) 
         {
             selectedIndex = 0;
             UpdateHotbarUI();
             Debug.Log("Switched to Item 1");
-        }
+        } 
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             selectedIndex = 1;
@@ -67,7 +67,7 @@ public class InventoryManager : MonoBehaviour
             UpdateHotbarUI();
             Debug.Log("Switched to Item 3");
         }
-
+        
 
         // Use item with LeftMouseClick
         if (Input.GetMouseButtonDown(0))
@@ -122,7 +122,7 @@ public class InventoryManager : MonoBehaviour
                 inventory[i] = new ItemInstance(itemData, instance);
                 selectedIndex = i;
                 Debug.Log($"Picked up {itemData.itemName} into slot {i}");
-
+                
                 UpdateHotbarUI();
                 return;
             }

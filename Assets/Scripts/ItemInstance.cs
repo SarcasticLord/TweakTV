@@ -118,7 +118,7 @@ public class ItemInstance
 
     public void Idle()
     {
-        chat.ChangeChatSource("Idle");
+        chat.ChangeChatSource("Chatw");
     }
 
 }
