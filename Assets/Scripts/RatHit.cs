@@ -1,24 +1,24 @@
 using UnityEngine;
 using System.Collections;
 
-public class BugHitReaction : MonoBehaviour
+public class RatHitReaction : MonoBehaviour
 {
     public float disableDuration = 2f; // Time in seconds to disable the chase
-    private BeeHealth beeHealth;
-    private BeeChase chaseScript;
+    private RatHealth ratHealth;
+    private RatChase chaseScript;
     public GameObject hitParticle;
 
     void Start()
     {
-        chaseScript = GetComponent<BeeChase>();
-        beeHealth = GetComponent<BeeHealth>();
+        chaseScript = GetComponent<RatChase>();
+        ratHealth = GetComponent<RatHealth>();
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Hitbox")) // Make sure your hitbox GameObject has this tag
         {
-            beeHealth.TakeDamage(1);
+            ratHealth.TakeDamage(1);
             SpawnHitEffect();
             Debug.Log("Bug hit by weapon! Disabling chase temporarily.");
             StartCoroutine(Knockdown());
