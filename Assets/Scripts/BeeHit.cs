@@ -12,6 +12,7 @@ public class BugHitReaction : MonoBehaviour
     {
         chaseScript = GetComponent<Chase>();
         beeHealth = GetComponent<BeeHealth>();
+        Debug.Log("");
     }
 
     private void OnTriggerEnter(Collider other)
