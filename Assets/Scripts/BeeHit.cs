@@ -12,7 +12,7 @@ public class BugCollision : MonoBehaviour
     private Transform self;
     private Rigidbody rb;
     public float offset;
-    public bool isAttacking;
+    public bool isAttacking = false;
 
     void Start()
     {
@@ -31,13 +31,15 @@ public class BugCollision : MonoBehaviour
             Debug.Log("Bug hit by weapon! Disabling chase temporarily.");
             StartCoroutine(Cooldown(disableDuration));
         }
-        else if (other.CompareTag("Player"))
+        else if (other.CompareTag("Player") && !isAttacking)
         {
+            rb.linearVelocity = Vector3.zero;
+            rb.useGravity = false;
             Debug.Log("Player is within attack range!");
             chaseScript.enabled = false;
             isAttacking = true;
-            Attack(attackDuration);
-        
+            StartCoroutine(Attack());
+        }
     }
 
 
@@ -48,18 +50,19 @@ public class BugCollision : MonoBehaviour
             Instantiate(hitParticle, transform.position, Quaternion.identity);
         }
     }
-    public void Attack(float cooldown)
+    public IEnumerator Attack()
     {
-        rb.linearVelocity = new Vector3(0, 0, 0);
+        rb.linearVelocity = Vector3.zero;
         rb.useGravity = false;
+
         Debug.Log("Attacking");
-        Vector3 spawnPosition = self.transform.position + self.transform.forward * offset;
-        GameObject beeHitbox = Instantiate(beeAttack);
-        Debug.Log("Spawned Hitbox");
-        beeHitbox.transform.position = spawnPosition;
-        beeHitbox.transform.SetParent(self.transform, true);
+        Vector3 spawnPosition = self.position + self.forward * offset;
+        GameObject beeHitbox = Instantiate(beeAttack, spawnPosition, Quaternion.identity);
+        beeHitbox.transform.SetParent(self, true);
         Destroy(beeHitbox, 0.5f);
-        StartCoroutine(Cooldown(cooldown));
+        yield return new WaitForSeconds(attackDuration);
+        isAttacking = false;
+        Debug.Log("Attack Finished");
     }
     private IEnumerator Cooldown(float duration)
     {
@@ -76,8 +79,16 @@ public class BugCollision : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            isAttacking = false;
             chaseScript.enabled = true;
             rb.useGravity = true;
+        }
+    }
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            isAttacking = true;
         }
     }
 }
