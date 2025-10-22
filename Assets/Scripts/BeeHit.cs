@@ -12,6 +12,7 @@ public class BugCollision : MonoBehaviour
     private Transform self;
     private Rigidbody rb;
     public float offset;
+    public bool isAttacking;
 
     void Start()
     {
@@ -34,8 +35,9 @@ public class BugCollision : MonoBehaviour
         {
             Debug.Log("Player is within attack range!");
             chaseScript.enabled = false;
+            isAttacking = true;
             Attack(attackDuration);
-        }
+        
     }
 
 
@@ -57,40 +59,16 @@ public class BugCollision : MonoBehaviour
         beeHitbox.transform.position = spawnPosition;
         beeHitbox.transform.SetParent(self.transform, true);
         Destroy(beeHitbox, 0.5f);
-        Cooldown(cooldown);
-
-
-        //Vector3 spawnPosition = new Vector3(0f,0f,0f);
-        //GameObject spawnedHitbox = GameObject.Instantiate(data.hitbox, spawnPosition, Quaternion.identity);
-        //spawnedHitbox.transform.SetParent(worldObject.transform, true);
-        //Debug.Log($"Spawned hitbox for {data.itemName} at {spawnPosition}");
-
-        //WeaponHitbox hitboxScript = spawnedHitbox.GetComponent<WeaponHitbox>();
-        //if (hitboxScript != null)
-        //{
-        //    hitboxScript.forceDirection = user.transform.forward;
-        //}
-
-        //GameObject.Destroy(spawnedHitbox, 0.2f);
+        StartCoroutine(Cooldown(cooldown));
     }
     private IEnumerator Cooldown(float duration)
     {
         if (chaseScript != null)
         {
-
             chaseScript.enabled = false;
             yield return new WaitForSeconds(duration);
             chaseScript.enabled = true;
-            
             Debug.Log("Chase re-enabled.");
-        }
-    }
-    private void OnTriggerStay(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            Attack(attackDuration);
-            Debug.Log("Continuing Attack");
         }
     }
 

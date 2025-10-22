@@ -11,7 +11,11 @@ public class BeeHitbox : MonoBehaviour
         if(other.CompareTag("Player") == true)
         {
             Debug.Log("They hit the Player!");
-            Destroy(gameObject);
+            Destroy(gameObject, .01f);
         }
+    }
+    private void Start()
+    {
+        Destroy(gameObject, .5f);
     }
 }
