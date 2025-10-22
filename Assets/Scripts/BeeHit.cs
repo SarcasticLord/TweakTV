@@ -18,6 +18,7 @@ public class BugCollision : MonoBehaviour
         chaseScript = GetComponent<BeeChase>();
         beeHealth = GetComponent<BeeHealth>();
         rb = GetComponent<Rigidbody>();
+        self = GetComponent<Transform>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -51,7 +52,11 @@ public class BugCollision : MonoBehaviour
         rb.useGravity = false;
         Debug.Log("Attacking");
         Vector3 spawnPosition = self.transform.position + self.transform.forward * offset;
-        GameObject spawnedHitbox = GameObject.Instantiate(beeAttack, spawnPosition, Quaternion.identity);
+        GameObject beeHitbox = Instantiate(beeAttack);
+        Debug.Log("Spawned Hitbox");
+        beeHitbox.transform.position = spawnPosition;
+        beeHitbox.transform.SetParent(self.transform, true);
+        Destroy(beeHitbox, 0.5f);
         Cooldown(cooldown);
 
 
@@ -72,6 +77,7 @@ public class BugCollision : MonoBehaviour
     {
         if (chaseScript != null)
         {
+
             chaseScript.enabled = false;
             yield return new WaitForSeconds(duration);
             chaseScript.enabled = true;
