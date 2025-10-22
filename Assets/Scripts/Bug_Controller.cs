@@ -111,13 +111,13 @@ public class BeeChase : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        // Optional: Reset chasing if you collide with player
-            SeePlayer = false;
-            Target = null;
-            Rigidbody.linearVelocity = Vector3.zero;
-    }
+    //private void OnCollisionEnter(Collision collision)
+    //{
+    //    // Optional: Reset chasing if you collide with player
+    //        SeePlayer = false;
+    //        Target = null;
+    //        Rigidbody.linearVelocity = Vector3.zero;
+    //}
 
     //private void OnTriggerEnter(Collider other)
     //{
