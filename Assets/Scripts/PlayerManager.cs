@@ -1,22 +1,23 @@
 using UnityEngine;
 
-public class BeeHealth : MonoBehaviour
+public class PlayerHealth : MonoBehaviour
 {
     [SerializeField] private int maxHealth = 5;
     private int currentHealth;    
+    //private ChatDisplay chat;
 
     void Start()
     {
         currentHealth = maxHealth;
+        //chat = chatobject.GetComponent<ChatDisplay>();
     }
 
     // Call this method to reduce health
-    public void BeeTakeDamage(int damageAmount)
+    public void PlayerTakeDamage(int damageAmount)
     {
-        GameObject chatobject = GameObject.Find("Chat");
-
+        //GameObject chatobject = GameObject.Find("Chat");
         currentHealth -= damageAmount;
-        Debug.Log($"Bee took damage: Current Health {currentHealth}");
+        Debug.Log($"Player took damage: Current Health {currentHealth}");
         if (currentHealth <= 0)
         {
             Die();

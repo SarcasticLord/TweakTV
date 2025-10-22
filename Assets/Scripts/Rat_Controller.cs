@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class BeeChase : MonoBehaviour
+public class RatChase : MonoBehaviour
 {
     public float MaxSpeed;
     private float Speed;
@@ -11,7 +11,6 @@ public class BeeChase : MonoBehaviour
     public float SightRange;
     public float DetectionRange;
     public Rigidbody Rigidbody;
-    public float FlyHeight;
     public GameObject Target;
     public Animator animator; //optional
 
@@ -37,7 +36,7 @@ public class BeeChase : MonoBehaviour
                 animator.SetBool("IsChasing", true);
             }
             // Maintain fixed Y position
-            Vector3 targetPosition = new Vector3(Target.transform.position.x, Target.transform.position.y + FlyHeight, Target.transform.position.z);
+            Vector3 targetPosition = new Vector3(Target.transform.position.x, 0, Target.transform.position.z);
             Vector3 moveDirection = (targetPosition - transform.position).normalized;
 
             // Apply movement
@@ -111,13 +110,13 @@ public class BeeChase : MonoBehaviour
         }
     }
 
-    //private void OnCollisionEnter(Collision collision)
-    //{
-    //    // Optional: Reset chasing if you collide with player
-    //        SeePlayer = false;
-    //        Target = null;
-    //        Rigidbody.linearVelocity = Vector3.zero;
-    //}
+    private void OnCollisionEnter(Collision collision)
+    {
+        // Optional: Reset chasing if you collide with player
+            SeePlayer = false;
+            Target = null;
+            Rigidbody.linearVelocity = Vector3.zero;
+    }
 
     //private void OnTriggerEnter(Collider other)
     //{
