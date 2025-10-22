@@ -33203,6 +33203,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4819182846447388223, guid: 11431193c9d0e154ba712116ea706274, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4819182846447388223, guid: 11431193c9d0e154ba712116ea706274, type: 3}
       propertyPath: sharedProfile
       value: 
       objectReference: {fileID: 11400000, guid: 62c8efe70e6be494b8741ae8bd76e51a, type: 2}
