@@ -5,10 +5,11 @@ public class PlayerHealthDisplay : MonoBehaviour
 
     public float spacing = 10f; // Fixed spacing between items
     public bool stackFromBottom = true;
+    public int health;
 
-    void UpdateLayout()
+    public void UpdateLayout()
     {
-        int count = transform.childCount;
+        int count = health;
         for (int i = 0; i < count; i++)
         {
             RectTransform child = transform.GetChild(i).GetComponent<RectTransform>();
