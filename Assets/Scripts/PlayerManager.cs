@@ -2,16 +2,18 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    [SerializeField] private int maxHealth = 5;
+    [SerializeField] private int maxHealth = 3;
     private int currentHealth;
-    private PlayerHealthDisplay healthDisplay;
+    public PlayerHealthDisplay healthDisplay;
     //private ChatDisplay chat;
 
     void Start()
     {
         healthDisplay = GetComponent<PlayerHealthDisplay>();
+        Debug.Log($"Got Health Display {healthDisplay}");
         currentHealth = maxHealth;
-        healthDisplay.health = currentHealth;
+        healthDisplay.CreateHealth(currentHealth);
+        AdjustHealth();
     }
 
     // Call this method to reduce health
@@ -19,15 +21,19 @@ public class PlayerHealth : MonoBehaviour
     {
         //GameObject chatobject = GameObject.Find("Chat");
         currentHealth -= damageAmount;
-        healthDisplay.health = currentHealth;
+        AdjustHealth();
         Debug.Log($"Player took damage: Current Health {currentHealth}");
-        healthDisplay.UpdateLayout();
         if (currentHealth <= 0)
         {
             Die();
         }
     }
-
+    private void AdjustHealth()
+    {
+        healthDisplay.health = currentHealth;
+        healthDisplay.UpdateLayout();
+        Debug.Log("Updated Health.");
+    }
     private void Die()
     {
         // You can add effects or animations here before destroying
