@@ -13,4 +13,36 @@
     margin-bottom: 32px;
     padding-top: 32px;
     padding-bottom: 32px;
+    border-left-color: rgb(212, 212, 212);
+    border-top-color: rgb(212, 212, 212);
+    border-right-color: rgb(147, 147, 147);
+    border-bottom-color: rgb(147, 147, 147);
+    transition-property: scale;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+}
+
+.unity-button:hover {
+    background-color: rgb(155, 190, 90);
+    scale: 1.1 1.1;
+    transition-property: scale;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+}
+
+.unity-button:select {
+    border-top-width: 16px;
+    border-right-width: 16px;
+    border-bottom-width: 16px;
+    border-left-width: 16px;
+    border-bottom-color: rgb(155, 190, 90);
+    border-left-color: rgb(155, 190, 90);
+    border-top-color: rgb(155, 190, 90);
+    border-right-color: rgb(155, 190, 90);
+}
+
+.unity-button:active {
+    background-size: 100% 100%;
+    width: auto;
+    height: auto;
 }
