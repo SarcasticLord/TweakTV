@@ -1,10 +1,13 @@
+
 using UnityEngine;
 using System.Collections;
 
 public class BugCollision : MonoBehaviour
 {
-    public float disableDuration = 5f; // Time in seconds to disable the chase
-    public float attackDuration = 1f;
+    public float disableDuration = 5f; // Time to disable chase after being hit
+    public float attackDuration = 1f;  // Duration of attack animation
+    public float cooldownTime = 2f;    // Time between attacks
+
     private BeeHealth beeHealth;
     private BeeChase chaseScript;
     public GameObject beeAttack;
@@ -12,7 +15,9 @@ public class BugCollision : MonoBehaviour
     private Transform self;
     private Rigidbody rb;
     public float offset;
-    public bool isAttacking = false;
+
+    private bool isAttacking = false;
+    private bool canAttack = true;
 
     void Start()
     {
@@ -24,24 +29,24 @@ public class BugCollision : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Hitbox")) // Make sure your hitbox GameObject has this tag
+        if (other.CompareTag("Hitbox"))
         {
             beeHealth.BeeTakeDamage(1);
             SpawnHitEffect();
             Debug.Log("Bug hit by weapon! Disabling chase temporarily.");
             StartCoroutine(Cooldown(disableDuration));
         }
-        else if (other.CompareTag("Player") && !isAttacking)
+        else if (other.CompareTag("Player") && canAttack)
         {
             rb.linearVelocity = Vector3.zero;
             rb.useGravity = false;
             Debug.Log("Player is within attack range!");
             chaseScript.enabled = false;
-            isAttacking = true;
-            StartCoroutine(Attack());
+            Attack();
+            StartCoroutine(Cooldown(disableDuration));
+            canAttack = false;
         }
     }
-
 
     private void SpawnHitEffect()
     {
@@ -50,29 +55,19 @@ public class BugCollision : MonoBehaviour
             Instantiate(hitParticle, transform.position, Quaternion.identity);
         }
     }
-    public IEnumerator Attack()
-    {
-        rb.linearVelocity = Vector3.zero;
-        rb.useGravity = false;
 
-        Debug.Log("Attacking");
-        Vector3 spawnPosition = self.position + self.forward * offset;
-        GameObject beeHitbox = Instantiate(beeAttack, spawnPosition, Quaternion.identity);
-        beeHitbox.transform.SetParent(self, true);
-        Destroy(beeHitbox, 0.5f);
-        yield return new WaitForSeconds(attackDuration);
-        isAttacking = false;
-        Debug.Log("Attack Finished");
+    public void Attack()
+    {
+        if (canAttack)
+        {
+            Instantiate(beeAttack, self);
+        }
     }
+
     private IEnumerator Cooldown(float duration)
     {
-        if (chaseScript != null)
-        {
-            chaseScript.enabled = false;
-            yield return new WaitForSeconds(duration);
-            chaseScript.enabled = true;
-            Debug.Log("Chase re-enabled.");
-        }
+        yield return new WaitForSeconds(duration);
+        canAttack = true;
     }
 
     private void OnTriggerExit(Collider other)
@@ -84,12 +79,13 @@ public class BugCollision : MonoBehaviour
             rb.useGravity = true;
         }
     }
+
     private void OnTriggerStay(Collider other)
     {
+        // Optional: You can use this to keep track of proximity
         if (other.CompareTag("Player"))
         {
-            isAttacking = true;
+            // Do nothing here unless you want to trigger something continuously
         }
     }
 }
-
