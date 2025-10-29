@@ -54,8 +54,7 @@ public class PickupAndThrow : MonoBehaviour
             }
         }
     }
-
-    void ThrowObject()
+void ThrowObject()
     {
         heldRigidbody.useGravity = true;
         heldRigidbody.constraints = RigidbodyConstraints.None;

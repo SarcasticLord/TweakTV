@@ -7,6 +7,14 @@ public class TrainBehaviour : MonoBehaviour
     public float hitForce = 1000f;
     public Vector3 forceDirection;
     private Rigidbody rb;
+    public Transform startPoint;
+    public Transform startPoint2;
+
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();   
+    }
 
 
     void Update()
@@ -23,6 +31,22 @@ public class TrainBehaviour : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.CompareTag("Endpoint1"))
+        {
+            // Move to start point and rotate 180 degrees
+            transform.position = startPoint.position;
+            transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles + new Vector3(0, 180, 0));
+            Debug.Log("Train teleported to start point 1 and rotated.");
+            return;
+        }
+        if (other.CompareTag("Endpoint2"))
+        {
+            // Move to start point and rotate 180 degrees
+            transform.position = startPoint2.position;
+            transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles + new Vector3(0, 180, 0));
+            Debug.Log("Train teleported to start point 2 and rotated.");
+            return;
+        }
 
         Rigidbody rb = other.attachedRigidbody;
 
