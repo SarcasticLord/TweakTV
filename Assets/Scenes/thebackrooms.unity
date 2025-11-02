@@ -39310,7 +39310,7 @@ GameObject:
   - component: {fileID: 1245280755}
   - component: {fileID: 1245280754}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: 2.8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39399,7 +39399,7 @@ Transform:
   m_GameObject: {fileID: 1245280753}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -24.4, y: 2.83, z: 24.3}
+  m_LocalPosition: {x: -18.6, y: 2.8, z: 24.3}
   m_LocalScale: {x: -168.5642, y: 0.27639455, z: -168.5642}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -65407,6 +65407,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4819182846447388223, guid: 11431193c9d0e154ba712116ea706274, type: 3}
+      propertyPath: weight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4819182846447388223, guid: 11431193c9d0e154ba712116ea706274, type: 3}
+      propertyPath: m_IsGlobal
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4819182846447388223, guid: 11431193c9d0e154ba712116ea706274, type: 3}
+      propertyPath: blendDistance
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4819182846447388223, guid: 11431193c9d0e154ba712116ea706274, type: 3}
       propertyPath: sharedProfile
       value: 
