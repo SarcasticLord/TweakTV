@@ -1,9 +1,12 @@
+using EasyPeasyFirstPersonController;
+using System.Collections;
 using System.Security.Cryptography;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
-using System.Collections;
+using static UnityEngine.GraphicsBuffer;
 using Image = UnityEngine.UI.Image;
 
 public class PlayerHealth : MonoBehaviour
@@ -12,14 +15,24 @@ public class PlayerHealth : MonoBehaviour
     public float spacing = 10f; // Fixed spacing between items
     public bool stackFromBottom = true;
     public GameObject healthPoint;
+    public GameObject player;
+    public Camera camera;
     private int health;
     public int maxHealth = 4;
     private Image imageComponent;
     private bool lowHealth;
+    public float fallDuration = 1f; // Duration of the fall animation
+    private Vector3 targetPosition;
+    private Quaternion targetRotation;
+
 
 
     private void Start()
     {
+
+        targetPosition = transform.position + new Vector3(0, -2f, 0);
+        targetRotation = Quaternion.Euler(transform.eulerAngles + new Vector3(0, 0, 90f));
+
         if (imageComponent == null)
         {
             imageComponent = GetComponent<Image>();
@@ -28,10 +41,6 @@ public class PlayerHealth : MonoBehaviour
         CreateHealth(health-1);
         UpdateLayout();
 
-    }
-    private void Die()
-    {
-        // You can add effects or animations here before destroying
     }
     void CreateHealth(int count)
     {
@@ -57,8 +66,7 @@ public class PlayerHealth : MonoBehaviour
             StartCoroutine(LowHealth(.2f));
             if (health <= 0)
             {
-                StopAllCoroutines();
-                Destroy(gameObject);
+                Death();
             }
         }
         Debug.Log($"Player took damage: Current Health {health}");
@@ -73,6 +81,33 @@ public class PlayerHealth : MonoBehaviour
         Destroy(topBar.gameObject);
 
         UpdateLayout(); // Reposition remaining bars
+    }
+    public void Death()
+    {
+        StopAllCoroutines();
+        FirstPersonController fps = player.GetComponent<FirstPersonController>();
+        fps.enabled = false;
+        StartCoroutine(FallToSide());
+    }
+
+    IEnumerator FallToSide()
+    {
+        Vector3 startPos = camera.transform.position;
+        Quaternion startRot = camera.transform.rotation;
+        float elapsed = 0f;
+
+        while (elapsed < fallDuration)
+        {
+            camera.transform.position = Vector3.Lerp(startPos, targetPosition, elapsed / fallDuration);
+            camera.transform.rotation = Quaternion.Lerp(startRot, targetRotation, elapsed / fallDuration);
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        // Ensure final position and rotation are set
+        camera.transform.position = targetPosition;
+        camera.transform.rotation = targetRotation;
+        StopAllCoroutines();
     }
 
     public void UpdateLayout()
