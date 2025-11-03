@@ -30,9 +30,6 @@ public class PlayerHealth : MonoBehaviour
     private void Start()
     {
 
-        targetPosition = transform.position + new Vector3(0, -2f, 0);
-        targetRotation = Quaternion.Euler(transform.eulerAngles + new Vector3(0, 0, 90f));
-
         if (imageComponent == null)
         {
             imageComponent = GetComponent<Image>();
@@ -87,6 +84,8 @@ public class PlayerHealth : MonoBehaviour
         StopAllCoroutines();
         FirstPersonController fps = player.GetComponent<FirstPersonController>();
         fps.enabled = false;
+        targetPosition = camera.transform.position + new Vector3(0, -2f, 0);
+        targetRotation = Quaternion.Euler(camera.transform.eulerAngles + new Vector3(0, 0, 90f));
         StartCoroutine(FallToSide());
     }
 
