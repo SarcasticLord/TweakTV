@@ -84,8 +84,8 @@ public class PlayerHealth : MonoBehaviour
         StopAllCoroutines();
         FirstPersonController fps = player.GetComponent<FirstPersonController>();
         fps.enabled = false;
-        targetPosition = camera.transform.position + new Vector3(0, -2f, 0);
-        targetRotation = Quaternion.Euler(camera.transform.eulerAngles + new Vector3(0, 0, 90f));
+        targetPosition = camera.transform.position + new Vector3(0, -1.7f, 0);
+        targetRotation = Quaternion.Euler(camera.transform.eulerAngles + new Vector3(-40f, 0, 40f));
         StartCoroutine(FallToSide());
     }
 
