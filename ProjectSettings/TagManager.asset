@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Item
   - Hitbox
+  - Enemy
+  - Endpoint1
+  - Endpoint2
   layers:
   - Default
   - TransparentFX

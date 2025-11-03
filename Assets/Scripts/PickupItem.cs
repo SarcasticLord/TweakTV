@@ -1,5 +1,7 @@
-// PickupItem.cs
+
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class PickupItem : MonoBehaviour
 {
@@ -7,17 +9,19 @@ public class PickupItem : MonoBehaviour
     private bool playerInRange = false;
     private InventoryManager inventoryManager;
     public GameObject itemPrefab;
-    public GameObject pickupPrompt;
+    public Image pickupPrompt;
+    public Sprite crosshair;
+    public Sprite pickup;
     public Transform itemSpawn;
     private Quaternion spawnRotation = Quaternion.Euler(90f, -10f, 0f); // Example: rotate 90° around Y-axis
 
 
     private void Start()
     {
-        pickupPrompt.SetActive(false);
+        playerInRange = false;
         if (pickupPrompt != null)
         {
-            pickupPrompt.SetActive(false);
+            pickupPrompt.sprite = crosshair;
         }
     }
     private void OnTriggerStay(Collider other)
@@ -28,7 +32,7 @@ public class PickupItem : MonoBehaviour
             inventoryManager = other.GetComponent<InventoryManager>();
             if (pickupPrompt != null)
             {
-                pickupPrompt.SetActive(true);
+                pickupPrompt.sprite = pickup;
             }
 
         }
@@ -41,16 +45,21 @@ public class PickupItem : MonoBehaviour
             playerInRange = false;
             inventoryManager = null;
         }
-        pickupPrompt.SetActive(false);
+        pickupPrompt.sprite = crosshair;
 
     }
 
     private void Update()
     {
-        if (playerInRange && Input.GetKeyDown(KeyCode.E))
+        if (playerInRange == false)
         {
-            pickupPrompt.SetActive(false);
-            if (inventoryManager != null && inventoryManager.hotbarUI != null)
+            pickupPrompt.sprite = crosshair;
+        }
+        else if (playerInRange == true) {
+            pickupPrompt.sprite = pickup;
+            if (playerInRange && Input.GetMouseButtonDown(1))
+            {
+                if (inventoryManager != null && inventoryManager.hotbarUI != null)
                 {
                     if (inventoryManager.hotbarUI.IsFull(inventoryManager.inventory))
                     {
@@ -58,6 +67,7 @@ public class PickupItem : MonoBehaviour
                         return;
                     }
                     Destroy(gameObject);
+                    playerInRange = false;
                     GameObject instance = Instantiate(itemPrefab, itemSpawn.transform.position, itemSpawn.transform.rotation);
                     instance.transform.SetParent(itemSpawn, true);
                     instance.transform.localRotation = Quaternion.identity;
@@ -71,8 +81,7 @@ public class PickupItem : MonoBehaviour
                     }
 
                     inventoryManager.PickUpItem(itemData, instance);
-                    pickupPrompt.SetActive(false);
-
+                }
             }
         }
     }

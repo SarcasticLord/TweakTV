@@ -200,8 +200,8 @@ MonoBehaviour:
   SightRange: 3
   DetectionRange: 10
   Rigidbody: {fileID: 6799221491820871240}
-  Target: {fileID: 0}
   FlyHeight: 1
+  Target: {fileID: 0}
   animator: {fileID: 1903297025624161534}
 --- !u!114 &8229658039665248662
 MonoBehaviour:
@@ -216,7 +216,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disableDuration: 5
+  attackDuration: 1
+  beeAttack: {fileID: 1371328489957405031, guid: 7dd2f44d2cc71e248ac5ac9713cd378d, type: 3}
   hitParticle: {fileID: 3567050154118531774, guid: 3f8d026cd8203754ea2721da63e7d5b4, type: 3}
+  offset: 0
 --- !u!114 &4859399885029631768
 MonoBehaviour:
   m_ObjectHideFlags: 0
