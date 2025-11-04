@@ -1254,6 +1254,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1191600636}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &42319156
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -190
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1 &42921450
 GameObject:
   m_ObjectHideFlags: 0
@@ -1745,6 +1802,120 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1191600636}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &55369565
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -260
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+--- !u!1001 &55963814
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -150
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1 &57286290
 GameObject:
   m_ObjectHideFlags: 0
@@ -7519,6 +7690,63 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1423709149}
   m_SourcePrefab: {fileID: 100100000, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
+--- !u!1001 &69313371
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1001 &70737878
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8625,6 +8853,63 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &90728932
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -280
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1 &91212592
 GameObject:
   m_ObjectHideFlags: 0
@@ -9329,6 +9614,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1191600636}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &92510900
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1 &93767992
 GameObject:
   m_ObjectHideFlags: 0
@@ -10401,6 +10743,63 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 113301657}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &115505389
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -220
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!43 &119629243
 Mesh:
   m_ObjectHideFlags: 0
@@ -13673,6 +14072,63 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &129064999
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1 &129348406 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cffc0d7de2cd5b748930a0a38b117503, type: 3}
@@ -14926,6 +15382,182 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &134119779
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -150
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+--- !u!1001 &135787036
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -140
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+--- !u!1001 &140527803
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+--- !u!4 &141229531 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 1795653248}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &145520135
 GameObject:
   m_ObjectHideFlags: 0
@@ -15278,6 +15910,17 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!114 &146593652 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8742657204629715923, guid: b31476184a934af4c93c55496ff611cf, type: 3}
+  m_PrefabInstance: {fileID: 974800593}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &149628940 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
@@ -18925,6 +19568,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78c98fb881561ad418fe59ed45c8d9b6, type: 3}
+--- !u!1001 &172035149
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1 &172131332 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
@@ -19385,6 +20085,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 834976213}
   m_SourcePrefab: {fileID: 100100000, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
+--- !u!4 &179880781 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 284474290}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &186760957
 Mesh:
   m_ObjectHideFlags: 0
@@ -20199,6 +20904,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!4 &210740735 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 611050360}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &213250721
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20424,6 +21134,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!4 &218423452 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 1448080158}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &222230973 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cffc0d7de2cd5b748930a0a38b117503, type: 3}
@@ -20487,6 +21202,11 @@ MeshCollider:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
   m_PrefabInstance: {fileID: 522459233}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &223528787 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 912819085}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &225845088
 GameObject:
@@ -21388,6 +22108,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!4 &238292631 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 1713133169}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &247045918
 Mesh:
   m_ObjectHideFlags: 0
@@ -22383,6 +23108,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!4 &264744631 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 1608123115}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &266699262
 Mesh:
   m_ObjectHideFlags: 0
@@ -23009,6 +23739,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78c98fb881561ad418fe59ed45c8d9b6, type: 3}
+--- !u!1001 &284474290
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -200
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1 &284664396
 GameObject:
   m_ObjectHideFlags: 0
@@ -24125,6 +24912,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2098590481}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &291394071 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 135787036}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &291788689
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26342,6 +27134,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1191600636}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &337848531
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -80
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1 &338388235 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
@@ -27671,6 +28520,11 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!4 &358721884 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 1949283960}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &359275606 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
@@ -27702,6 +28556,11 @@ MeshCollider:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
   m_PrefabInstance: {fileID: 1797670879}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &372142174 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 1503980804}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &374372049 stripped
 Transform:
@@ -28564,6 +29423,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!4 &413056093 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 1764111561}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &425937585 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
@@ -29205,6 +30069,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!4 &443256923 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 1632477450}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &449034432
 Mesh:
   m_ObjectHideFlags: 0
@@ -29880,6 +30749,68 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2882091625789468594, guid: cffc0d7de2cd5b748930a0a38b117503, type: 3}
+--- !u!1001 &473767255
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -190
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+--- !u!4 &473993241 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 1693014775}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &474706618
 GameObject:
   m_ObjectHideFlags: 0
@@ -30909,6 +31840,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 656379038}
   m_SourcePrefab: {fileID: 100100000, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
+--- !u!4 &486570180 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 916607217}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &489389498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31569,6 +32505,63 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &506675319
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -250
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!43 &506995961
 Mesh:
   m_ObjectHideFlags: 0
@@ -32340,6 +33333,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4670520448709566470, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
+--- !u!4 &527139874 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 1711397851}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &529076625 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cffc0d7de2cd5b748930a0a38b117503, type: 3}
@@ -32724,127 +33722,11 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
---- !u!1 &535689430
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 535689431}
-  - component: {fileID: 535689433}
-  - component: {fileID: 535689432}
-  m_Layer: 0
-  m_Name: Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &535689431
+--- !u!4 &536485162 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 1203010273}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 535689430}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -0.196, z: -0.0000000079457125}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1452599185}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &535689432
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 535689430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Version: 3
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 1
-  m_LightLayerMask: 1
-  m_RenderingLayers: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_ShadowRenderingLayers: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
-  m_SoftShadowQuality: 0
---- !u!108 &535689433
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 535689430}
-  m_Enabled: 1
-  serializedVersion: 11
-  m_Type: 2
-  m_Color: {r: 0.9841547, g: 1, b: 0.83962256, a: 1}
-  m_Intensity: 389.72
-  m_Range: 9.88
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 11.9, y: 11.38}
-  m_BounceIntensity: 0
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ForceVisible: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
-  m_LightUnit: 1
-  m_LuxAtDistance: 1
-  m_EnableSpotReflector: 1
 --- !u!1 &538220889
 GameObject:
   m_ObjectHideFlags: 0
@@ -39995,6 +40877,63 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 646136576}
+--- !u!1001 &538992374
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1001 &543527869
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41473,6 +42412,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 561078213}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &565018436 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 679340062}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &568857485
 GameObject:
   m_ObjectHideFlags: 0
@@ -42215,6 +43159,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 580908806}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &583509517 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 1885951331}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &584140157
 GameObject:
   m_ObjectHideFlags: 0
@@ -42929,6 +43878,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!4 &594510364 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 337848531}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &597660090
 Mesh:
   m_ObjectHideFlags: 0
@@ -43840,6 +44794,63 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &611050360
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -130
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1 &614865063
 GameObject:
   m_ObjectHideFlags: 0
@@ -44709,86 +45720,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1001 &621815830
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: f59d860c2cea86e4180ba653a0a80aaf, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f59d860c2cea86e4180ba653a0a80aaf, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f59d860c2cea86e4180ba653a0a80aaf, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 5.5012546
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f59d860c2cea86e4180ba653a0a80aaf, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 10.64
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f59d860c2cea86e4180ba653a0a80aaf, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 18.14
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f59d860c2cea86e4180ba653a0a80aaf, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 50.883575
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f59d860c2cea86e4180ba653a0a80aaf, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f59d860c2cea86e4180ba653a0a80aaf, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.000000021855694
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f59d860c2cea86e4180ba653a0a80aaf, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f59d860c2cea86e4180ba653a0a80aaf, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f59d860c2cea86e4180ba653a0a80aaf, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f59d860c2cea86e4180ba653a0a80aaf, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f59d860c2cea86e4180ba653a0a80aaf, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: f59d860c2cea86e4180ba653a0a80aaf, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: f59d860c2cea86e4180ba653a0a80aaf, type: 3}
-      propertyPath: 'm_Materials.Array.data[1]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 08e9d88e1fb71c34eab622a551517c46, type: 2}
-    - target: {fileID: 919132149155446097, guid: f59d860c2cea86e4180ba653a0a80aaf, type: 3}
-      propertyPath: m_Name
-      value: FlourescentBulb
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: f59d860c2cea86e4180ba653a0a80aaf, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 535689431}
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f59d860c2cea86e4180ba653a0a80aaf, type: 3}
 --- !u!43 &623569949
 Mesh:
   m_ObjectHideFlags: 0
@@ -44954,6 +45885,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!4 &626442460 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 69313371}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &628326797
 GameObject:
   m_ObjectHideFlags: 0
@@ -47243,6 +48179,11 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!4 &671772251 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 1950513458}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &672741139 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
@@ -47274,6 +48215,11 @@ MeshCollider:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
   m_PrefabInstance: {fileID: 667560114}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &673603387 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 134119779}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &675327095
 GameObject:
@@ -77659,6 +78605,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1191600636}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &679340062
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1 &689571973
 GameObject:
   m_ObjectHideFlags: 0
@@ -81669,6 +82672,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!4 &726624338 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 754798105}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &727875908 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
@@ -112643,11 +113651,130 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!4 &751392636 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 1481778640}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &751519397 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 78c98fb881561ad418fe59ed45c8d9b6, type: 3}
   m_PrefabInstance: {fileID: 1203529450}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &754798105
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+--- !u!1001 &761004833
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -260
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1001 &763667926
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -113390,6 +114517,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!4 &770152083 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 2084184970}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &771009949
 GameObject:
   m_ObjectHideFlags: 0
@@ -114022,6 +115154,63 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!1001 &792414210
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -280
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!43 &796698675
 Mesh:
   m_ObjectHideFlags: 0
@@ -114893,6 +116082,63 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2882091625789468594, guid: cffc0d7de2cd5b748930a0a38b117503, type: 3}
+--- !u!1001 &813822777
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -120
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1001 &815760474
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -120736,6 +121982,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2098590481}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &823348706 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 473767255}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &824841373
 GameObject:
   m_ObjectHideFlags: 0
@@ -122274,6 +123525,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
   m_PrefabInstance: {fileID: 178406319}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &835194527 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 1132016325}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &837815375
 Mesh:
   m_ObjectHideFlags: 0
@@ -122439,6 +123695,63 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &847680640
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -270
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1 &852855636
 GameObject:
   m_ObjectHideFlags: 0
@@ -122608,6 +123921,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 322905530}
   m_SourcePrefab: {fileID: 100100000, guid: cffc0d7de2cd5b748930a0a38b117503, type: 3}
+--- !u!4 &858441405 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 2022920469}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &862970237 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cffc0d7de2cd5b748930a0a38b117503, type: 3}
@@ -122805,6 +124123,63 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &868875274
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -160
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1 &870121093 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
@@ -124419,6 +125794,63 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &912819085
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -240
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!43 &913267625
 Mesh:
   m_ObjectHideFlags: 0
@@ -124584,6 +126016,63 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &916607217
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1 &917860234
 GameObject:
   m_ObjectHideFlags: 0
@@ -125101,6 +126590,63 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &919996177
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -80
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!43 &925173322
 Mesh:
   m_ObjectHideFlags: 0
@@ -127037,6 +128583,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!4 &958549039 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 761004833}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &964615569
 GameObject:
   m_ObjectHideFlags: 0
@@ -127649,6 +129200,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1220828536}
   m_SourcePrefab: {fileID: 100100000, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
+--- !u!4 &969002632 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 506675319}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &970653703
 GameObject:
   m_ObjectHideFlags: 0
@@ -128252,15 +129808,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4455998166221778454, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.3
+      value: 11.4
       objectReference: {fileID: 0}
     - target: {fileID: 4455998166221778454, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.6254034
+      value: 10.27
       objectReference: {fileID: 0}
     - target: {fileID: 4455998166221778454, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 50.99
+      value: 38.5
       objectReference: {fileID: 0}
     - target: {fileID: 4455998166221778454, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -129797,6 +131353,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 993101789}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &993412823 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 1025763235}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &993881781
 GameObject:
   m_ObjectHideFlags: 0
@@ -130531,6 +132092,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!4 &1014240676 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 1466800911}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1015940985
 GameObject:
   m_ObjectHideFlags: 0
@@ -130883,6 +132449,120 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!1001 &1025763235
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+--- !u!1001 &1031555886
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!43 &1036598846
 Mesh:
   m_ObjectHideFlags: 0
@@ -131400,6 +133080,189 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1191600636}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1053973634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1053973639}
+  - component: {fileID: 1053973638}
+  - component: {fileID: 1053973637}
+  - component: {fileID: 1053973636}
+  - component: {fileID: 1053973635}
+  m_Layer: 0
+  m_Name: Switch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1053973635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053973634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 331621cac76019849864e767385e5ca0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  crosshair: {fileID: 21300000, guid: 19dea4e266019f24a98ab8f7fd50c875, type: 3}
+  pickup: {fileID: 21300000, guid: f0f26e279532bcd49aa894093f883385, type: 3}
+  pickupPrompt: {fileID: 146593652}
+  onMaterial: {fileID: 2100000, guid: 08e9d88e1fb71c34eab622a551517c46, type: 2}
+  offMaterial: {fileID: -3846018093981099296, guid: 51b71ff7cff54da4384d39736aa97e7f, type: 3}
+--- !u!65 &1053973636
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053973634}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.9001646, y: 3.084938, z: 3.6908264}
+  m_Center: {x: -0.91880274, y: 0.9990063, z: 0.014162064}
+--- !u!23 &1053973637
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053973634}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -6922793697723135513, guid: 2af5ebf88dbccbc4ca488e2f440d44af, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1053973638
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053973634}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1053973639
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053973634}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.7071065, z: -0, w: 0.7071071}
+  m_LocalPosition: {x: 12.500011, y: 10.581, z: 147.64}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!1001 &1054419886
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1001 &1055103483
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -132145,6 +134008,63 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1736761591}
   m_SourcePrefab: {fileID: 100100000, guid: cffc0d7de2cd5b748930a0a38b117503, type: 3}
+--- !u!1001 &1071927501
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -70
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1001 &1076379990
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -133060,6 +134980,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
   m_PrefabInstance: {fileID: 2071513970}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1116400613 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 90728932}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1117412793
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -133846,6 +135771,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
   m_PrefabInstance: {fileID: 1581538613}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1132016325
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -200
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1 &1136888552 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
@@ -133877,6 +135859,11 @@ MeshCollider:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
   m_PrefabInstance: {fileID: 965648799}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1140412122 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 868875274}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1143722318 stripped
 GameObject:
@@ -134837,6 +136824,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!4 &1179334191 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 1230978675}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &1181571679
 Mesh:
   m_ObjectHideFlags: 0
@@ -135872,6 +137864,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1191600636}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1203010273
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -110
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1001 &1203529450
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -137278,6 +139327,63 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1214980885}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1217889834
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -70
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1 &1220828535 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
@@ -137903,6 +140009,63 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1759117697}
   m_SourcePrefab: {fileID: 100100000, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
+--- !u!1001 &1230978675
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -170
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1 &1233204845 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
@@ -140055,6 +142218,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 112498661}
   m_SourcePrefab: {fileID: 100100000, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
+--- !u!4 &1282098730 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 2145209397}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1283500918
 GameObject:
   m_ObjectHideFlags: 0
@@ -143070,6 +145238,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 257865750}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1343655719 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 92510900}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1350996014
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -144724,6 +146897,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2098590481}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1398466757 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 1456016865}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1400427868
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -145005,10 +147183,20 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1796935554}
   m_SourcePrefab: {fileID: 100100000, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
+--- !u!4 &1406004292 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 129064999}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1406367589 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 78c98fb881561ad418fe59ed45c8d9b6, type: 3}
   m_PrefabInstance: {fileID: 976751862}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1409307635 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 1031555886}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1409391124
 PrefabInstance:
@@ -146994,11 +149182,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
   m_PrefabInstance: {fileID: 1460180013}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1452599185 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f59d860c2cea86e4180ba653a0a80aaf, type: 3}
-  m_PrefabInstance: {fileID: 621815830}
-  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1448080158
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1 &1455340004 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cffc0d7de2cd5b748930a0a38b117503, type: 3}
@@ -147036,6 +149276,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 78c98fb881561ad418fe59ed45c8d9b6, type: 3}
   m_PrefabInstance: {fileID: 710608716}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1456016865
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -210
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!43 &1457687815
 Mesh:
   m_ObjectHideFlags: 0
@@ -154777,6 +157074,63 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 59073180}
   m_SourcePrefab: {fileID: 100100000, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
+--- !u!1001 &1466800911
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -130
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1 &1468142538 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
@@ -155843,6 +158197,63 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &1481778640
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -250
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1 &1483628975
 GameObject:
   m_ObjectHideFlags: 0
@@ -156821,6 +159232,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2098590481}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1495047822 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 792414210}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1496610737
 GameObject:
   m_ObjectHideFlags: 0
@@ -157523,6 +159939,63 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &1503980804
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1001 &1506955871
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -157583,6 +160056,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 944037109}
   m_SourcePrefab: {fileID: 100100000, guid: cffc0d7de2cd5b748930a0a38b117503, type: 3}
+--- !u!4 &1506980953 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 813822777}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1508084118
 GameObject:
   m_ObjectHideFlags: 0
@@ -166669,6 +169147,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!4 &1603604353 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 1815347097}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1606529402
 GameObject:
   m_ObjectHideFlags: 0
@@ -167525,6 +170008,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 257865750}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1608123115
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1 &1611503822
 GameObject:
   m_ObjectHideFlags: 0
@@ -168239,6 +170779,95 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 888852498}
   m_SourcePrefab: {fileID: 100100000, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
+--- !u!1 &1618037419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1618037420}
+  m_Layer: 0
+  m_Name: Lights
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1618037420
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618037419}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.6, y: 18.15, z: 140}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 594510364}
+  - {fileID: 2060273742}
+  - {fileID: 1931574377}
+  - {fileID: 1943200593}
+  - {fileID: 2114310287}
+  - {fileID: 626442460}
+  - {fileID: 2079245399}
+  - {fileID: 527139874}
+  - {fileID: 486570180}
+  - {fileID: 583509517}
+  - {fileID: 413056093}
+  - {fileID: 141229531}
+  - {fileID: 726624338}
+  - {fileID: 1343655719}
+  - {fileID: 1742188695}
+  - {fileID: 565018436}
+  - {fileID: 218423452}
+  - {fileID: 264744631}
+  - {fileID: 993412823}
+  - {fileID: 372142174}
+  - {fileID: 358721884}
+  - {fileID: 858441405}
+  - {fileID: 536485162}
+  - {fileID: 770152083}
+  - {fileID: 1406004292}
+  - {fileID: 1506980953}
+  - {fileID: 1014240676}
+  - {fileID: 210740735}
+  - {fileID: 291394071}
+  - {fileID: 671772251}
+  - {fileID: 673603387}
+  - {fileID: 1905103895}
+  - {fileID: 1140412122}
+  - {fileID: 1603604353}
+  - {fileID: 238292631}
+  - {fileID: 1179334191}
+  - {fileID: 1409307635}
+  - {fileID: 1759704333}
+  - {fileID: 1944547328}
+  - {fileID: 823348706}
+  - {fileID: 179880781}
+  - {fileID: 835194527}
+  - {fileID: 1398466757}
+  - {fileID: 443256923}
+  - {fileID: 1846070362}
+  - {fileID: 1819517971}
+  - {fileID: 1777200721}
+  - {fileID: 1282098730}
+  - {fileID: 223528787}
+  - {fileID: 1698204590}
+  - {fileID: 969002632}
+  - {fileID: 751392636}
+  - {fileID: 958549039}
+  - {fileID: 1702780437}
+  - {fileID: 1116400613}
+  - {fileID: 1495047822}
+  - {fileID: 473993241}
+  - {fileID: 2070307456}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1629184085 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
@@ -168271,6 +170900,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
   m_PrefabInstance: {fileID: 384633616}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1632477450
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -210
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!43 &1637322972
 Mesh:
   m_ObjectHideFlags: 0
@@ -170487,6 +173173,63 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2089503310}
   m_SourcePrefab: {fileID: 100100000, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
+--- !u!1001 &1693014775
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -270
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!43 &1696722192
 Mesh:
   m_ObjectHideFlags: 0
@@ -170652,6 +173395,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!4 &1698204590 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 2078327515}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1700522266
 GameObject:
   m_ObjectHideFlags: 0
@@ -171553,6 +174301,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
   m_PrefabInstance: {fileID: 705622872}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1702780437 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 55369565}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1703847611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -171775,6 +174528,120 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &1711397851
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+--- !u!1001 &1713133169
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -170
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1 &1714155420 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
@@ -172655,6 +175522,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1530916919}
   m_SourcePrefab: {fileID: 100100000, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
+--- !u!4 &1742188695 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 172035149}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1745740880
 GameObject:
   m_ObjectHideFlags: 0
@@ -173414,6 +176286,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
   m_PrefabInstance: {fileID: 1226530154}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1759704333 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 140527803}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1762000408
 GameObject:
   m_ObjectHideFlags: 0
@@ -173931,6 +176808,63 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &1764111561
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!43 &1765701401
 Mesh:
   m_ObjectHideFlags: 0
@@ -174510,6 +177444,11 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!4 &1777200721 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 2070514497}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &1777723817
 Mesh:
   m_ObjectHideFlags: 0
@@ -175820,6 +178759,63 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!1001 &1795653248
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1 &1796935553 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
@@ -181620,6 +184616,68 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!1001 &1815347097
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -160
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+--- !u!4 &1819517971 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 115505389}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1822845011
 GameObject:
   m_ObjectHideFlags: 0
@@ -183340,6 +186398,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!4 &1846070362 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 1952773975}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1849999710
 GameObject:
   m_ObjectHideFlags: 0
@@ -185237,6 +188300,63 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1863988127}
   m_SourcePrefab: {fileID: 100100000, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
+--- !u!1001 &1885951331
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1 &1886353358 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
@@ -186539,6 +189659,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cffc0d7de2cd5b748930a0a38b117503, type: 3}
   m_PrefabInstance: {fileID: 430439604}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1905103895 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 55963814}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &1905915523
 Mesh:
   m_ObjectHideFlags: 0
@@ -187663,6 +190788,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 78c98fb881561ad418fe59ed45c8d9b6, type: 3}
   m_PrefabInstance: {fileID: 1237734497}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1931574377 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 1071927501}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &1934195603
 Mesh:
   m_ObjectHideFlags: 0
@@ -188453,6 +191583,16 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2141085925}
   m_SourcePrefab: {fileID: 100100000, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
+--- !u!4 &1943200593 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 1217889834}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1944547328 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 42319156}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &1945318400
 Mesh:
   m_ObjectHideFlags: 0
@@ -188815,6 +191955,177 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &1949283960
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+--- !u!1001 &1950513458
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -140
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+--- !u!1001 &1952773975
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -220
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!43 &1954683433
 Mesh:
   m_ObjectHideFlags: 0
@@ -191138,6 +194449,63 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &2022920469
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1 &2022999441 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
@@ -192089,6 +195457,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71c7f0d0f642c7142adf00e9d86acda9, type: 3}
+--- !u!4 &2060273742 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 919996177}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2060555070
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -192758,6 +196131,68 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 975888892}
   m_SourcePrefab: {fileID: 100100000, guid: cffc0d7de2cd5b748930a0a38b117503, type: 3}
+--- !u!4 &2070307456 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 847680640}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2070514497
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -230
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1001 &2071513970
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -193592,6 +197027,68 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &2078327515
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -240
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+--- !u!4 &2079245399 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 1054419886}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2083209407
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -194185,6 +197682,63 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &2084184970
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -110
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1 &2084877296 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
@@ -195851,6 +199405,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1191600636}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &2114310287 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+  m_PrefabInstance: {fileID: 538992374}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2127498624
 GameObject:
   m_ObjectHideFlags: 0
@@ -196552,6 +200111,63 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1418402110}
   m_SourcePrefab: {fileID: 100100000, guid: cffc0d7de2cd5b748930a0a38b117503, type: 3}
+--- !u!1001 &2145209397
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1618037420}
+    m_Modifications:
+    - target: {fileID: 1536125128873231000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_Name
+      value: SubwayLights (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -230
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2169249609840990242, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd82afda2e8ace44a9113906bf426380, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -196569,4 +200185,5 @@ SceneRoots:
   - {fileID: 63954967}
   - {fileID: 279893363}
   - {fileID: 70737878}
-  - {fileID: 621815830}
+  - {fileID: 1618037420}
+  - {fileID: 1053973639}

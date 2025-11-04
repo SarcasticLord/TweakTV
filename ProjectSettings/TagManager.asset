@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Endpoint1
   - Endpoint2
+  - SubwayLight
   layers:
   - Default
   - TransparentFX
