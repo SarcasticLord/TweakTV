@@ -16,6 +16,15 @@ public class PlayerHit : MonoBehaviour
             Debug.Log($"Damage Taken: {damageAmount}");
             playerHealth.PlayerTakeDamage(damageAmount);
         }
+        if (other.CompareTag("Train") == true)
+        {
+            Destroy(other);
+            PlayerHealth playerHealth = FindAnyObjectByType<PlayerHealth>();
+            Debug.Log("Player Hit!");
+            damageAmount = 999;
+            Debug.Log($"Damage Taken: {damageAmount}");
+            playerHealth.PlayerTakeDamage(damageAmount);
+        }
     }
 
     // Update is called once per frame
