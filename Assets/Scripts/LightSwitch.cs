@@ -33,6 +33,11 @@ public class LightSwitch : MonoBehaviour
                 isOn = !isOn;
                 ToggleLights(isOn);
             }
+            else if (playerInRange && Input.GetKeyDown(KeyCode.R))
+            {
+                isOn = !isOn;
+                ToggleColorLights(isOn);
+            }
         }
     }
 
@@ -55,6 +60,19 @@ public class LightSwitch : MonoBehaviour
                     materials[1] = state ? onMaterial : offMaterial;
                     renderer.materials = materials;
                 }
+            }
+        }
+    }
+    private void ToggleColorLights(bool state)
+    {
+        GameObject[] lights = GameObject.FindGameObjectsWithTag("SubwayLight");
+        foreach (GameObject lightObj in lights)
+        {
+            Light lightComponent = lightObj.GetComponentInChildren<Light>();
+            if (lightComponent != null)
+            {
+                lightComponent.color = state ? new Color(1f, 0f, 0f) : new Color(250f / 255f, 1f, 215f / 255f);
+                lightComponent.intensity = state ? 500 : 50;
             }
         }
     }
