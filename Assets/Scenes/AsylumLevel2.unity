@@ -32147,7 +32147,7 @@ PrefabInstance:
     - target: {fileID: 9058972137296935015, guid: 05f1ade1529977b4f9003d69917bdc54, type: 3}
       propertyPath: pickupPrompt
       value: 
-      objectReference: {fileID: 824455712}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -42289,7 +42289,7 @@ PrefabInstance:
     - target: {fileID: 5771152304713569243, guid: 3826936a825e1344f8b3bee10608b46c, type: 3}
       propertyPath: pickupPrompt
       value: 
-      objectReference: {fileID: 824455712}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -72215,6 +72215,10 @@ PrefabInstance:
       propertyPath: m_TaaSettings.m_ContrastAdaptiveSharpening
       value: 0.974
       objectReference: {fileID: 0}
+    - target: {fileID: 6402900836543561367, guid: b31476184a934af4c93c55496ff611cf, type: 3}
+      propertyPath: maxHealth
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 9049470354680341949, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: messageFile
       value: 
@@ -72291,11 +72295,6 @@ Transform:
 --- !u!4 &824455711 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4455998166221778454, guid: b31476184a934af4c93c55496ff611cf, type: 3}
-  m_PrefabInstance: {fileID: 824455709}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &824455712 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8072092361232131487, guid: b31476184a934af4c93c55496ff611cf, type: 3}
   m_PrefabInstance: {fileID: 824455709}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &824455713 stripped
@@ -102736,7 +102735,7 @@ PrefabInstance:
     - target: {fileID: 5771152304713569243, guid: 3826936a825e1344f8b3bee10608b46c, type: 3}
       propertyPath: pickupPrompt
       value: 
-      objectReference: {fileID: 824455712}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6635171590478851494, guid: 3826936a825e1344f8b3bee10608b46c, type: 3}
@@ -130920,7 +130919,7 @@ PrefabInstance:
     - target: {fileID: 5771152304713569243, guid: 3826936a825e1344f8b3bee10608b46c, type: 3}
       propertyPath: pickupPrompt
       value: 
-      objectReference: {fileID: 824455712}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6635171590478851494, guid: 3826936a825e1344f8b3bee10608b46c, type: 3}
@@ -147328,7 +147327,7 @@ PrefabInstance:
     - target: {fileID: 5771152304713569243, guid: 3826936a825e1344f8b3bee10608b46c, type: 3}
       propertyPath: pickupPrompt
       value: 
-      objectReference: {fileID: 824455712}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6635171590478851494, guid: 3826936a825e1344f8b3bee10608b46c, type: 3}
@@ -164834,7 +164833,7 @@ PrefabInstance:
     - target: {fileID: 5771152304713569243, guid: 3826936a825e1344f8b3bee10608b46c, type: 3}
       propertyPath: pickupPrompt
       value: 
-      objectReference: {fileID: 824455712}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6635171590478851494, guid: 3826936a825e1344f8b3bee10608b46c, type: 3}
@@ -164856,7 +164855,7 @@ PrefabInstance:
     - target: {fileID: 2667339849747519656, guid: 19895bf71a680dc44aad76183f2ebc0c, type: 3}
       propertyPath: pickupPrompt
       value: 
-      objectReference: {fileID: 824455712}
+      objectReference: {fileID: 0}
     - target: {fileID: 8593946634986246252, guid: 19895bf71a680dc44aad76183f2ebc0c, type: 3}
       propertyPath: m_Name
       value: crowbar
@@ -181216,7 +181215,7 @@ PrefabInstance:
     - target: {fileID: 6213634414923906966, guid: c42114bfad8f00346b4443534e7121b1, type: 3}
       propertyPath: pickupPrompt
       value: 
-      objectReference: {fileID: 824455712}
+      objectReference: {fileID: 0}
     - target: {fileID: 6319360677113294658, guid: c42114bfad8f00346b4443534e7121b1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -23.77
@@ -183396,7 +183395,7 @@ PrefabInstance:
     - target: {fileID: 9058972137296935015, guid: 05f1ade1529977b4f9003d69917bdc54, type: 3}
       propertyPath: pickupPrompt
       value: 
-      objectReference: {fileID: 824455712}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -185059,7 +185058,7 @@ PrefabInstance:
     - target: {fileID: 9058972137296935015, guid: 05f1ade1529977b4f9003d69917bdc54, type: 3}
       propertyPath: pickupPrompt
       value: 
-      objectReference: {fileID: 824455712}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

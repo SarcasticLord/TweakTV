@@ -16,10 +16,10 @@ public class PlayerHealth : MonoBehaviour
     public bool stackFromBottom = true;
     public GameObject healthPoint;
     public GameObject player;
-    public Camera camera;
     private int health;
     public int maxHealth = 4;
     private Image imageComponent;
+    public Image deathScreen;
     private bool lowHealth;
     public float fallDuration = 1f; // Duration of the fall animation
     private Vector3 targetPosition;
@@ -29,7 +29,10 @@ public class PlayerHealth : MonoBehaviour
 
     private void Start()
     {
-
+        if (deathScreen != null)
+        {
+            deathScreen.enabled = false;
+        }
         if (imageComponent == null)
         {
             imageComponent = GetComponent<Image>();
@@ -57,7 +60,10 @@ public class PlayerHealth : MonoBehaviour
     {
         //GameObject chatobject = GameObject.Find("Chat");
         health -= damageAmount;
-        RemoveTopBar();
+        for (int i = 0; i < damageAmount; i++)
+        {
+            RemoveTopBar();
+        }
         if (health <= 1)
         {
             StartCoroutine(LowHealth(.2f));
@@ -81,31 +87,34 @@ public class PlayerHealth : MonoBehaviour
     }
     public void Death()
     {
-        StopAllCoroutines();
+        if (deathScreen != null)
+        {
+            deathScreen.enabled = true;
+        }
         FirstPersonController fps = player.GetComponent<FirstPersonController>();
         fps.enabled = false;
-        targetPosition = camera.transform.position + new Vector3(0, -1.7f, 0);
-        targetRotation = Quaternion.Euler(camera.transform.eulerAngles + new Vector3(-40f, 0, 40f));
+        targetPosition = player.transform.position + new Vector3(0, -1.3f, 0);
+        targetRotation = Quaternion.Euler(player.transform.eulerAngles + new Vector3(-25f, 0, 40f));
         StartCoroutine(FallToSide());
     }
 
     IEnumerator FallToSide()
     {
-        Vector3 startPos = camera.transform.position;
-        Quaternion startRot = camera.transform.rotation;
+        Vector3 startPos = player.transform.position;
+        Quaternion startRot = player.transform.rotation;
         float elapsed = 0f;
 
         while (elapsed < fallDuration)
         {
-            camera.transform.position = Vector3.Lerp(startPos, targetPosition, elapsed / fallDuration);
-            camera.transform.rotation = Quaternion.Lerp(startRot, targetRotation, elapsed / fallDuration);
+            player.transform.position = Vector3.Lerp(startPos, targetPosition, elapsed / fallDuration);
+            player.transform.rotation = Quaternion.Lerp(startRot, targetRotation, elapsed / fallDuration);
             elapsed += Time.deltaTime;
             yield return null;
         }
 
         // Ensure final position and rotation are set
-        camera.transform.position = targetPosition;
-        camera.transform.rotation = targetRotation;
+        GetComponent<Camera>().transform.position = targetPosition;
+        GetComponent<Camera>().transform.rotation = targetRotation;
         StopAllCoroutines();
     }
 

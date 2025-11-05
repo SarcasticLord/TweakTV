@@ -18,10 +18,9 @@ public class PlayerHit : MonoBehaviour
         }
         if (other.CompareTag("Train") == true)
         {
-            Destroy(other);
             PlayerHealth playerHealth = FindAnyObjectByType<PlayerHealth>();
             Debug.Log("Player Hit!");
-            damageAmount = 999;
+            damageAmount = 1;
             Debug.Log($"Damage Taken: {damageAmount}");
             playerHealth.PlayerTakeDamage(damageAmount);
         }
