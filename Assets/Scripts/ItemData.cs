@@ -10,6 +10,7 @@ public enum ItemType
     SpeedUp,
     Flashlight,
     Throwable,
+    Tool,
 }
 
 

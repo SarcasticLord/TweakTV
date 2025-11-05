@@ -74,6 +74,7 @@ public class ItemInstance
                 }
             }
 
+            //Weapon
             if (data.itemType == ItemType.Weapon)
             {
 
@@ -102,7 +103,13 @@ public class ItemInstance
                 }
             }
 
-            //Add further item types here
+            //Crowbar
+            if (data.itemType == ItemType.Tool && data.itemName == "Crowbar")
+            {
+                Debug.Log("Used crowbar");
+                currentDurability--;
+            }
+
 
         else
         {
