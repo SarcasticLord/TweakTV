@@ -20,7 +20,7 @@ public class PlayerHit : MonoBehaviour
         {
             PlayerHealth playerHealth = FindAnyObjectByType<PlayerHealth>();
             Debug.Log("Player Hit!");
-            damageAmount = 1;
+            damageAmount = 5;
             Debug.Log($"Damage Taken: {damageAmount}");
             playerHealth.PlayerTakeDamage(damageAmount);
         }
