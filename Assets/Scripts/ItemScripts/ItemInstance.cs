@@ -119,23 +119,19 @@ public class ItemInstance
 
                 collider2.enabled = false;
                 collider.enabled = false;
-                Debug.Log($"Collider: {collider.enabled}");
                 
                 Debug.DrawRay(rayOrigin, rayDirection * 10f, Color.red, 10f);
                 RaycastHit hit;
                 if (Physics.Raycast(rayOrigin, rayDirection * 10f, out hit, maxDistance))
                 {
-                    Debug.Log($"{hit.collider.name}");
                     if (hit.collider.CompareTag("Crowable"))
                     {
-                        Debug.Log("Ray Hit");
                         Collider targetCollider = hit.collider;
                         Rigidbody targetRb = targetCollider.GetComponent<Rigidbody>();
 
                         if (targetCollider != null)
                         {
                             targetCollider.enabled = true;
-                            Debug.Log("Collider Enabled.");
                         }
 
                         if (targetRb != null)
@@ -145,19 +141,63 @@ public class ItemInstance
 
                             // Remove constraints
                             targetRb.constraints = RigidbodyConstraints.None;
-                            Debug.Log("Constraints Removed.");
                             // Calculate direction from target to caster
                             Vector3 directionToCaster = (camera.position - hit.transform.position).normalized;
+                            // Apply impulse force toward the caster
+                            targetRb.AddForce(directionToCaster * 5, ForceMode.Impulse);
+                            
+                        }
+                        UnityEngine.Object.Destroy(hit.collider.gameObject, 5f);
+                        currentDurability--;
+                    }
+                }
+            }
+        }
+        //Coffee
+        if (data.itemType == ItemType.Tool && data.itemName == "Crowbar")
+        {
+            if (camera != null)
+            {
+                MeshCollider collider = worldObject.GetComponent<MeshCollider>();
+                BoxCollider collider2 = worldObject.GetComponent<BoxCollider>();
+                Vector3 rayOrigin = camera.position;
+                Vector3 rayDirection = camera.forward;
 
+                collider2.enabled = false;
+                collider.enabled = false;
+
+                Debug.DrawRay(rayOrigin, rayDirection * 10f, Color.red, 10f);
+                RaycastHit hit;
+                if (Physics.Raycast(rayOrigin, rayDirection * 10f, out hit, maxDistance))
+                {
+                    if (hit.collider.CompareTag("Crowable"))
+                    {
+                        Collider targetCollider = hit.collider;
+                        Rigidbody targetRb = targetCollider.GetComponent<Rigidbody>();
+
+                        if (targetCollider != null)
+                        {
+                            targetCollider.enabled = true;
+                        }
+
+                        if (targetRb != null)
+                        {
+                            // Enable collider if needed
+                            hit.collider.enabled = true;
+
+                            // Remove constraints
+                            targetRb.constraints = RigidbodyConstraints.None;
+                            // Calculate direction from target to caster
+                            Vector3 directionToCaster = (camera.position - hit.transform.position).normalized;
                             // Apply impulse force toward the caster
                             targetRb.AddForce(directionToCaster * 5, ForceMode.Impulse);
 
                         }
+                        UnityEngine.Object.Destroy(hit.collider.gameObject, 5f);
                         currentDurability--;
                     }
                 }
-                }
-                
+            }
         }
     }
     public void Combat()

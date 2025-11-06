@@ -18,7 +18,8 @@ public class PickupItem : MonoBehaviour
 
     private void Start()
     {
-        pickupPrompt = FindObjectOfType<Crosshair>;
+        GameObject crosshairObject = GameObject.Find("Crosshair");
+        pickupPrompt = crosshairObject.GetComponent<Image>();
         playerInRange = false;
         if (pickupPrompt != null)
         {
