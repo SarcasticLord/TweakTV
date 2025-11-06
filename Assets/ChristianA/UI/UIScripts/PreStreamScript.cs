@@ -2,10 +2,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
-public class LevelSelectScript : MonoBehaviour
+public class PreStreamScript : MonoBehaviour
 {
-    [SerializeField] private string TitleScreen = "TitleScreen";
-    [SerializeField] private string PreStreamScene = "PreStreamScene";
+    [SerializeField] private string selectScene = "SelectScene";
 
     private UIDocument _document;
 
@@ -19,25 +18,16 @@ public class LevelSelectScript : MonoBehaviour
         _back = _document.rootVisualElement.Q("BackButton") as Button;
         _back.RegisterCallback<ClickEvent>(OnBackClick);
 
-        _start = _document.rootVisualElement.Q("PrepareStreamButton") as Button;
-        _start.RegisterCallback<ClickEvent>(OnPrepStreamClick);
     }
 
     private void OnDisable()
     {
         _back.UnregisterCallback<ClickEvent>(OnBackClick);
-        _start.UnregisterCallback<ClickEvent>(OnPrepStreamClick);
     }
 
     private void OnBackClick(ClickEvent evt)
     {
         Debug.Log("Returning to title");
-        SceneManager.LoadScene(TitleScreen);
-    }
-
-    private void OnPrepStreamClick(ClickEvent evt)
-    {
-        Debug.Log("Preparing Stream!");
-        SceneManager.LoadScene(PreStreamScene);
+        SceneManager.LoadScene(selectScene);
     }
 }
