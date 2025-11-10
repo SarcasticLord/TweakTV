@@ -4,12 +4,16 @@ using UnityEngine.UIElements;
 
 public class PreStreamScript : MonoBehaviour
 {
+    public GameController controller;
+
     [SerializeField] private string selectScene = "SelectScene";
 
     private UIDocument _document;
 
     private Button _back;
     private Button _start;
+
+    [SerializeField] private string SelectedLevel = null;
 
     private void Awake()
     {
@@ -18,6 +22,8 @@ public class PreStreamScript : MonoBehaviour
         _back = _document.rootVisualElement.Q("BackButton") as Button;
         _back.RegisterCallback<ClickEvent>(OnBackClick);
 
+        _start = _document.rootVisualElement.Q("PrepareStreamButton") as Button;
+        _start.RegisterCallback<ClickEvent>(OnGameStartClick);
     }
 
     private void OnDisable()
@@ -29,5 +35,12 @@ public class PreStreamScript : MonoBehaviour
     {
         Debug.Log("Returning to title");
         SceneManager.LoadScene(selectScene);
+    }
+
+    private void OnGameStartClick(ClickEvent evt)
+    {
+        SelectedLevel = controller.GetSelectedLevel();
+        Debug.Log(SelectedLevel);
+        //TODO Add Scene Change!
     }
 }
