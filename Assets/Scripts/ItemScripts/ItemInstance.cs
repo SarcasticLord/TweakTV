@@ -1,5 +1,6 @@
 
 // ItemInstance.cs
+using EasyPeasyFirstPersonController;
 using NUnit.Framework.Interfaces;
 using System;
 using System.Runtime.CompilerServices;
@@ -7,6 +8,7 @@ using Unity;
 using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Rendering;
 using Random = System.Random;
 
 public class ItemInstance
@@ -154,50 +156,18 @@ public class ItemInstance
             }
         }
         //Coffee
-        if (data.itemType == ItemType.Tool && data.itemName == "Crowbar")
+        if (data.itemType == ItemType.Healing && data.itemName == "Coffee")
         {
-            if (camera != null)
+            GameObject visual =  GameObject.Find("CoffeeVisual");
+            Volume coffeeVolume = visual.GetComponent<Volume>();
+            GameObject playerObject = GameObject.Find("Player");
+            FirstPersonController fpc = playerObject.GetComponent<FirstPersonController>();
+            if (coffeeVolume != null)
             {
-                MeshCollider collider = worldObject.GetComponent<MeshCollider>();
-                BoxCollider collider2 = worldObject.GetComponent<BoxCollider>();
-                Vector3 rayOrigin = camera.position;
-                Vector3 rayDirection = camera.forward;
-
-                collider2.enabled = false;
-                collider.enabled = false;
-
-                Debug.DrawRay(rayOrigin, rayDirection * 10f, Color.red, 10f);
-                RaycastHit hit;
-                if (Physics.Raycast(rayOrigin, rayDirection * 10f, out hit, maxDistance))
-                {
-                    if (hit.collider.CompareTag("Crowable"))
-                    {
-                        Collider targetCollider = hit.collider;
-                        Rigidbody targetRb = targetCollider.GetComponent<Rigidbody>();
-
-                        if (targetCollider != null)
-                        {
-                            targetCollider.enabled = true;
-                        }
-
-                        if (targetRb != null)
-                        {
-                            // Enable collider if needed
-                            hit.collider.enabled = true;
-
-                            // Remove constraints
-                            targetRb.constraints = RigidbodyConstraints.None;
-                            // Calculate direction from target to caster
-                            Vector3 directionToCaster = (camera.position - hit.transform.position).normalized;
-                            // Apply impulse force toward the caster
-                            targetRb.AddForce(directionToCaster * 5, ForceMode.Impulse);
-
-                        }
-                        UnityEngine.Object.Destroy(hit.collider.gameObject, 5f);
-                        currentDurability--;
-                    }
-                }
+                fpc.walkSpeed = 50f;
+                coffeeVolume.enabled = true;
             }
+            currentDurability--;
         }
     }
     public void Combat()
