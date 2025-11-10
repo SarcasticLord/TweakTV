@@ -1,9 +1,9 @@
-
-// ItemInstance.cs
 using EasyPeasyFirstPersonController;
 using NUnit.Framework.Interfaces;
 using System;
+using System.Collections;
 using System.Runtime.CompilerServices;
+using System.Threading.Tasks;
 using Unity;
 using Unity.Mathematics;
 using Unity.VisualScripting;
@@ -11,7 +11,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using Random = System.Random;
 
-public class ItemInstance
+public class ItemInstance 
 {
     public ItemData data;
     public int currentDurability;
@@ -21,7 +21,21 @@ public class ItemInstance
     private Transform camera = Camera.main.transform;
     private ChatDisplay chat;
     private float maxDistance = 5f;
+    private bool canUseSkill = true;
+    private bool canUseWeapon = true;
+    private float cooldownTimer = 3;
+    private FirstPersonController fpc;
+    private Volume coffeeVolume;
+    private GameObject visual = GameObject.Find("CoffeeVisual");
+    private GameObject playerObject = GameObject.Find("Player");
 
+    public void Start()
+    {
+       
+        Debug.Log($"fpc{fpc}");
+        Debug.Log($"coffeeVolume{coffeeVolume}");
+
+    }
     public bool IsBroken => currentDurability <= 0;
 
     public ItemInstance(ItemData itemData, GameObject instance = null, GameObject hitbox = null)
@@ -80,32 +94,38 @@ public class ItemInstance
             }
         }
 
-        //Weapon
+        //BaseballBat
         if (data.itemType == ItemType.Weapon)
         {
-
             Combat(); //Changes chat to combat
             Animator animator = worldObject.GetComponent<Animator>();
+            int baseballCooldown = 5000;
             // Trigger the animation
             if (animator != null)
             {
-                SpawnHitbox(user);
-                System.Random random = new();
-                int attack = random.Next(0, 3);
-                if (attack == 0)
-                {
-                    animator.SetTrigger("Attack1");
-                }
-                else if (attack == 1)
-                {
-                    animator.SetTrigger("Attack2");
-                }
-                else if (attack == 2)
-                {
-                    animator.SetTrigger("Attack3");
-                }
-                Debug.Log($"Played weapon animation for {data.itemName}");
-                currentDurability--;
+                if (canUseWeapon)
+                    {
+                        SpawnHitbox(user);
+                        System.Random random = new();
+                        int attack = random.Next(0, 3);
+                        if (attack == 0)
+                        {
+                        animator.SetTrigger("Attack1");
+                        UseWeapon(baseballCooldown);
+                        }
+                        else if (attack == 1)
+                        {
+                        animator.SetTrigger("Attack2");
+                        UseWeapon(baseballCooldown);
+
+                        }
+                        else if (attack == 2)
+                        {
+                        animator.SetTrigger("Attack3");
+                        UseWeapon(baseballCooldown);
+                        }
+                        Debug.Log($"Played weapon animation for {data.itemName}");
+                    }
             }
         }
 
@@ -158,18 +178,46 @@ public class ItemInstance
         //Coffee
         if (data.itemType == ItemType.Healing && data.itemName == "Coffee")
         {
-            GameObject visual =  GameObject.Find("CoffeeVisual");
-            Volume coffeeVolume = visual.GetComponent<Volume>();
-            GameObject playerObject = GameObject.Find("Player");
-            FirstPersonController fpc = playerObject.GetComponent<FirstPersonController>();
-            if (coffeeVolume != null)
+            if (canUseSkill)
             {
-                fpc.walkSpeed = 50f;
-                coffeeVolume.enabled = true;
+                canUseSkill = false;
+                coffeeVolume = visual.GetComponent<Volume>();
+                fpc = playerObject.GetComponent<FirstPersonController>();
+                int coffeeCooldown = 10000;
+                UseItem(coffeeCooldown);
+                currentDurability--;
             }
-            currentDurability--;
         }
+
+        //Future Items
     }
+
+
+    async void UseItem(int cooldownMilliseconds)
+    {
+            Debug.Log("Skill used!");
+            fpc.walkSpeed = 50f;
+            coffeeVolume.enabled = true;
+            await StartCooldown(cooldownMilliseconds);
+            fpc.walkSpeed = 7f;
+            coffeeVolume.enabled = false; 
+            canUseSkill = true;
+            Debug.Log("Skill is ready again!");
+    }
+    async void UseWeapon(int cooldownMilliseconds)
+    {
+        Debug.Log("Weapon used!");
+        await StartCooldown(cooldownMilliseconds);
+        canUseWeapon = true;
+        currentDurability--;
+        Debug.Log("Skill is ready again!");
+    }
+
+    async Task StartCooldown(int milliseconds)
+    {
+        await Task.Delay(milliseconds);
+    }
+
     public void Combat()
     {
         chat.ChangeChatSource("Combat");
@@ -178,6 +226,14 @@ public class ItemInstance
     public void Idle()
     {
         chat.ChangeChatSource("Chatw");
+    }
+
+    IEnumerator CooldownRoutine(float duration)
+    {
+        canUseSkill = false;
+        yield return new WaitForSeconds(duration);
+        canUseSkill = true;
+        Debug.Log("Skill is ready again!");
     }
 
 }
