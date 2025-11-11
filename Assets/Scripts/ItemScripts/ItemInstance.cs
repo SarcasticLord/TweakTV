@@ -99,7 +99,7 @@ public class ItemInstance
         {
             Combat(); //Changes chat to combat
             Animator animator = worldObject.GetComponent<Animator>();
-            int baseballCooldown = 5000;
+            int baseballCooldown = 1500;
             // Trigger the animation
             if (animator != null)
             {
@@ -108,6 +108,7 @@ public class ItemInstance
                         SpawnHitbox(user);
                         System.Random random = new();
                         int attack = random.Next(0, 3);
+                        canUseWeapon = false;
                         if (attack == 0)
                         {
                         animator.SetTrigger("Attack1");
