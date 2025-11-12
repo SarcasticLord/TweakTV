@@ -41,7 +41,7 @@ public class LightSwitch : MonoBehaviour
         }
     }
 
-    private void ToggleLights(bool state)
+    public void ToggleLights(bool state)
     {
         GameObject[] lights = GameObject.FindGameObjectsWithTag("SubwayLight");
         foreach (GameObject lightObj in lights)
@@ -63,7 +63,7 @@ public class LightSwitch : MonoBehaviour
             }
         }
     }
-    private void ToggleColorLights(bool state)
+    public void ToggleColorLights(bool state)
     {
         GameObject[] lights = GameObject.FindGameObjectsWithTag("SubwayLight");
         foreach (GameObject lightObj in lights)

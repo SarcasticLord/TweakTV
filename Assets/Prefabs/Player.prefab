@@ -474,7 +474,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6504826286874216552}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 58}
   m_LocalScale: {x: 14.2, y: 14.2, z: 14.2}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -500,7 +500,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6504826286874216552}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -509,7 +509,7 @@ MonoBehaviour:
   m_Color: {r: 0.9559748, g: 0, b: 0, a: 0.047058824}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
+  m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -997,7 +997,7 @@ PrefabInstance:
       objectReference: {fileID: 4455998166221778455}
     - target: {fileID: 7905816799086313557, guid: 5180827ed17f8cc428c6f78f1cb6364d, type: 3}
       propertyPath: maxHealth
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7905816799086313557, guid: 5180827ed17f8cc428c6f78f1cb6364d, type: 3}
       propertyPath: deathScreen

@@ -66,7 +66,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 701b1121dc2d14a4f812e9758079d29d, type: 3}
       propertyPath: m_Name
-      value: Rat
+      value: DancingRat
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 701b1121dc2d14a4f812e9758079d29d, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -189,7 +193,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disableDuration: 2
+  attackDuration: 1
   hitParticle: {fileID: 3567050154118531774, guid: 3f8d026cd8203754ea2721da63e7d5b4, type: 3}
+  offset: 0
 --- !u!54 &1138256344797060168
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -68,6 +68,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EvilRat
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 701b1121dc2d14a4f812e9758079d29d, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -87,6 +91,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 701b1121dc2d14a4f812e9758079d29d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 832057380762405404}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 701b1121dc2d14a4f812e9758079d29d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -1788476001312057952}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 701b1121dc2d14a4f812e9758079d29d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4425881606872338000}
   m_SourcePrefab: {fileID: 100100000, guid: 701b1121dc2d14a4f812e9758079d29d, type: 3}
 --- !u!1 &4827336216684728739 stripped
 GameObject:
@@ -108,9 +118,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1.5501195, z: 3.9152586}
   m_Center: {x: 5.760019e-16, y: 0.8610911, z: 0.29053247}
@@ -176,12 +186,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  health: {fileID: 0}
   detectionRange: 10
   attackRange: 2
   wanderRadius: 15
   idleTime: 2
-  wanderSpeed: 8
-  chaseSpeed: 16
+  wanderSpeed: 4
+  chaseSpeed: 7
   attackSpeed: 0
   hitbox: {fileID: 1371328489957405031, guid: c54074abc2658d64494eca7b6e0adadf, type: 3}
   offset: 0
@@ -208,3 +219,32 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-1788476001312057952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4827336216684728739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45171b32112595644b07209a65c808d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 1
+--- !u!114 &4425881606872338000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4827336216684728739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db004be46825ec341834c83bbf181156, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disableDuration: 2
+  attackDuration: 1
+  hitParticle: {fileID: 3567050154118531774, guid: 3f8d026cd8203754ea2721da63e7d5b4, type: 3}
+  offset: 0

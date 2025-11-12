@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5426542236284569968}
   - component: {fileID: 5004625027880159443}
   - component: {fileID: 974860081781330059}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: PlayerHitbox
   m_TagString: Hitbox
   m_Icon: {fileID: 0}
@@ -80,7 +80,7 @@ GameObject:
   - component: {fileID: 4905390103018213278}
   - component: {fileID: 2339216934361107337}
   - component: {fileID: 6918124296338746460}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Debug
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,7 +117,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3646700677506690502}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -133,7 +133,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c87d4756aa7e16a4b8cf5e5039fd8a56, type: 2}
+  - {fileID: 2100000, guid: 32b66c0b37a30f244a0a52c7c0353efc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
