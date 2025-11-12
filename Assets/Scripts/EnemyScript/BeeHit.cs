@@ -16,7 +16,7 @@ public class BugCollision : MonoBehaviour
     private Rigidbody rb;
     public float offset;
 
-    private bool isAttacking = false;
+    //private bool isAttacking = false;
     private bool canAttack = true;
 
     void Start()
@@ -74,7 +74,7 @@ public class BugCollision : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            isAttacking = false;
+            //isAttacking = false;
             chaseScript.enabled = true;
             rb.useGravity = true;
         }

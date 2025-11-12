@@ -110,28 +110,4 @@ public class BeeChase : MonoBehaviour
             }
         }
     }
-
-    //private void OnCollisionEnter(Collision collision)
-    //{
-    //    // Optional: Reset chasing if you collide with player
-    //        SeePlayer = false;
-    //        Target = null;
-    //        Rigidbody.linearVelocity = Vector3.zero;
-    //}
-
-    //private void OnTriggerEnter(Collider other)
-    //{
-    //    if(other.gameObject.is) {
-    //    Debug.Log($"Bee attacked Player.");
-        
-
-    //    if (rb != null)
-    //    {
-    //        rb.AddForce(forceDirection * forceAmount, ForceMode.Impulse);
-    //        Debug.Log($"Applied force to {other.name}");
-    //    }
-    //    // Check if the collided object has the EnemyHealth component
-
-
-    //}
 }

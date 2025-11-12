@@ -9,7 +9,7 @@ public class PickupItem : MonoBehaviour
     private bool playerInRange = false;
     private InventoryManager inventoryManager;
     public GameObject itemPrefab;
-    public Image pickupPrompt;
+    private Image pickupPrompt;
     public Sprite crosshair;
     public Sprite pickup;
     public Transform itemSpawn;
@@ -18,6 +18,8 @@ public class PickupItem : MonoBehaviour
 
     private void Start()
     {
+        GameObject crosshairObject = GameObject.Find("Crosshair");
+        pickupPrompt = crosshairObject.GetComponent<Image>();
         playerInRange = false;
         if (pickupPrompt != null)
         {
