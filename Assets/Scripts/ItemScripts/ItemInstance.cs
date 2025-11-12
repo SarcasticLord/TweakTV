@@ -46,28 +46,7 @@ public class ItemInstance
         worldObject = instance;
     }
 
-    public void SpawnHitbox(GameObject user)
-    {
-        if (data.itemType != ItemType.Weapon || data.hitbox == null)
-        {
-            Debug.LogWarning($"No hitbox assigned for weapon: {data.itemName}");
-            return;
-        }
 
-
-        Vector3 spawnPosition = user.transform.position + user.transform.forward * data.offset;
-        GameObject spawnedHitbox = GameObject.Instantiate(data.hitbox, spawnPosition, Quaternion.identity);
-        spawnedHitbox.transform.SetParent(worldObject.transform, true);
-        Debug.Log($"Spawned hitbox for {data.itemName} at {spawnPosition}");
-
-        WeaponHitbox hitboxScript = spawnedHitbox.GetComponent<WeaponHitbox>();
-        if (hitboxScript != null)
-        {
-            hitboxScript.forceDirection = user.transform.forward;
-        }
-
-        GameObject.Destroy(spawnedHitbox, 0.2f);
-    }
 
     public void Use(GameObject user)
     {
@@ -229,12 +208,26 @@ public class ItemInstance
         chat.ChangeChatSource("Chatw");
     }
 
-    IEnumerator CooldownRoutine(float duration)
+    public void SpawnHitbox(GameObject user)
     {
-        canUseSkill = false;
-        yield return new WaitForSeconds(duration);
-        canUseSkill = true;
-        Debug.Log("Skill is ready again!");
-    }
+        if (data.itemType != ItemType.Weapon || data.hitbox == null)
+        {
+            Debug.LogWarning($"No hitbox assigned for weapon: {data.itemName}");
+            return;
+        }
 
+
+        Vector3 spawnPosition = user.transform.position + user.transform.forward * data.offset;
+        GameObject spawnedHitbox = GameObject.Instantiate(data.hitbox, spawnPosition, Quaternion.identity);
+        spawnedHitbox.transform.SetParent(worldObject.transform, true);
+        Debug.Log($"Spawned hitbox for {data.itemName} at {spawnPosition}");
+
+        WeaponHitbox hitboxScript = spawnedHitbox.GetComponent<WeaponHitbox>();
+        if (hitboxScript != null)
+        {
+            hitboxScript.forceDirection = user.transform.forward;
+        }
+
+        GameObject.Destroy(spawnedHitbox, 0.2f);
+    }
 }

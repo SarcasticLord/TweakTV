@@ -16,7 +16,8 @@ public class PlayerHealth : MonoBehaviour
     public bool stackFromBottom = true;
     public GameObject healthPoint;
     public GameObject player;
-    private int health;
+    public bool playerIsDead = false;
+    public int health;
     public int maxHealth = 4;
     private Image imageComponent;
     public Image deathScreen;
@@ -69,6 +70,7 @@ public class PlayerHealth : MonoBehaviour
             StartCoroutine(LowHealth(.2f));
             if (health <= 0)
             {
+                playerIsDead = true;
                 Death();
             }
         }
