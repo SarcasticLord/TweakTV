@@ -41,6 +41,6 @@ public class PreStreamScript : MonoBehaviour
     {
         SelectedLevel = controller.GetSelectedLevel();
         Debug.Log(SelectedLevel);
-        //TODO Add Scene Change!
+        SceneManager.LoadScene(SelectedLevel);
     }
 }

@@ -62,6 +62,7 @@ public class PickupItem : MonoBehaviour
                     }
                     Destroy(gameObject);
                     playerInRange = false;
+                    pickupPrompt.sprite = crosshair;
                     GameObject instance = Instantiate(itemPrefab, itemSpawn.transform.position, itemSpawn.transform.rotation);
                     instance.transform.SetParent(itemSpawn, true);
                     instance.transform.localRotation = Quaternion.identity;
