@@ -21,10 +21,6 @@ public class PickupItem : MonoBehaviour
         GameObject crosshairObject = GameObject.Find("Crosshair");
         pickupPrompt = crosshairObject.GetComponent<Image>();
         playerInRange = false;
-        if (pickupPrompt != null)
-        {
-            pickupPrompt.sprite = crosshair;
-        }
     }
     private void OnTriggerStay(Collider other)
     {
@@ -53,11 +49,7 @@ public class PickupItem : MonoBehaviour
 
     private void Update()
     {
-        if (playerInRange == false)
-        {
-            pickupPrompt.sprite = crosshair;
-        }
-        else if (playerInRange == true) {
+        if (playerInRange == true) {
             pickupPrompt.sprite = pickup;
             if (playerInRange && Input.GetMouseButtonDown(1))
             {
