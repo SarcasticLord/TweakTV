@@ -10,7 +10,7 @@ public class GameController : MonoBehaviour
     //private bool SubwaySelected = false;
     //private bool TweakHQSelected = false;
 
-    private static string SelectedLevel = null;
+    private static string SelectedLevel = "AsylumLevel2";
 
     private void Awake()
     {

@@ -3,6 +3,7 @@ namespace EasyPeasyFirstPersonController
     using System;
     using System.Collections;
     using UnityEngine;
+    using UnityEngine.UI;
 
     public partial class FirstPersonController : MonoBehaviour
     {
@@ -70,7 +71,7 @@ namespace EasyPeasyFirstPersonController
         private float tiltVelocity;
 
         public float CurrentCameraHeight => isCrouching || isSliding ? crouchCameraHeight : originalCameraParentHeight;
-
+             
         private void Awake()
         {
             characterController = GetComponent<CharacterController>();
@@ -92,6 +93,7 @@ namespace EasyPeasyFirstPersonController
             rotY = playerCamera.localRotation.eulerAngles.x;
             xVelocity = rotX;
             yVelocity = rotY;
+
         }
 
         private void Update()

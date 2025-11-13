@@ -26,6 +26,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/guiScenes/PreStreamScene.unity
     guid: cd601613b39af0c4eb19f4dee7d83a6b
+  - enabled: 1
+    path: Assets/Scenes/subway.unity
+    guid: 2aaff151ffb67e94b9c31bf924894640
+  - enabled: 1
+    path: Assets/Scenes/TweakHQ.unity
+    guid: 6c66068705c4daa40826c51ca915d3a1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

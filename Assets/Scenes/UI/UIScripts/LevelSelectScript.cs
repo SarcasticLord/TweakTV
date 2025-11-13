@@ -62,19 +62,19 @@ public class LevelSelectScript : MonoBehaviour
     private void OnAsylumSelected(ClickEvent evt)
     {
         Debug.Log("Asylum Selected");
-        controller.SelectLevel("AsylumScene");
+        controller.SelectLevel("AsylumLevel2");
     }
 
     private void OnSubwaySelected(ClickEvent evt)
     {
         Debug.Log("Subway Selected");
-        controller.SelectLevel("SubwayScene");
+        controller.SelectLevel("subway");
     }
 
     private void OnTweakHQSelected(ClickEvent evt)
     {
         Debug.Log("Tweak HQ Selected");
-        controller.SelectLevel("TweakHQScene");
+        controller.SelectLevel("TweakHQ");
     }
 
 }
