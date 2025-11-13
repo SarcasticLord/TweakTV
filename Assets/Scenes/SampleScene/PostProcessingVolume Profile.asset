@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5e1dc532bcb41949b58bc4f2abfbb7e, type: 3}
   m_Name: LensDistortion
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   intensity:
     m_OverrideState: 1
     m_Value: -0.239
@@ -65,19 +65,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c01700fd266d6914ababb731e09af2eb, type: 3}
   m_Name: DepthOfField
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   mode:
     m_OverrideState: 1
     m_Value: 1
   gaussianStart:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 13.22
   gaussianEnd:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 100
   gaussianMaxRadius:
     m_OverrideState: 1
-    m_Value: 0.633
+    m_Value: 0.726
   highQualitySampling:
     m_OverrideState: 0
     m_Value: 0

@@ -78,7 +78,7 @@ public class ItemInstance
         {
             Combat(); //Changes chat to combat
             Animator animator = worldObject.GetComponent<Animator>();
-            int baseballCooldown = 1500;
+            int baseballCooldown = 900;
             // Trigger the animation
             if (animator != null)
             {
