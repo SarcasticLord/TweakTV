@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
 public class SubwayManager : MonoBehaviour
@@ -8,19 +9,38 @@ public class SubwayManager : MonoBehaviour
     public Material onMaterial;
     public Material offMaterial;
     public GameObject Exit;
+    public string trackedtag;
+    
 
     // Update is called once per frame
     void Update()
     {
 
-        int objectCount = GameObject.FindGameObjectsWithTag("Enemy").Length;
+        Scene currentScene = SceneManager.GetActiveScene();
+        int objectCount = GameObject.FindGameObjectsWithTag(trackedtag).Length;
         Debug.Log("Total GameObjects in scene: " + objectCount);
+
+        // Print the scene name
+        Debug.Log("Current Scene: " + currentScene.name);
+
+        // Or check by name
+       
 
         if (objectCount <= 0)
         {
-            ToggleLights();
-            Debug.Log("Lights off");
-            Instantiate(Exit, gameObject.transform.position, gameObject.transform.rotation);
+            if (currentScene.name == "AsylumLevel2")
+            {
+                Debug.Log("You won in the Asylum scene!");
+                Exit.SetActive(true);
+            }
+
+            if (currentScene.name == "subway")
+            {
+                Debug.Log("You won in the Subway scene!");
+                ToggleLights();
+                Debug.Log("Lights off");
+                Instantiate(Exit, gameObject.transform.position, gameObject.transform.rotation);
+            }
         }
     }
 
