@@ -16,6 +16,7 @@ TagManager:
   - WholePlayer
   - HUD
   - Hotbar
+  - Collectibles
   layers:
   - Default
   - TransparentFX

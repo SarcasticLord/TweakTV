@@ -31,9 +31,6 @@ public class ItemInstance
 
     public void Start()
     {
-       
-        Debug.Log($"fpc{fpc}");
-        Debug.Log($"coffeeVolume{coffeeVolume}");
 
     }
     public bool IsBroken => currentDurability <= 0;

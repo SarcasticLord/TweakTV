@@ -120,7 +120,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 676110504836972351}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 20
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -153,7 +153,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemData: {fileID: 11400000, guid: 06c35618565c0144ea2a0c7c8741c0bd, type: 2}
   itemPrefab: {fileID: 676110504836972351}
-  pickupPrompt: {fileID: 0}
+  crosshair: {fileID: 0}
+  pickup: {fileID: 0}
   itemSpawn: {fileID: 0}
 --- !u!65 &4205832664087727686
 BoxCollider:
