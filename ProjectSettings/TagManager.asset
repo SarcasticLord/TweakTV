@@ -12,6 +12,8 @@ TagManager:
   - SubwayLight
   - Train
   - Crowable
+  - Exit
+  - WholePlayer
   layers:
   - Default
   - TransparentFX
