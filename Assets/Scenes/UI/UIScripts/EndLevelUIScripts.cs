@@ -1,0 +1,31 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
+
+public class EndLevelUIScripts : MonoBehaviour
+{
+    private UIDocument _document;
+
+    [SerializeField] private string TitleScreen = "TitleScreen";
+
+    private Button _endStreamButton;
+
+    private void Awake()
+    {
+        _document = GetComponent<UIDocument>();
+
+        _endStreamButton = _document.rootVisualElement.Q("EndStream") as Button;
+        _endStreamButton.RegisterCallback<ClickEvent>(OnEndStreamClick);
+    }
+
+    private void OnDisable()
+    {
+        _endStreamButton.UnregisterCallback<ClickEvent>(OnEndStreamClick);
+    }
+
+    private void OnEndStreamClick(ClickEvent evt)
+    {
+        Debug.Log("Ending Stream");
+        SceneManager.LoadScene(TitleScreen);
+    }
+}
