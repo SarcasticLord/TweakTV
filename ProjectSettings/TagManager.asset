@@ -17,6 +17,7 @@ TagManager:
   - HUD
   - Hotbar
   - Collectibles
+  - KeyPad
   layers:
   - Default
   - TransparentFX

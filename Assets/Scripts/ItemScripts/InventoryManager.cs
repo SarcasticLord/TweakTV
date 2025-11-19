@@ -1,5 +1,6 @@
 // InventoryManager.cs
 using NUnit.Framework.Interfaces;
+using System.ComponentModel.Design;
 using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
@@ -9,11 +10,14 @@ public class InventoryManager : MonoBehaviour
     public HotbarUI hotbarUI; // Assign in Inspector
     public GameObject player;
     public GameObject inventoryContainer;
+    public GameObject flashlight;
+    private bool isOn;
 
 
     private void Start()
     {
-
+        isOn = false;
+        ToggleFlashlight();
         UpdateHotbarUI(); // Call this to refresh UI
     }
 
@@ -46,6 +50,11 @@ public class InventoryManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Q))
         {
             SwitchItem(1); // Cycle forward
+        }
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            ToggleFlashlight(); // Cycle forward
         }
 
         // Direct select with number keys
@@ -130,5 +139,17 @@ public class InventoryManager : MonoBehaviour
 
         Debug.Log("Inventory full! Cannot pick up item.");
     }
-
+    
+    public void ToggleFlashlight()
+    {
+            isOn = !isOn;
+            Light lightComponent = flashlight.GetComponentInChildren<Light>();
+        Debug.Log($"Toggling Light... {lightComponent}");
+            if (lightComponent != null)
+            {
+                lightComponent.enabled = isOn;
+            }
+    }
 }
+
+

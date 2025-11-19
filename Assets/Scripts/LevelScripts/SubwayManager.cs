@@ -10,7 +10,9 @@ public class SubwayManager : MonoBehaviour
     public Material offMaterial;
     public GameObject Exit;
     public string trackedtag;
-    
+    public GameObject exitPrefab;
+    public Transform spawnPointsContainer;
+    public bool exitSpawn = false;
 
     // Update is called once per frame
     void Update()
@@ -23,18 +25,30 @@ public class SubwayManager : MonoBehaviour
         // Print the scene name
         Debug.Log("Current Scene: " + currentScene.name);
 
-        // Or check by name
-       
+        if (currentScene.name == "TweakHQ" && !exitSpawn)
+        {
+            Debug.Log("Keycard Spawned!");
+            int childCount = spawnPointsContainer.childCount;
+            SpawnExit(childCount);
+            return;
+        }
 
         if (objectCount <= 0)
         {
-            if (currentScene.name == "AsylumLevel2")
+            if (currentScene.name == "AsylumLevel2" && !exitSpawn)
             {
                 Debug.Log("You won in the Asylum scene!");
-                Exit.SetActive(true);
+                int childCount = spawnPointsContainer.childCount;
+
+                if (childCount == 0)
+                {
+                    Debug.LogError("No spawn points found under the parent container!");
+                    return;
+                }
+                SpawnExit(childCount);
             }
 
-            if (currentScene.name == "subway")
+            if (currentScene.name == "subway" && !exitSpawn)
             {
                 Debug.Log("You won in the Subway scene!");
                 ToggleLights();
@@ -43,7 +57,16 @@ public class SubwayManager : MonoBehaviour
             }
         }
     }
+    public void SpawnExit(int childCount)
+    {
+        exitSpawn = true;
+        // Pick a random spawn point
+        int randomIndex = Random.Range(0, childCount);
+        Transform chosenSpawn = spawnPointsContainer.GetChild(randomIndex);
 
+        // Instantiate the door at the chosen spawn point
+        Instantiate(exitPrefab, chosenSpawn.position, chosenSpawn.rotation);
+    }
     public void ToggleLights()
     {
         GameObject[] lights = GameObject.FindGameObjectsWithTag("SubwayLight");

@@ -1,4 +1,5 @@
 using EasyPeasyFirstPersonController;
+using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -6,9 +7,8 @@ public class ExitGame : MonoBehaviour
 { 
     private GameObject weapons;
     private GameObject hud;
-    private Scene currentScene;
-    public GameObject exitPrefab;
-    private Transform spawnPointsContainer;
+    private UnityEngine.SceneManagement.Scene currentScene;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
@@ -18,26 +18,6 @@ public class ExitGame : MonoBehaviour
         currentScene = SceneManager.GetActiveScene();
         weapons = GameObject.FindGameObjectWithTag("Hotbar");
         hud = GameObject.FindGameObjectWithTag("HUD");
-
-        if (spawnPointsContainer == null)
-        {
-            Debug.LogError("No spawn points container assigned.");
-            return;
-        }
-        int childCount = spawnPointsContainer.childCount;
-
-        if (childCount == 0)
-        {
-            Debug.LogError("No spawn points found under the parent container!");
-            return;
-        }
-
-        // Pick a random spawn point
-        int randomIndex = Random.Range(0, childCount);
-        Transform chosenSpawn = spawnPointsContainer.GetChild(randomIndex);
-
-        // Instantiate the door at the chosen spawn point
-        Instantiate(exitPrefab, chosenSpawn.position, chosenSpawn.rotation);
     }
     
     private void OnTriggerEnter(Collider other)
@@ -63,10 +43,11 @@ public class ExitGame : MonoBehaviour
                 other.transform.position = transform.position;
                 other.transform.rotation = Quaternion.Euler(0f, 270f, 0f);
             }
-            if (currentScene.name == "subway")
+            if (currentScene.name == "AsylumLevel2")
             {
-                other.transform.position = transform.position;
-                other.transform.rotation = Quaternion.Euler(0f, 270f, 0f);
+                SceneManager.LoadScene("TitleScreen");
+                SceneManager.SetActiveScene(SceneManager.GetSceneByName("TitleScreen"));
+
             }
         }
     }

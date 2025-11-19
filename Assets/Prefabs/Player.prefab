@@ -381,9 +381,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4943886807540463039}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.058554098, y: -0.70467824, z: -0.70467824, w: -0.058554098}
-  m_LocalPosition: {x: 0, y: -0.21, z: -0}
-  m_LocalScale: {x: 0.10000005, y: 0.100000024, z: 0.099999994}
+  m_LocalRotation: {x: -0.058554094, y: -0.7046783, z: -0.7046783, w: -0.058554098}
+  m_LocalPosition: {x: 0, y: -0.2100001, z: 0}
+  m_LocalScale: {x: 0.100000046, y: 0.10000001, z: 0.099999994}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2666509440759197517}
@@ -1329,6 +1329,10 @@ PrefabInstance:
       propertyPath: coyoteTimeEnabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9156347144040445544, guid: c82236c16aae9d34fbd437f8dea6e2c9, type: 3}
+      propertyPath: groundMask.m_Bits
+      value: 65
+      objectReference: {fileID: 0}
     - target: {fileID: 9156347144040445546, guid: c82236c16aae9d34fbd437f8dea6e2c9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -24.088
@@ -1454,6 +1458,7 @@ MonoBehaviour:
   hotbarUI: {fileID: 4847076954606201043}
   player: {fileID: 4455998165569903991}
   inventoryContainer: {fileID: 0}
+  flashlight: {fileID: 1043352388710825399}
 --- !u!136 &3681066631951096400
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1518,6 +1523,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   holdPoint: {fileID: 6127454607545203716}
   throwForce: 25
+  pickupAngle: 45
   pickupRange: 3
   pickupLayer:
     serializedVersion: 2
