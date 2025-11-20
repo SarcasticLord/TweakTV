@@ -45,8 +45,8 @@ public class ExitGame : MonoBehaviour
             }
             if (currentScene.name == "AsylumLevel2")
             {
-                SceneManager.LoadScene("TitleScreen");
-                SceneManager.SetActiveScene(SceneManager.GetSceneByName("TitleScreen"));
+                SceneManager.LoadScene("EndLevelScene");
+                SceneManager.SetActiveScene(SceneManager.GetSceneByName("EndLevelScene"));
 
             }
         }

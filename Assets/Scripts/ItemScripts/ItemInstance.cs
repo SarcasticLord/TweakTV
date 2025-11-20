@@ -170,8 +170,8 @@ public class ItemInstance
         {
             if (camera != null)
             {
-                MeshCollider collider = worldObject.GetComponent<MeshCollider>();
-                BoxCollider collider2 = worldObject.GetComponent<BoxCollider>();
+                BoxCollider collider = worldObject.GetComponent<BoxCollider>();
+                SphereCollider collider2 = worldObject.GetComponent<SphereCollider>();
                 Vector3 rayOrigin = camera.position;
                 Vector3 rayDirection = camera.forward;
 

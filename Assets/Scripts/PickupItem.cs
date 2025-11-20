@@ -13,7 +13,6 @@ public class PickupItem : MonoBehaviour
     public Sprite crosshair;
     public Sprite pickup;
     public Transform itemSpawn;
-    private Quaternion spawnRotation = Quaternion.Euler(90f, -10f, 0f); // Example: rotate 90° around Y-axis
 
 
     private void Start()
