@@ -11,7 +11,7 @@ using Image = UnityEngine.UI.Image;
 
 public class PlayerHealth : MonoBehaviour
 {
-
+    public AudioSource deathSound;
     public float spacing = 10f; // Fixed spacing between items
     public bool stackFromBottom = true;
     public GameObject healthPoint;
@@ -102,6 +102,7 @@ public class PlayerHealth : MonoBehaviour
 
     IEnumerator FallToSide()
     {
+        deathSound.Play();
         Vector3 startPos = player.transform.position;
         Quaternion startRot = player.transform.rotation;
         float elapsed = 0f;
