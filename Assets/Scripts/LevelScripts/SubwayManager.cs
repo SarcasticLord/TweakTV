@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 public class SubwayManager : MonoBehaviour
 {
@@ -6,24 +8,64 @@ public class SubwayManager : MonoBehaviour
     public LightSwitch lights;
     public Material onMaterial;
     public Material offMaterial;
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public GameObject Exit;
+    public string trackedtag;
+    public GameObject exitPrefab;
+    public Transform spawnPointsContainer;
+    public bool exitSpawn = false;
 
     // Update is called once per frame
     void Update()
     {
 
-        int objectCount = GameObject.FindGameObjectsWithTag("Enemy").Length;
+        Scene currentScene = SceneManager.GetActiveScene();
+        int objectCount = GameObject.FindGameObjectsWithTag(trackedtag).Length;
         Debug.Log("Total GameObjects in scene: " + objectCount);
 
-        if (objectCount <= 0) {
-               ToggleLights();
-               Debug.Log("Lights off");
+        // Print the scene name
+        Debug.Log("Current Scene: " + currentScene.name);
+
+        if (currentScene.name == "TweakHQ" && !exitSpawn)
+        {
+            Debug.Log("Keycard Spawned!");
+            int childCount = spawnPointsContainer.childCount;
+            SpawnExit(childCount);
+            return;
         }
+
+        if (objectCount <= 0)
+        {
+            if (currentScene.name == "AsylumLevel2" && !exitSpawn)
+            {
+                Debug.Log("You won in the Asylum scene!");
+                int childCount = spawnPointsContainer.childCount;
+
+                if (childCount == 0)
+                {
+                    Debug.LogError("No spawn points found under the parent container!");
+                    return;
+                }
+                SpawnExit(childCount);
+            }
+
+            if (currentScene.name == "subway" && !exitSpawn)
+            {
+                Debug.Log("You won in the Subway scene!");
+                ToggleLights();
+                Debug.Log("Lights off");
+                Instantiate(Exit, gameObject.transform.position, gameObject.transform.rotation);
+            }
+        }
+    }
+    public void SpawnExit(int childCount)
+    {
+        exitSpawn = true;
+        // Pick a random spawn point
+        int randomIndex = Random.Range(0, childCount);
+        Transform chosenSpawn = spawnPointsContainer.GetChild(randomIndex);
+
+        // Instantiate the door at the chosen spawn point
+        Instantiate(exitPrefab, chosenSpawn.position, chosenSpawn.rotation);
     }
     public void ToggleLights()
     {
@@ -47,4 +89,6 @@ public class SubwayManager : MonoBehaviour
             }
         }
     }
+
+
 }

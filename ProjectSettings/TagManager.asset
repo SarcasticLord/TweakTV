@@ -12,6 +12,12 @@ TagManager:
   - SubwayLight
   - Train
   - Crowable
+  - Exit
+  - WholePlayer
+  - HUD
+  - Hotbar
+  - Collectibles
+  - KeyPad
   layers:
   - Default
   - TransparentFX
