@@ -11,7 +11,7 @@ public class ExitGame : MonoBehaviour
     private GameObject hud;
     private GameObject player;
     private UnityEngine.SceneManagement.Scene currentScene;
-    public float cooldownDuration = 6f;
+    public float cooldownDuration = 3f;
 
 
 

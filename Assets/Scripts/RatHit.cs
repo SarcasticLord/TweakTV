@@ -14,9 +14,16 @@ public class RatHitReaction : MonoBehaviour
         ratHealth = GetComponent<RatHealth>();
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Train"))
+        {
+            ratHealth.TakeDamage(1);
+        }
+    }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Hitbox")) // Make sure your hitbox GameObject has this tag
+        if (other.CompareTag("Hitbox") || other.CompareTag("Train")) // Make sure your hitbox GameObject has this tag
         {
             ratHealth.TakeDamage(1);
             SpawnHitEffect();

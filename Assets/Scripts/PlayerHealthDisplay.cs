@@ -25,11 +25,14 @@ public class PlayerHealth : MonoBehaviour
     public float fallDuration = 1f; // Duration of the fall animation
     private Vector3 targetPosition;
     private Quaternion targetRotation;
-
+    private GameObject weapons;
+    private GameObject hud;
 
 
     private void Start()
     {
+        weapons = GameObject.FindGameObjectWithTag("Hotbar");
+        hud = GameObject.FindGameObjectWithTag("HUD");
         if (deathScreen != null)
         {
             deathScreen.enabled = false;
@@ -89,10 +92,14 @@ public class PlayerHealth : MonoBehaviour
     }
     public void Death()
     {
+        StartCooldown();
+        weapons.SetActive(false);
+        hud.SetActive(false);
         if (deathScreen != null)
         {
             deathScreen.enabled = true;
         }
+        deathSound.Play();
         FirstPersonController fps = player.GetComponent<FirstPersonController>();
         fps.enabled = false;
         targetPosition = player.transform.position + new Vector3(0, -1.3f, 0);
@@ -102,23 +109,23 @@ public class PlayerHealth : MonoBehaviour
 
     IEnumerator FallToSide()
     {
-        deathSound.Play();
         Vector3 startPos = player.transform.position;
         Quaternion startRot = player.transform.rotation;
         float elapsed = 0f;
 
         while (elapsed < fallDuration)
         {
-            player.transform.position = Vector3.Lerp(startPos, targetPosition, elapsed / fallDuration);
-            player.transform.rotation = Quaternion.Lerp(startRot, targetRotation, elapsed / fallDuration);
+
             elapsed += Time.deltaTime;
+            float t = elapsed / fallDuration;
+            player.transform.position = Vector3.Lerp(startPos, targetPosition, t);
+            player.transform.rotation = Quaternion.Lerp(startRot, targetRotation, t);
             yield return null;
         }
 
         // Ensure final position and rotation are set
-        GetComponent<Camera>().transform.position = targetPosition;
-        GetComponent<Camera>().transform.rotation = targetRotation;
-        StopAllCoroutines();
+        player.transform.position = targetPosition;
+        player.transform.rotation = targetRotation;
     }
 
     public void UpdateLayout()
@@ -155,7 +162,25 @@ public class PlayerHealth : MonoBehaviour
         UpdateLayout();
     }
 
-    // Optional: Call UpdateLayout() whenever items are added/removed
+
+    public void StartCooldown()
+    {
+        StartCoroutine(CooldownAndChangeScene());
+
+    }
+
+    private IEnumerator CooldownAndChangeScene()
+    {
+
+        yield return new WaitForSeconds(2);
+        StartCoroutine(PlayerCooldown()); // Replace with your scene name
+    }
+    private IEnumerator PlayerCooldown()
+    {
+        GameEnding playerTransition = player.GetComponent<GameEnding>();
+        yield return new WaitForSeconds(2f);
+        playerTransition.EndLevel();
+    }
 }
 
 
