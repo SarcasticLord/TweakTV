@@ -20,11 +20,11 @@ public class ExitGame : MonoBehaviour
 
     void Start()
     {
+        Debug.Log($"Scene: {SceneManager.GetActiveScene()}");
         currentScene = SceneManager.GetActiveScene();
         weapons = GameObject.FindGameObjectWithTag("Hotbar");
         hud = GameObject.FindGameObjectWithTag("HUD");
-        player = GameObject.FindGameObjectWithTag("Player");
-
+        player = GameObject.FindGameObjectWithTag("WholePlayer");
     }
 
     private void OnTriggerEnter(Collider other)
@@ -35,8 +35,6 @@ public class ExitGame : MonoBehaviour
             other.GetComponent<FirstPersonController>().enabled = false;
             weapons.SetActive(false);
             hud.SetActive(false);
-            player.SetActive(false);
-
         }
     }
 
@@ -50,13 +48,13 @@ public class ExitGame : MonoBehaviour
     private IEnumerator CooldownAndChangeScene()
     {
         yield return new WaitForSeconds(cooldownDuration);
-        UnityEngine.SceneManagement.Scene current = SceneManager.GetActiveScene();
-        SceneManager.UnloadSceneAsync(current);
+        //UnityEngine.SceneManagement.Scene current = SceneManager.GetActiveScene();
+        //SceneManager.UnloadSceneAsync(current);
         SceneManager.LoadScene("EndLevelScene"); // Replace with your scene name
         //SceneManager.UnloadScene()
     }
 
-
+    
     private void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("WholePlayer"))
@@ -69,8 +67,9 @@ public class ExitGame : MonoBehaviour
             }
             if (currentScene.name == "AsylumLevel2")
             {
-                SceneManager.LoadScene("EndLevelScene");
-                SceneManager.SetActiveScene(SceneManager.GetSceneByName("EndLevelScene"));
+                Destroy(player);
+                SceneManager.LoadScene("Buffer");
+                Debug.Log($"Scene: {SceneManager.GetActiveScene().name}");
 
             }
         }
@@ -81,4 +80,5 @@ public class ExitGame : MonoBehaviour
     {
         
     }
+
 }

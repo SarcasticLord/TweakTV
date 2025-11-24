@@ -10,10 +10,12 @@ public class EndLevelUIScripts : MonoBehaviour
 
     private Button _endStreamButton;
 
+
     private void Awake()
     {
         _document = GetComponent<UIDocument>();
-
+        UnityEngine.Cursor.visible = true;
+        UnityEngine.Cursor.lockState = CursorLockMode.None;
         _endStreamButton = _document.rootVisualElement.Q("EndStream") as Button;
         _endStreamButton.RegisterCallback<ClickEvent>(OnEndStreamClick);
     }
@@ -28,4 +30,6 @@ public class EndLevelUIScripts : MonoBehaviour
         Debug.Log("Ending Stream");
         SceneManager.LoadScene(TitleScreen);
     }
+
+    
 }
