@@ -187,6 +187,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pillbottles (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 75565d44f606db746b856681aa27982a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -211,7 +215,7 @@ GameObject:
   - component: {fileID: 827648}
   - component: {fileID: 827647}
   - component: {fileID: 827646}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -857,6 +861,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GlassShards (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 58a22d1e2bff12f44ab1486ab024ded0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1081,6 +1089,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1316,6 +1328,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1472,7 +1488,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7beebfd722ce01043bcf0521caa7db83, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1582,6 +1598,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1686,6 +1706,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1705,7 +1729,7 @@ GameObject:
   - component: {fileID: 21105509}
   - component: {fileID: 21105514}
   - component: {fileID: 21105513}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3074,7 +3098,7 @@ GameObject:
   - component: {fileID: 22623869}
   - component: {fileID: 22623868}
   - component: {fileID: 22623867}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3550,6 +3574,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GlassShards (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 58a22d1e2bff12f44ab1486ab024ded0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3730,6 +3758,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4000,6 +4032,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4093,7 +4129,7 @@ GameObject:
   - component: {fileID: 46524540}
   - component: {fileID: 46524539}
   - component: {fileID: 46524538}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4907,7 +4943,7 @@ GameObject:
   - component: {fileID: 48195623}
   - component: {fileID: 48195622}
   - component: {fileID: 48195621}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5421,6 +5457,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5633,7 +5673,7 @@ GameObject:
   - component: {fileID: 53012146}
   - component: {fileID: 53012145}
   - component: {fileID: 53012144}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6050,6 +6090,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6291,6 +6335,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6449,7 +6497,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 62628799}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: GameObject (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6485,7 +6533,7 @@ GameObject:
   - component: {fileID: 63962634}
   - component: {fileID: 63962633}
   - component: {fileID: 63962632}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6837,7 +6885,7 @@ GameObject:
   - component: {fileID: 64595133}
   - component: {fileID: 64595132}
   - component: {fileID: 64595131}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7271,7 +7319,7 @@ GameObject:
   - component: {fileID: 68195025}
   - component: {fileID: 68195024}
   - component: {fileID: 68195023}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7697,7 +7745,7 @@ GameObject:
   - component: {fileID: 70218169}
   - component: {fileID: 70218168}
   - component: {fileID: 70218172}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9385,6 +9433,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9439,7 +9491,7 @@ GameObject:
   - component: {fileID: 78720419}
   - component: {fileID: 78720418}
   - component: {fileID: 78720417}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9841,6 +9893,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9909,6 +9965,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (90)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10921,6 +10981,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GlassShards (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 58a22d1e2bff12f44ab1486ab024ded0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11299,6 +11363,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bed (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 055f701fc000a77409c027fedbb0da67, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11455,6 +11523,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 75565d44f606db746b856681aa27982a, type: 3}
       propertyPath: m_Name
       value: pillbottles (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 75565d44f606db746b856681aa27982a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11639,6 +11711,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11717,6 +11793,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12228,6 +12308,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12300,6 +12384,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
       propertyPath: m_Name
       value: book (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12563,6 +12651,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bed (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 055f701fc000a77409c027fedbb0da67, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12715,6 +12807,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 00b42a44e9d0a884a98e362b67cc6d3d, type: 3}
       propertyPath: m_Name
       value: computerTVS (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 00b42a44e9d0a884a98e362b67cc6d3d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12916,7 +13012,7 @@ GameObject:
   - component: {fileID: 154586530}
   - component: {fileID: 154586529}
   - component: {fileID: 154586528}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13433,7 +13529,7 @@ GameObject:
   - component: {fileID: 158739404}
   - component: {fileID: 158739403}
   - component: {fileID: 158739402}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14615,6 +14711,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14884,6 +14984,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14907,7 +15011,7 @@ GameObject:
   - component: {fileID: 171898540}
   - component: {fileID: 171898539}
   - component: {fileID: 171898543}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16834,6 +16938,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17073,7 +17181,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 183136025}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: GameObject (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17540,6 +17648,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17884,6 +17996,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bench (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18075,6 +18191,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18310,6 +18430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18328,7 +18452,7 @@ GameObject:
   - component: {fileID: 206274537}
   - component: {fileID: 206274536}
   - component: {fileID: 206274540}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19762,6 +19886,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20092,7 +20220,7 @@ GameObject:
   - component: {fileID: 218736585}
   - component: {fileID: 218736584}
   - component: {fileID: 218736583}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21275,7 +21403,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 219834345}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21817,7 +21945,7 @@ GameObject:
   - component: {fileID: 227646240}
   - component: {fileID: 227646239}
   - component: {fileID: 227646238}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22325,6 +22453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22437,7 +22569,7 @@ GameObject:
   - component: {fileID: 230038713}
   - component: {fileID: 230038712}
   - component: {fileID: 230038711}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23272,6 +23404,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23350,6 +23486,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23628,7 +23768,7 @@ GameObject:
   - component: {fileID: 247816314}
   - component: {fileID: 247816313}
   - component: {fileID: 247816312}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24064,7 +24204,7 @@ GameObject:
   - component: {fileID: 251719814}
   - component: {fileID: 251719813}
   - component: {fileID: 251719812}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24557,7 +24697,7 @@ GameObject:
   - component: {fileID: 253856576}
   - component: {fileID: 253856575}
   - component: {fileID: 253856574}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24976,7 +25116,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 260521238}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25012,7 +25152,7 @@ GameObject:
   - component: {fileID: 261071688}
   - component: {fileID: 261071687}
   - component: {fileID: 261071686}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25805,6 +25945,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: computerTVS (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 00b42a44e9d0a884a98e362b67cc6d3d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26051,6 +26195,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26200,6 +26348,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 75565d44f606db746b856681aa27982a, type: 3}
       propertyPath: m_Name
       value: pillbottles (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 75565d44f606db746b856681aa27982a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26354,7 +26506,7 @@ GameObject:
   - component: {fileID: 281902620}
   - component: {fileID: 281902619}
   - component: {fileID: 281902618}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27110,6 +27262,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27540,6 +27696,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27590,7 +27750,7 @@ GameObject:
   - component: {fileID: 302395075}
   - component: {fileID: 302395074}
   - component: {fileID: 302395078}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29638,6 +29798,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29885,7 +30049,7 @@ GameObject:
   - component: {fileID: 310114281}
   - component: {fileID: 310114280}
   - component: {fileID: 310114279}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30269,7 +30433,7 @@ GameObject:
   - component: {fileID: 312371873}
   - component: {fileID: 312371872}
   - component: {fileID: 312371871}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31099,7 +31263,7 @@ GameObject:
   - component: {fileID: 318433688}
   - component: {fileID: 318433687}
   - component: {fileID: 318433686}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31501,6 +31665,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31816,6 +31984,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 58a22d1e2bff12f44ab1486ab024ded0, type: 3}
       propertyPath: m_Name
       value: GlassShards (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 58a22d1e2bff12f44ab1486ab024ded0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32375,6 +32547,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32697,6 +32873,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33973,7 +34153,7 @@ GameObject:
   - component: {fileID: 372594225}
   - component: {fileID: 372594224}
   - component: {fileID: 372594223}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34320,7 +34500,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 374298260}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: GameObject (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34462,6 +34642,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34645,7 +34829,7 @@ GameObject:
   - component: {fileID: 387662571}
   - component: {fileID: 387662570}
   - component: {fileID: 387662569}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35184,7 +35368,7 @@ GameObject:
   - component: {fileID: 394120673}
   - component: {fileID: 394120672}
   - component: {fileID: 394120676}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36972,7 +37156,7 @@ GameObject:
   - component: {fileID: 396530541}
   - component: {fileID: 396530540}
   - component: {fileID: 396530539}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37410,6 +37594,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -37565,6 +37753,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -37796,6 +37988,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -38635,6 +38831,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -38732,7 +38932,7 @@ GameObject:
   - component: {fileID: 417515009}
   - component: {fileID: 417515008}
   - component: {fileID: 417515012}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40729,7 +40929,7 @@ GameObject:
   - component: {fileID: 418479550}
   - component: {fileID: 418479549}
   - component: {fileID: 418479552}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42680,7 +42880,7 @@ GameObject:
   - component: {fileID: 435965876}
   - component: {fileID: 435965875}
   - component: {fileID: 435965879}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44557,6 +44757,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -45157,6 +45361,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -45448,6 +45656,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
       propertyPath: m_Name
       value: book (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -46050,6 +46262,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bench (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -46153,6 +46369,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 58a22d1e2bff12f44ab1486ab024ded0, type: 3}
       propertyPath: m_Name
       value: GlassShards (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 58a22d1e2bff12f44ab1486ab024ded0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -46374,6 +46594,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -46514,7 +46738,7 @@ GameObject:
   - component: {fileID: 484386034}
   - component: {fileID: 484386033}
   - component: {fileID: 484386032}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47098,6 +47322,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -47369,6 +47597,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -47563,7 +47795,7 @@ GameObject:
   - component: {fileID: 493999716}
   - component: {fileID: 493999715}
   - component: {fileID: 493999714}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: floor (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47839,7 +48071,7 @@ GameObject:
   - component: {fileID: 495564762}
   - component: {fileID: 495564761}
   - component: {fileID: 495564760}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48524,6 +48756,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -48598,6 +48834,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: sheetmetal (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 86ff5fd3b7b0c3e4f87f31643dfb9b0c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -48619,7 +48859,7 @@ GameObject:
   - component: {fileID: 510118140}
   - component: {fileID: 510118139}
   - component: {fileID: 510118143}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50615,7 +50855,7 @@ GameObject:
   - component: {fileID: 524851139}
   - component: {fileID: 524851138}
   - component: {fileID: 524851137}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51230,6 +51470,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -51468,6 +51712,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -51575,6 +51823,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
       propertyPath: m_Name
       value: book (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -52087,6 +52339,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -53181,7 +53437,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 567622876}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WALLS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53278,7 +53534,7 @@ GameObject:
   - component: {fileID: 568383783}
   - component: {fileID: 568383782}
   - component: {fileID: 568383781}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53705,7 +53961,7 @@ GameObject:
   - component: {fileID: 571456638}
   - component: {fileID: 571456637}
   - component: {fileID: 571456636}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54536,7 +54792,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 580678009}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: more walls again
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57520,6 +57776,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -57592,6 +57852,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
       propertyPath: m_Name
       value: book (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -57696,6 +57960,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 58a22d1e2bff12f44ab1486ab024ded0, type: 3}
       propertyPath: m_Name
       value: GlassShards (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 58a22d1e2bff12f44ab1486ab024ded0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -57915,7 +58183,7 @@ GameObject:
   - component: {fileID: 612651328}
   - component: {fileID: 612651327}
   - component: {fileID: 612651331}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60257,7 +60525,7 @@ GameObject:
   - component: {fileID: 617168551}
   - component: {fileID: 617168550}
   - component: {fileID: 617168549}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60922,7 +61190,7 @@ GameObject:
   - component: {fileID: 620427069}
   - component: {fileID: 620427068}
   - component: {fileID: 620427067}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61324,6 +61592,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GlassShards (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 58a22d1e2bff12f44ab1486ab024ded0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -61560,6 +61832,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -61679,7 +61955,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7beebfd722ce01043bcf0521caa7db83, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -61735,7 +62011,7 @@ GameObject:
   - component: {fileID: 636379122}
   - component: {fileID: 636379121}
   - component: {fileID: 636379120}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62408,7 +62684,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7beebfd722ce01043bcf0521caa7db83, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -62734,6 +63010,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bed (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 055f701fc000a77409c027fedbb0da67, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -62920,6 +63200,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -63132,6 +63416,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -63591,6 +63879,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -63872,7 +64164,7 @@ GameObject:
   - component: {fileID: 696550745}
   - component: {fileID: 696550744}
   - component: {fileID: 696550748}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65279,7 +65571,7 @@ GameObject:
   - component: {fileID: 700533428}
   - component: {fileID: 700533427}
   - component: {fileID: 700533426}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65939,6 +66231,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (05)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -66242,7 +66538,7 @@ GameObject:
   - component: {fileID: 725810792}
   - component: {fileID: 725810791}
   - component: {fileID: 725810790}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66634,7 +66930,7 @@ GameObject:
   - component: {fileID: 743338108}
   - component: {fileID: 743338107}
   - component: {fileID: 743338111}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67946,6 +68242,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -68215,6 +68515,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GlassShards (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 58a22d1e2bff12f44ab1486ab024ded0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -68420,7 +68724,7 @@ GameObject:
   - component: {fileID: 754304534}
   - component: {fileID: 754304533}
   - component: {fileID: 754304532}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68961,7 +69265,7 @@ GameObject:
   - component: {fileID: 758467953}
   - component: {fileID: 758467952}
   - component: {fileID: 758467951}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69367,6 +69671,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -69753,7 +70061,7 @@ GameObject:
   - component: {fileID: 765343196}
   - component: {fileID: 765343195}
   - component: {fileID: 765343194}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70278,6 +70586,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (07)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -70411,7 +70723,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 771045303}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70580,6 +70892,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GlassShards (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 58a22d1e2bff12f44ab1486ab024ded0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -70687,6 +71003,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
       propertyPath: m_Name
       value: book (08)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -70938,6 +71258,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -71041,6 +71365,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 055f701fc000a77409c027fedbb0da67, type: 3}
       propertyPath: m_Name
       value: bed (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 055f701fc000a77409c027fedbb0da67, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -71226,7 +71554,7 @@ GameObject:
   - component: {fileID: 784136217}
   - component: {fileID: 784136216}
   - component: {fileID: 784136220}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73276,6 +73604,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -73691,7 +74023,7 @@ GameObject:
   - component: {fileID: 794377883}
   - component: {fileID: 794377882}
   - component: {fileID: 794377881}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74041,7 +74373,7 @@ GameObject:
   - component: {fileID: 797053145}
   - component: {fileID: 797053144}
   - component: {fileID: 797053143}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: floor (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74212,7 +74544,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7beebfd722ce01043bcf0521caa7db83, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -74428,6 +74760,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bed (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 055f701fc000a77409c027fedbb0da67, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -74623,7 +74959,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7beebfd722ce01043bcf0521caa7db83, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -74949,6 +75285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -75242,6 +75582,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -75452,6 +75796,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -75511,7 +75859,7 @@ GameObject:
   - component: {fileID: 834342305}
   - component: {fileID: 834342304}
   - component: {fileID: 834342303}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75739,6 +76087,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -76004,7 +76356,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7beebfd722ce01043bcf0521caa7db83, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -76088,7 +76440,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7beebfd722ce01043bcf0521caa7db83, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -76841,6 +77193,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -77005,7 +77361,7 @@ GameObject:
   - component: {fileID: 858310673}
   - component: {fileID: 858310672}
   - component: {fileID: 858310677}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79364,6 +79720,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -79433,6 +79793,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -79447,7 +79811,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 866702256}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79478,7 +79842,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 866879290}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79927,7 +80291,7 @@ GameObject:
   - component: {fileID: 883023866}
   - component: {fileID: 883023865}
   - component: {fileID: 883023864}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80037,7 +80401,7 @@ GameObject:
   - component: {fileID: 884430746}
   - component: {fileID: 884430745}
   - component: {fileID: 884430744}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80384,7 +80748,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 888339184}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: GameObject (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80424,7 +80788,7 @@ GameObject:
   - component: {fileID: 889083728}
   - component: {fileID: 889083727}
   - component: {fileID: 889083726}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80771,7 +81135,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 889789281}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80968,6 +81332,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 75565d44f606db746b856681aa27982a, type: 3}
       propertyPath: m_Name
       value: pillbottles (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 75565d44f606db746b856681aa27982a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -81173,6 +81541,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -81222,7 +81594,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 899540920}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: door frames
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81410,7 +81782,7 @@ GameObject:
   - component: {fileID: 908329657}
   - component: {fileID: 908329656}
   - component: {fileID: 908329655}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82872,6 +83244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -83110,6 +83486,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -83192,7 +83572,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7beebfd722ce01043bcf0521caa7db83, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -83298,6 +83678,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -83380,6 +83764,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
       propertyPath: m_Name
       value: book (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -83494,6 +83882,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pillbottles (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 75565d44f606db746b856681aa27982a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -83567,6 +83959,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
       propertyPath: m_Name
       value: bench (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -83703,6 +84099,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 055f701fc000a77409c027fedbb0da67, type: 3}
       propertyPath: m_Name
       value: bed (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 055f701fc000a77409c027fedbb0da67, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -83866,6 +84266,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -84011,6 +84415,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -84151,6 +84559,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -84258,6 +84670,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
       propertyPath: m_Name
       value: book (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -84511,6 +84927,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -84583,6 +85003,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -84602,7 +85026,7 @@ GameObject:
   - component: {fileID: 970476553}
   - component: {fileID: 970476558}
   - component: {fileID: 970476557}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86066,6 +86490,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bed (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 055f701fc000a77409c027fedbb0da67, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -86497,6 +86925,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -86945,6 +87377,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 75565d44f606db746b856681aa27982a, type: 3}
       propertyPath: m_Name
       value: pillbottles (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 75565d44f606db746b856681aa27982a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -87755,6 +88191,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bed (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 055f701fc000a77409c027fedbb0da67, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -88105,6 +88545,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (85)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -88230,7 +88674,7 @@ GameObject:
   - component: {fileID: 1017402760}
   - component: {fileID: 1017402759}
   - component: {fileID: 1017402758}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88740,6 +89184,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -89149,6 +89597,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 75565d44f606db746b856681aa27982a, type: 3}
       propertyPath: m_Name
       value: pillbottles (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 75565d44f606db746b856681aa27982a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -90549,7 +91001,7 @@ GameObject:
   - component: {fileID: 1058805527}
   - component: {fileID: 1058805526}
   - component: {fileID: 1058805525}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91077,6 +91529,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -91345,7 +91801,7 @@ GameObject:
   - component: {fileID: 1082428668}
   - component: {fileID: 1082428667}
   - component: {fileID: 1082428666}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91952,6 +92408,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -92081,7 +92541,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1094039015}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: GameObject (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92652,6 +93112,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bed (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 055f701fc000a77409c027fedbb0da67, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -93130,6 +93594,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -93272,6 +93740,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -93375,6 +93847,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -93603,7 +94079,7 @@ GameObject:
   - component: {fileID: 1126859203}
   - component: {fileID: 1126859202}
   - component: {fileID: 1126859201}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94197,6 +94673,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GlassShards (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 58a22d1e2bff12f44ab1486ab024ded0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -94292,7 +94772,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1134918881}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94542,6 +95022,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -94821,7 +95305,7 @@ GameObject:
   - component: {fileID: 1140449849}
   - component: {fileID: 1140449848}
   - component: {fileID: 1140449847}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95227,6 +95711,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pillbottles (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 75565d44f606db746b856681aa27982a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -95250,7 +95738,7 @@ GameObject:
   - component: {fileID: 1142723276}
   - component: {fileID: 1142723275}
   - component: {fileID: 1142723279}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99578,6 +100066,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bed (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 055f701fc000a77409c027fedbb0da67, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -99693,6 +100185,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -99765,6 +100261,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
       propertyPath: m_Name
       value: book (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -99893,7 +100393,7 @@ GameObject:
   - component: {fileID: 1154665398}
   - component: {fileID: 1154665397}
   - component: {fileID: 1154665396}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100126,6 +100626,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -100280,6 +100784,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -100359,6 +100867,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -100378,7 +100890,7 @@ GameObject:
   - component: {fileID: 1168946772}
   - component: {fileID: 1168946771}
   - component: {fileID: 1168946770}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100809,7 +101321,7 @@ GameObject:
   - component: {fileID: 1174429692}
   - component: {fileID: 1174429691}
   - component: {fileID: 1174429690}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: x3y4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101211,6 +101723,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -101311,7 +101827,7 @@ GameObject:
   - component: {fileID: 1183735437}
   - component: {fileID: 1183735436}
   - component: {fileID: 1183735440}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102571,6 +103087,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -103603,7 +104123,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7beebfd722ce01043bcf0521caa7db83, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -103712,6 +104232,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
       propertyPath: m_Name
       value: book (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -103974,7 +104498,7 @@ GameObject:
   - component: {fileID: 1214876058}
   - component: {fileID: 1214876057}
   - component: {fileID: 1214876056}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104536,6 +105060,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -104747,7 +105275,7 @@ GameObject:
   - component: {fileID: 1220071016}
   - component: {fileID: 1220071015}
   - component: {fileID: 1220071014}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105153,6 +105681,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -105503,6 +106035,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -105617,6 +106153,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -105685,6 +106225,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -105924,6 +106468,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -106549,6 +107097,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -106563,7 +107115,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1247583989}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: GameObject (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106653,6 +107205,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 055f701fc000a77409c027fedbb0da67, type: 3}
       propertyPath: m_Name
       value: bed
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 055f701fc000a77409c027fedbb0da67, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -106775,6 +107331,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -107530,7 +108090,7 @@ GameObject:
   - component: {fileID: 1265939210}
   - component: {fileID: 1265939209}
   - component: {fileID: 1265939208}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107932,6 +108492,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -107950,7 +108514,7 @@ GameObject:
   - component: {fileID: 1267934303}
   - component: {fileID: 1267934302}
   - component: {fileID: 1267934307}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109251,6 +109815,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -109489,6 +110057,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -109647,6 +110219,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -109715,6 +110291,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -109863,6 +110443,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 58a22d1e2bff12f44ab1486ab024ded0, type: 3}
       propertyPath: m_Name
       value: GlassShards (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 58a22d1e2bff12f44ab1486ab024ded0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -110250,7 +110834,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1288704581}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110652,7 +111236,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1296328923}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110688,7 +111272,7 @@ GameObject:
   - component: {fileID: 1299103283}
   - component: {fileID: 1299103282}
   - component: {fileID: 1299103281}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111094,6 +111678,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (06)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -111198,6 +111786,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -111266,6 +111858,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -111346,7 +111942,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7beebfd722ce01043bcf0521caa7db83, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -112074,6 +112670,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GlassShards (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 58a22d1e2bff12f44ab1486ab024ded0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -112387,7 +112987,7 @@ GameObject:
   - component: {fileID: 1329869988}
   - component: {fileID: 1329869987}
   - component: {fileID: 1329869986}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112986,6 +113586,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 055f701fc000a77409c027fedbb0da67, type: 3}
       propertyPath: m_Name
       value: bed (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 055f701fc000a77409c027fedbb0da67, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -113658,6 +114262,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -113857,7 +114465,7 @@ GameObject:
   - component: {fileID: 1345224852}
   - component: {fileID: 1345224851}
   - component: {fileID: 1345224855}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115065,7 +115673,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1345386498}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115151,6 +115759,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -115219,6 +115831,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 58a22d1e2bff12f44ab1486ab024ded0, type: 3}
       propertyPath: m_Name
       value: GlassShards (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 58a22d1e2bff12f44ab1486ab024ded0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -115516,6 +116132,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -115619,6 +116239,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
       propertyPath: m_Name
       value: bench (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -115838,7 +116462,7 @@ GameObject:
   - component: {fileID: 1354207580}
   - component: {fileID: 1354207579}
   - component: {fileID: 1354207583}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117831,7 +118455,7 @@ GameObject:
   - component: {fileID: 1367097056}
   - component: {fileID: 1367097055}
   - component: {fileID: 1367097054}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120295,6 +120919,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bed (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 055f701fc000a77409c027fedbb0da67, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -120322,7 +120950,7 @@ GameObject:
   - component: {fileID: 1370438191}
   - component: {fileID: 1370438190}
   - component: {fileID: 1370438193}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121783,7 +122411,7 @@ GameObject:
   - component: {fileID: 1372956046}
   - component: {fileID: 1372956045}
   - component: {fileID: 1372956044}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122585,6 +123213,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -122904,7 +123536,7 @@ GameObject:
   - component: {fileID: 1387167104}
   - component: {fileID: 1387167103}
   - component: {fileID: 1387167102}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123843,6 +124475,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -123994,6 +124630,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -124534,7 +125174,7 @@ GameObject:
   - component: {fileID: 1414932834}
   - component: {fileID: 1414932833}
   - component: {fileID: 1414932832}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125084,7 +125724,7 @@ GameObject:
   - component: {fileID: 1419137991}
   - component: {fileID: 1419137996}
   - component: {fileID: 1419137995}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127068,7 +127708,7 @@ GameObject:
   - component: {fileID: 1426795526}
   - component: {fileID: 1426795525}
   - component: {fileID: 1426795524}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127756,7 +128396,7 @@ GameObject:
   - component: {fileID: 1439969193}
   - component: {fileID: 1439969192}
   - component: {fileID: 1439969191}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128193,6 +128833,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
       propertyPath: m_Name
       value: book (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -128641,7 +129285,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7beebfd722ce01043bcf0521caa7db83, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -128746,6 +129390,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -128955,6 +129603,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
       propertyPath: m_Name
       value: book (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -129404,7 +130056,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7beebfd722ce01043bcf0521caa7db83, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -130255,6 +130907,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -130343,7 +130999,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1496135514}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: GameObject (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130610,6 +131266,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
       propertyPath: m_Name
       value: book (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -130948,6 +131608,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -131945,6 +132609,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -132004,7 +132672,7 @@ GameObject:
   - component: {fileID: 1533388711}
   - component: {fileID: 1533388710}
   - component: {fileID: 1533388709}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132760,6 +133428,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -133318,7 +133990,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1550181095}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: GameObject (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133514,7 +134186,7 @@ GameObject:
   - component: {fileID: 1558216821}
   - component: {fileID: 1558216820}
   - component: {fileID: 1558216819}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133920,6 +134592,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -134236,6 +134912,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -134344,6 +135024,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -134393,7 +135077,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1567584392}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: room4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134508,6 +135192,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -134747,6 +135435,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 58a22d1e2bff12f44ab1486ab024ded0, type: 3}
       propertyPath: m_Name
       value: GlassShards (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 58a22d1e2bff12f44ab1486ab024ded0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -135681,6 +136373,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -135857,6 +136553,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -135960,7 +136660,7 @@ GameObject:
   - component: {fileID: 1589549963}
   - component: {fileID: 1589549962}
   - component: {fileID: 1589549961}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136424,6 +137124,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -136569,6 +137273,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -136682,6 +137390,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pillbottles (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 75565d44f606db746b856681aa27982a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -136755,6 +137467,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -136996,7 +137712,7 @@ GameObject:
   - component: {fileID: 1607307386}
   - component: {fileID: 1607307385}
   - component: {fileID: 1607307384}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138192,7 +138908,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1607755006}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: room3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138254,7 +138970,7 @@ GameObject:
   - component: {fileID: 1609030078}
   - component: {fileID: 1609030077}
   - component: {fileID: 1609030076}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139016,6 +139732,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -139035,7 +139755,7 @@ GameObject:
   - component: {fileID: 1619205446}
   - component: {fileID: 1619205445}
   - component: {fileID: 1619205444}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139602,6 +140322,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -140084,7 +140808,7 @@ GameObject:
   - component: {fileID: 1638024888}
   - component: {fileID: 1638024887}
   - component: {fileID: 1638024886}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140789,7 +141513,7 @@ GameObject:
   - component: {fileID: 1643858947}
   - component: {fileID: 1643858946}
   - component: {fileID: 1643858945}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141218,7 +141942,7 @@ GameObject:
   - component: {fileID: 1648370555}
   - component: {fileID: 1648370554}
   - component: {fileID: 1648370558}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142542,6 +143266,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -142597,7 +143325,7 @@ GameObject:
   - component: {fileID: 1651283567}
   - component: {fileID: 1651283566}
   - component: {fileID: 1651283570}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148017,7 +148745,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7beebfd722ce01043bcf0521caa7db83, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -148090,6 +148818,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
       propertyPath: m_Name
       value: book (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -148198,6 +148930,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
       propertyPath: m_Name
       value: book (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -148390,6 +149126,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 75565d44f606db746b856681aa27982a, type: 3}
       propertyPath: m_Name
       value: pillbottles (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 75565d44f606db746b856681aa27982a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -148818,6 +149558,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -148886,6 +149630,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 055f701fc000a77409c027fedbb0da67, type: 3}
       propertyPath: m_Name
       value: bed (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 055f701fc000a77409c027fedbb0da67, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -149442,6 +150190,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -149788,6 +150540,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -149870,6 +150626,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
       propertyPath: m_Name
       value: book (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -149970,7 +150730,7 @@ GameObject:
   - component: {fileID: 1682494261}
   - component: {fileID: 1682494260}
   - component: {fileID: 1682494259}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -150439,7 +151199,7 @@ GameObject:
   - component: {fileID: 1684273529}
   - component: {fileID: 1684273528}
   - component: {fileID: 1684273527}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -150545,7 +151305,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1685025483}
   - component: {fileID: 1685025484}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Environment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151487,6 +152247,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bed (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 055f701fc000a77409c027fedbb0da67, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -151568,6 +152332,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
       propertyPath: m_Name
       value: book (09)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -151771,6 +152539,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -151879,6 +152651,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -151938,7 +152714,7 @@ GameObject:
   - component: {fileID: 1712900862}
   - component: {fileID: 1712900861}
   - component: {fileID: 1712900860}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -152345,6 +153121,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bed (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 055f701fc000a77409c027fedbb0da67, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -152480,7 +153260,7 @@ GameObject:
   - component: {fileID: 1716248976}
   - component: {fileID: 1716248975}
   - component: {fileID: 1716248974}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -153220,7 +154000,7 @@ GameObject:
   - component: {fileID: 1721514898}
   - component: {fileID: 1721514903}
   - component: {fileID: 1721514902}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -154899,7 +155679,7 @@ GameObject:
   - component: {fileID: 1725380226}
   - component: {fileID: 1725380225}
   - component: {fileID: 1725380224}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -155594,7 +156374,7 @@ GameObject:
   - component: {fileID: 1740369736}
   - component: {fileID: 1740369735}
   - component: {fileID: 1740369734}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -155996,6 +156776,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bed (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 055f701fc000a77409c027fedbb0da67, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -156153,6 +156937,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -156202,7 +156990,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1743287030}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WALLS2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156422,6 +157210,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -156569,6 +157361,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 75565d44f606db746b856681aa27982a, type: 3}
       propertyPath: m_Name
       value: pillbottles (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 75565d44f606db746b856681aa27982a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -156809,6 +157605,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -156991,6 +157791,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pillbottles (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 75565d44f606db746b856681aa27982a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -157092,7 +157896,7 @@ GameObject:
   - component: {fileID: 1759093355}
   - component: {fileID: 1759093354}
   - component: {fileID: 1759093353}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -157861,7 +158665,7 @@ GameObject:
   - component: {fileID: 1766047594}
   - component: {fileID: 1766047593}
   - component: {fileID: 1766047592}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -158449,7 +159253,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7beebfd722ce01043bcf0521caa7db83, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -158681,7 +159485,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7beebfd722ce01043bcf0521caa7db83, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -158819,6 +159623,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -158907,6 +159715,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -158956,7 +159768,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1778989525}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -159064,7 +159876,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1784412028}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: room2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -159365,7 +160177,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1785704804}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160106,6 +160918,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -160155,7 +160971,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1797038890}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160386,6 +161202,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pillbottles (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 75565d44f606db746b856681aa27982a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -160458,6 +161278,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
       propertyPath: m_Name
       value: book (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -161089,7 +161913,7 @@ GameObject:
   - component: {fileID: 1813835042}
   - component: {fileID: 1813835041}
   - component: {fileID: 1813835045}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -166107,7 +166931,7 @@ GameObject:
   - component: {fileID: 1815376177}
   - component: {fileID: 1815376176}
   - component: {fileID: 1815376175}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -166641,7 +167465,7 @@ GameObject:
   - component: {fileID: 1816831536}
   - component: {fileID: 1816831535}
   - component: {fileID: 1816831534}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -167047,6 +167871,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -167260,6 +168088,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -167417,6 +168249,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -167584,6 +168420,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
       propertyPath: m_Name
       value: book (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -167864,7 +168704,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7beebfd722ce01043bcf0521caa7db83, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -168167,6 +169007,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -168191,7 +169035,7 @@ GameObject:
   - component: {fileID: 1847021076}
   - component: {fileID: 1847021075}
   - component: {fileID: 1847021074}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168597,6 +169441,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -168646,7 +169494,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1849289073}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169126,6 +169974,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -169281,7 +170133,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1862744969}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: room1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169389,6 +170241,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 58a22d1e2bff12f44ab1486ab024ded0, type: 3}
       propertyPath: m_Name
       value: GlassShards (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 58a22d1e2bff12f44ab1486ab024ded0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -169627,6 +170483,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -169699,6 +170559,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 75565d44f606db746b856681aa27982a, type: 3}
       propertyPath: m_Name
       value: pillbottles (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 75565d44f606db746b856681aa27982a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -170114,6 +170978,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -170353,6 +171221,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: computerTVS (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 00b42a44e9d0a884a98e362b67cc6d3d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -170467,6 +171339,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -170491,7 +171367,7 @@ GameObject:
   - component: {fileID: 1880083754}
   - component: {fileID: 1880083753}
   - component: {fileID: 1880083752}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171050,7 +171926,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1883130977}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171169,7 +172045,7 @@ GameObject:
   - component: {fileID: 1888918426}
   - component: {fileID: 1888918425}
   - component: {fileID: 1888918429}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173897,6 +174773,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bed (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 055f701fc000a77409c027fedbb0da67, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -174134,6 +175014,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -174277,6 +175161,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -174345,6 +175233,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -174454,7 +175346,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1923451189}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -174676,7 +175568,7 @@ GameObject:
   - component: {fileID: 1929033856}
   - component: {fileID: 1929033855}
   - component: {fileID: 1929033854}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -175082,6 +175974,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -175104,7 +176000,7 @@ GameObject:
   - component: {fileID: 1933109537}
   - component: {fileID: 1933109536}
   - component: {fileID: 1933109535}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -175456,7 +176352,7 @@ GameObject:
   - component: {fileID: 1933821344}
   - component: {fileID: 1933821343}
   - component: {fileID: 1933821342}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -175932,6 +176828,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -175951,7 +176851,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1936669194}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: OtherStuff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -176554,7 +177454,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7beebfd722ce01043bcf0521caa7db83, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -176939,7 +177839,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7beebfd722ce01043bcf0521caa7db83, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -177017,6 +177917,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -177613,6 +178517,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 75565d44f606db746b856681aa27982a, type: 3}
       propertyPath: m_Name
       value: pillbottles (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 75565d44f606db746b856681aa27982a, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -178757,7 +179665,7 @@ GameObject:
   - component: {fileID: 1982256369}
   - component: {fileID: 1982256368}
   - component: {fileID: 1982256367}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -179254,7 +180162,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1984081146}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: dOORS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -179469,6 +180377,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
       propertyPath: m_Name
       value: book (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -179806,7 +180718,7 @@ GameObject:
   - component: {fileID: 1993158646}
   - component: {fileID: 1993158645}
   - component: {fileID: 1993158644}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -180349,6 +181261,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -180860,7 +181776,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2008696457}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -181055,6 +181971,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -181123,6 +182043,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (88)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -181438,7 +182362,7 @@ GameObject:
   - component: {fileID: 2017595011}
   - component: {fileID: 2017595010}
   - component: {fileID: 2017595009}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -181839,6 +182763,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 00b42a44e9d0a884a98e362b67cc6d3d, type: 3}
       propertyPath: m_Name
       value: computerTVS (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 00b42a44e9d0a884a98e362b67cc6d3d, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -182586,7 +183514,7 @@ GameObject:
   - component: {fileID: 2035660228}
   - component: {fileID: 2035660227}
   - component: {fileID: 2035660226}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: roof 6.5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -183772,6 +184700,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GlassShards (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 58a22d1e2bff12f44ab1486ab024ded0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -184367,6 +185299,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bed (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 055f701fc000a77409c027fedbb0da67, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -184526,6 +185462,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -184775,7 +185715,7 @@ GameObject:
   - component: {fileID: 2068403994}
   - component: {fileID: 2068403999}
   - component: {fileID: 2068403998}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: New Game Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -186754,7 +187694,7 @@ GameObject:
   - component: {fileID: 2071403618}
   - component: {fileID: 2071403617}
   - component: {fileID: 2071403616}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -187161,6 +188101,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -187499,6 +188443,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
       propertyPath: m_Name
       value: book (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -188472,6 +189420,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -188633,6 +189585,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: syringe (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -188793,7 +189749,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2106312989}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: room5,6,7.5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -188906,7 +189862,7 @@ GameObject:
   - component: {fileID: 2109670088}
   - component: {fileID: 2109670087}
   - component: {fileID: 2109670086}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -189214,7 +190170,7 @@ GameObject:
   - component: {fileID: 2118339437}
   - component: {fileID: 2118339436}
   - component: {fileID: 2118339435}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -189768,7 +190724,7 @@ GameObject:
   - component: {fileID: 2135548100}
   - component: {fileID: 2135548099}
   - component: {fileID: 2135548098}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -190221,7 +191177,7 @@ GameObject:
   - component: {fileID: 2139740418}
   - component: {fileID: 2139740417}
   - component: {fileID: 2139740416}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Cube (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -190627,6 +191583,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: book (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fe6a0e5639c626b40bc1045769f5e9e0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -190731,6 +191691,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bed (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 055f701fc000a77409c027fedbb0da67, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -190808,6 +191772,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
       propertyPath: m_Name
       value: syringe (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b2c4eb8d2136404592fda936f5ef722, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
