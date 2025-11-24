@@ -27,6 +27,10 @@ public class LevelSelectScript : MonoBehaviour
     {
         _document = GetComponent<UIDocument>();
 
+        AsylumSelectedIcon.SetActive(true);
+        SubwaySelectedIcon.SetActive(false);
+        TweakHQSelectedIcon.SetActive(false);
+
         _back = _document.rootVisualElement.Q("BackButton") as Button;
         _back.RegisterCallback<ClickEvent>(OnBackClick);
 
@@ -43,12 +47,12 @@ public class LevelSelectScript : MonoBehaviour
         _TweakHQSelectButton.RegisterCallback<ClickEvent>(OnTweakHQSelected);
     }
 
-    private void Start()
-    {
-        AsylumSelectedIcon.SetActive(true);
-        SubwaySelectedIcon.SetActive(false);
-        TweakHQSelectedIcon.SetActive(false);
-    }
+    //private void Start()
+    //{
+    //    AsylumSelectedIcon.SetActive(true);
+    //    SubwaySelectedIcon.SetActive(false);
+    //    TweakHQSelectedIcon.SetActive(false);
+    //}
 
     private void OnDisable()
     {
