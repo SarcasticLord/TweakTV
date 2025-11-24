@@ -206038,7 +206038,7 @@ MonoBehaviour:
   onMaterial: {fileID: 2100000, guid: 08e9d88e1fb71c34eab622a551517c46, type: 2}
   offMaterial: {fileID: -3846018093981099296, guid: b9a30b774f617544aa3112ad6fad6554, type: 3}
   Exit: {fileID: 1324672744033641291, guid: 3490cfbb4aae0c7428d85194c225a5ec, type: 3}
-  trackedtag: 
+  trackedtag: Enemy
   exitPrefab: {fileID: 0}
   spawnPointsContainer: {fileID: 0}
   exitSpawn: 0
