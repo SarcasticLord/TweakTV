@@ -6,6 +6,11 @@ public class LevelSelectScript : MonoBehaviour
 {
     public GameController controller;
 
+    public GameObject AsylumSelectedIcon;
+    public GameObject SubwaySelectedIcon;
+    public GameObject TweakHQSelectedIcon;
+
+
     [SerializeField] private string TitleScreen = "TitleScreen";
     [SerializeField] private string PreStreamScene = "PreStreamScene";
 
@@ -38,6 +43,13 @@ public class LevelSelectScript : MonoBehaviour
         _TweakHQSelectButton.RegisterCallback<ClickEvent>(OnTweakHQSelected);
     }
 
+    private void Start()
+    {
+        AsylumSelectedIcon.SetActive(true);
+        SubwaySelectedIcon.SetActive(false);
+        TweakHQSelectedIcon.SetActive(false);
+    }
+
     private void OnDisable()
     {
         _back.UnregisterCallback<ClickEvent>(OnBackClick);
@@ -59,18 +71,27 @@ public class LevelSelectScript : MonoBehaviour
     private void OnAsylumSelected(ClickEvent evt)
     {
         Debug.Log("Asylum Selected");
+        AsylumSelectedIcon.SetActive(true);
+        SubwaySelectedIcon.SetActive(false);
+        TweakHQSelectedIcon.SetActive(false);
         controller.SelectLevel("AsylumLevel2");
     }
 
     private void OnSubwaySelected(ClickEvent evt)
     {
         Debug.Log("Subway Selected");
+        AsylumSelectedIcon.SetActive(false);
+        SubwaySelectedIcon.SetActive(true);
+        TweakHQSelectedIcon.SetActive(false);
         controller.SelectLevel("subway");
     }
 
     private void OnTweakHQSelected(ClickEvent evt)
     {
         Debug.Log("Tweak HQ Selected");
+        AsylumSelectedIcon.SetActive(false);
+        SubwaySelectedIcon.SetActive(false);
+        TweakHQSelectedIcon.SetActive(true);
         controller.SelectLevel("TweakHQ");
     }
 
