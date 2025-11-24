@@ -404,9 +404,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 170530032}
-  AsylumSelectedIcon: {fileID: 0}
-  SubwaySelectedIcon: {fileID: 0}
-  TweakHQSelectedIcon: {fileID: 0}
+  AsylumSelectedIcon: {fileID: 1441199523}
+  SubwaySelectedIcon: {fileID: 1621019318}
+  TweakHQSelectedIcon: {fileID: 1690945537}
   TitleScreen: TitleScreen
   PreStreamScene: PreStreamScene
 --- !u!1 &1621019318
