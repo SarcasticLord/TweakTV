@@ -11,7 +11,7 @@ public class ExitGame : MonoBehaviour
     private GameObject hud;
     private GameObject player;
     private UnityEngine.SceneManagement.Scene currentScene;
-    public float cooldownDuration = 10f;
+    public float cooldownDuration = 6f;
 
 
 
@@ -43,20 +43,26 @@ public class ExitGame : MonoBehaviour
     public void StartCooldown()
     {
         StartCoroutine(CooldownAndChangeScene());
+        
     }
 
     private IEnumerator CooldownAndChangeScene()
     {
+
         yield return new WaitForSeconds(cooldownDuration);
-        //UnityEngine.SceneManagement.Scene current = SceneManager.GetActiveScene();
-        //SceneManager.UnloadSceneAsync(current);
-        SceneManager.LoadScene("EndLevelScene"); // Replace with your scene name
-        //SceneManager.UnloadScene()
+        StartCoroutine(PlayerCooldown()); // Replace with your scene name
+    }
+    private IEnumerator PlayerCooldown()
+    {
+        GameEnding playerTransition = player.GetComponent<GameEnding>();
+        yield return new WaitForSeconds(2f);
+        playerTransition.EndLevel();
     }
 
-    
+
     private void OnTriggerStay(Collider other)
     {
+        GameEnding playerTransition = player.GetComponent<GameEnding>();
         if (other.CompareTag("WholePlayer"))
         {
             if (currentScene.name == "subway")
@@ -67,10 +73,8 @@ public class ExitGame : MonoBehaviour
             }
             if (currentScene.name == "AsylumLevel2")
             {
-                Destroy(player);
-                SceneManager.LoadScene("Buffer");
+                playerTransition.EndLevel();
                 Debug.Log($"Scene: {SceneManager.GetActiveScene().name}");
-
             }
         }
     }
