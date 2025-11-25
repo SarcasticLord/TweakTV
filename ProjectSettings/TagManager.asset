@@ -18,6 +18,7 @@ TagManager:
   - Hotbar
   - Collectibles
   - KeyPad
+  - PlayerHealth
   layers:
   - Default
   - TransparentFX

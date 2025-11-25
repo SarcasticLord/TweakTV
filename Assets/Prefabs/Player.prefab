@@ -1624,6 +1624,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Health
       objectReference: {fileID: 0}
+    - target: {fileID: 4584718276196612589, guid: 5180827ed17f8cc428c6f78f1cb6364d, type: 3}
+      propertyPath: m_TagString
+      value: PlayerHealth
+      objectReference: {fileID: 0}
     - target: {fileID: 7328860170788544450, guid: 5180827ed17f8cc428c6f78f1cb6364d, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1804,15 +1808,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9156347144040445546, guid: c82236c16aae9d34fbd437f8dea6e2c9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.4
+      value: -24.088
       objectReference: {fileID: 0}
     - target: {fileID: 9156347144040445546, guid: c82236c16aae9d34fbd437f8dea6e2c9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.27
+      value: 0.44
       objectReference: {fileID: 0}
     - target: {fileID: 9156347144040445546, guid: c82236c16aae9d34fbd437f8dea6e2c9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 38.5
+      value: 7.48
       objectReference: {fileID: 0}
     - target: {fileID: 9156347144040445546, guid: c82236c16aae9d34fbd437f8dea6e2c9, type: 3}
       propertyPath: m_LocalRotation.w

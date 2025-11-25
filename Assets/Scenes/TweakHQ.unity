@@ -130103,22 +130103,6 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1432966131}
-    - target: {fileID: 4554036495936697367, guid: 53438b95031d1c34e831334360bcb89b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4707640167479887993, guid: 53438b95031d1c34e831334360bcb89b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5798300329341134300, guid: 53438b95031d1c34e831334360bcb89b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8589900094810132802, guid: 53438b95031d1c34e831334360bcb89b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

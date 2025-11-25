@@ -34,6 +34,8 @@ public class EnemyStates : MonoBehaviour
 
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        health = GameObject.FindGameObjectWithTag("PlayerHealth").GetComponent<PlayerHealth>();
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
         agent = GetComponent<NavMeshAgent>();

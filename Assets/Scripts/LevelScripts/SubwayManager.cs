@@ -13,11 +13,12 @@ public class SubwayManager : MonoBehaviour
     public GameObject exitPrefab;
     public Transform spawnPointsContainer;
     public bool exitSpawn = false;
+    public Transform streamSniperSpawn;
+    public GameObject streamSniper;
 
     // Update is called once per frame
     void Update()
     {
-
         Scene currentScene = SceneManager.GetActiveScene();
         int objectCount = GameObject.FindGameObjectsWithTag(trackedtag).Length;
         Debug.Log("Total GameObjects in scene: " + objectCount);
@@ -33,7 +34,7 @@ public class SubwayManager : MonoBehaviour
             return;
         }
 
-        if (objectCount <= 0)
+        if (objectCount <= 5)
         {
             if (currentScene.name == "AsylumLevel2" && !exitSpawn)
             {
@@ -48,27 +49,44 @@ public class SubwayManager : MonoBehaviour
                 SpawnExit(childCount);
             }
 
-            if (currentScene.name == "subway" && !exitSpawn)
+            if (objectCount <= 0)
             {
-                Debug.Log("You won in the Subway scene!");
-                ToggleLights();
-                Debug.Log("Lights off");
-                Instantiate(Exit, gameObject.transform.position, gameObject.transform.rotation);
+                if (currentScene.name == "subway" && !exitSpawn)
+                {
+                    Debug.Log("You won in the Subway scene!");
+                    ToggleLights();
+                    Debug.Log("Lights off");
+                    Instantiate(Exit, gameObject.transform.position, gameObject.transform.rotation);
+                }
             }
         }
     }
+    //Universal
+    public void SpawnStreamSniper()
+    {
+        exitSpawn = true;
+        // Pick a random spawn point
+        Transform chosenSpawn = streamSniperSpawn;
+
+        // Instantiate the door at the chosen spawn point
+        Instantiate(streamSniper, chosenSpawn.position, chosenSpawn.rotation);
+    }
+
+    //For the Asylum
     public void SpawnExit(int childCount)
     {
         exitSpawn = true;
         // Pick a random spawn point
         int randomIndex = Random.Range(0, childCount);
         Transform chosenSpawn = spawnPointsContainer.GetChild(randomIndex);
-
+        
         // Instantiate the door at the chosen spawn point
         Instantiate(exitPrefab, chosenSpawn.position, chosenSpawn.rotation);
     }
+    //For the Subway
     public void ToggleLights()
     {
+        SpawnStreamSniper();
         GameObject[] lights = GameObject.FindGameObjectsWithTag("SubwayLight");
         foreach (GameObject lightObj in lights)
         {

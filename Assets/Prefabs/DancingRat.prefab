@@ -81,15 +81,6 @@ PrefabInstance:
       addedObject: {fileID: 4802500085431509932}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 701b1121dc2d14a4f812e9758079d29d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3608519984507455447}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 701b1121dc2d14a4f812e9758079d29d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5511294763533875075}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 701b1121dc2d14a4f812e9758079d29d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 4188366523987980293}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 701b1121dc2d14a4f812e9758079d29d, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1138256344797060168}
     - targetCorrespondingSourceObject: {fileID: -5568371526223589888, guid: 701b1121dc2d14a4f812e9758079d29d, type: 3}
       insertIndex: -1
@@ -149,53 +140,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3608519984507455447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4441969831761195942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7bc6357d37b304740b2f60975a708523, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MaxSpeed: 5
-  SightRange: 5
-  DetectionRange: 10
-  Rigidbody: {fileID: 1138256344797060168}
-  Target: {fileID: 0}
-  animator: {fileID: 4802500085431509932}
---- !u!114 &5511294763533875075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4441969831761195942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45171b32112595644b07209a65c808d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 5
---- !u!114 &4188366523987980293
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4441969831761195942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db004be46825ec341834c83bbf181156, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  disableDuration: 2
-  attackDuration: 1
-  hitParticle: {fileID: 3567050154118531774, guid: 3f8d026cd8203754ea2721da63e7d5b4, type: 3}
-  offset: 0
 --- !u!54 &1138256344797060168
 Rigidbody:
   m_ObjectHideFlags: 0
