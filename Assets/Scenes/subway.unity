@@ -57867,6 +57867,7 @@ MonoBehaviour:
   highscore: 0
   time: 0
   bestTime: 99999
+  totalElapsedTime: 0
 --- !u!4 &554922804
 Transform:
   m_ObjectHideFlags: 0
@@ -157474,6 +157475,10 @@ PrefabInstance:
       propertyPath: train
       value: 
       objectReference: {fileID: 1937729684}
+    - target: {fileID: 2902478086235417878, guid: b31476184a934af4c93c55496ff611cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4270468231372756480, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
