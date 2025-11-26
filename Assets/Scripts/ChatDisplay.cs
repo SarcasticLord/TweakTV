@@ -23,14 +23,28 @@ public class ChatDisplay : MonoBehaviour
     public TextMeshProUGUI chatMode;
     private string[] usernames;
     private string[] messages;
+    public bool isSuperChat;
+    private GameStats player;
+    private int lastMinute = -1;
+
 
 
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Tab))
+        if (Input.GetKeyDown(KeyCode.Tab) && !isSuperChat)
         {
             CycleChatSource();
+        }
+        if (isSuperChat)
+        {
+            int currentMinute = Mathf.FloorToInt(player.elapsedTime / 60f);
+            if (currentMinute != lastMinute)
+            {
+                Debug.Log($"{player.elapsedTime} time.");
+                AddMessage($"{currentMinute} minutes have passed...");
+                lastMinute = currentMinute;
+            }
         }
     }
 
@@ -39,13 +53,18 @@ public class ChatDisplay : MonoBehaviour
 
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("WholePlayer").GetComponent<GameStats>();
         usernames = usernamesFile.text.Split('\n');
         messages = messageFile.text.Split('\n');
-        for (int i = 0; i < 6; i++)
+        if (!isSuperChat)
         {
-            AddMessage("");
+            for (int i = 0; i < 6; i++)
+            {
+                AddMessage("");
+            }
+            StartCoroutine(DisplayMessagesWithDelay());
         }
-        StartCoroutine(DisplayMessagesWithDelay());
+
     }
 
 

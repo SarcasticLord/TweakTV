@@ -177,7 +177,7 @@ public class PlayerHealth : MonoBehaviour
     }
     private IEnumerator PlayerCooldown()
     {
-        GameEnding playerTransition = player.GetComponent<GameEnding>();
+        GameStats playerTransition = player.GetComponent<GameStats>();
         yield return new WaitForSeconds(2f);
         playerTransition.EndLevel();
     }

@@ -32,6 +32,11 @@ public class ExitGame : MonoBehaviour
         if (other.CompareTag("WholePlayer"))
         {
             Debug.Log("You beat the level!");
+            Singleton.Instance.time = player.GetComponent<GameStats>().elapsedTime;
+            if (Singleton.Instance.time < Singleton.Instance.bestTime)
+            {
+                Singleton.Instance.bestTime = Singleton.Instance.time;
+            }
             other.GetComponent<FirstPersonController>().enabled = false;
             weapons.SetActive(false);
             hud.SetActive(false);
@@ -54,7 +59,7 @@ public class ExitGame : MonoBehaviour
     }
     private IEnumerator PlayerCooldown()
     {
-        GameEnding playerTransition = player.GetComponent<GameEnding>();
+        GameStats playerTransition = player.GetComponent<GameStats>();
         yield return new WaitForSeconds(2f);
         playerTransition.EndLevel();
     }
@@ -62,7 +67,7 @@ public class ExitGame : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        GameEnding playerTransition = player.GetComponent<GameEnding>();
+        GameStats playerTransition = player.GetComponent<GameStats>();
         if (other.CompareTag("WholePlayer"))
         {
             if (currentScene.name == "subway")
