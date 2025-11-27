@@ -88678,6 +88678,8 @@ MonoBehaviour:
   exitPrefab: {fileID: 942694875}
   spawnPointsContainer: {fileID: 1810713441}
   exitSpawn: 0
+  streamSniperSpawn: {fileID: 0}
+  streamSniper: {fileID: 0}
 --- !u!4 &1286153650
 Transform:
   m_ObjectHideFlags: 0
@@ -101035,27 +101037,27 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4270468231372756480, guid: b31476184a934af4c93c55496ff611cf, type: 3}
+    - target: {fileID: 2421708882279727194, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4270468231372756480, guid: b31476184a934af4c93c55496ff611cf, type: 3}
+    - target: {fileID: 2421708882279727194, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4270468231372756480, guid: b31476184a934af4c93c55496ff611cf, type: 3}
+    - target: {fileID: 2421708882279727194, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4270468231372756480, guid: b31476184a934af4c93c55496ff611cf, type: 3}
+    - target: {fileID: 2421708882279727194, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4270468231372756480, guid: b31476184a934af4c93c55496ff611cf, type: 3}
+    - target: {fileID: 2421708882279727194, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4270468231372756480, guid: b31476184a934af4c93c55496ff611cf, type: 3}
+    - target: {fileID: 2421708882279727194, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
@@ -101102,18 +101104,6 @@ PrefabInstance:
     - target: {fileID: 4455998166221778455, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 4940287068038243221, guid: b31476184a934af4c93c55496ff611cf, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8742657204629715923, guid: b31476184a934af4c93c55496ff611cf, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: f0f26e279532bcd49aa894093f883385, type: 3}
-    - target: {fileID: 8742657204629715923, guid: b31476184a934af4c93c55496ff611cf, type: 3}
-      propertyPath: m_Maskable
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

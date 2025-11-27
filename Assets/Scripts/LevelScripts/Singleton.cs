@@ -11,6 +11,7 @@ public class Singleton : MonoBehaviour
     public float bestTime;
 
 
+
     // Level-based stats
     public Dictionary<int, int> levelScores = new Dictionary<int, int>();
     public Dictionary<int, int> levelHighScores = new Dictionary<int, int>();

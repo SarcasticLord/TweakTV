@@ -19,6 +19,7 @@ TagManager:
   - Collectibles
   - KeyPad
   - PlayerHealth
+  - HitboxSpawn
   layers:
   - Default
   - TransparentFX

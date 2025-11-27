@@ -81,7 +81,7 @@ public class ItemInstance
             {
                 if (canUseWeapon)
                     {
-                        SpawnHitbox(user);
+                        SpawnHitboxBat(user);
                         System.Random random = new();
                         int attack = random.Next(0, 3);
                         canUseWeapon = false;
@@ -251,18 +251,19 @@ public class ItemInstance
         chat.ChangeChatSource("Chatw");
     }
 
-    public void SpawnHitbox(GameObject user)
+    public void SpawnHitboxBat(GameObject user)
     {
         if (data.itemType != ItemType.Weapon || data.hitbox == null)
         {
             Debug.LogWarning($"No hitbox assigned for weapon: {data.itemName}");
             return;
         }
+        Transform hitboxSpawn = GetDescendantByTag(worldObject, "HitboxSpawn");
+        Debug.Log($"HitboxSpawnSuccessful");
 
-
-        Vector3 spawnPosition = user.transform.position + user.transform.forward * data.offset;
+        Vector3 spawnPosition = hitboxSpawn.position;
         GameObject spawnedHitbox = GameObject.Instantiate(data.hitbox, spawnPosition, Quaternion.identity);
-        spawnedHitbox.transform.SetParent(worldObject.transform, true);
+        spawnedHitbox.transform.SetParent(hitboxSpawn, true);
         Debug.Log($"Spawned hitbox for {data.itemName} at {spawnPosition}");
 
         WeaponHitbox hitboxScript = spawnedHitbox.GetComponent<WeaponHitbox>();
@@ -271,6 +272,20 @@ public class ItemInstance
             hitboxScript.forceDirection = user.transform.forward;
         }
 
-        GameObject.Destroy(spawnedHitbox, 0.2f);
+        GameObject.Destroy(spawnedHitbox, 0.5f);
     }
+
+
+    Transform GetDescendantByTag(GameObject parent, string tag)
+    {
+        foreach (Transform child in parent.GetComponentsInChildren<Transform>())
+        {
+            if (child.CompareTag(tag))
+            {
+                return child;
+            }
+        }
+        return null;
+    }
+
 }

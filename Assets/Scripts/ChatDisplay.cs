@@ -26,6 +26,7 @@ public class ChatDisplay : MonoBehaviour
     public bool isSuperChat;
     private GameStats player;
     private int lastMinute = -1;
+    public string modName;
 
 
 
@@ -145,9 +146,18 @@ public class ChatDisplay : MonoBehaviour
 
     public void AddMessage(string newMessage)
     {
-        GameObject msgObj = Instantiate(messagePrefab, chatPanel);
-        msgObj.GetComponent<TextMeshProUGUI>().text = newMessage;
-        messageQueue.Enqueue(msgObj);
+        if (!isSuperChat)
+        {
+            GameObject msgObj = Instantiate(messagePrefab, chatPanel);
+            msgObj.GetComponent<TextMeshProUGUI>().text = newMessage;
+            messageQueue.Enqueue(msgObj);
+        }
+        if (isSuperChat)
+        {
+            GameObject msgObj = Instantiate(messagePrefab, chatPanel);
+            msgObj.GetComponent<TextMeshProUGUI>().text = $"{modName}: {newMessage}";
+            messageQueue.Enqueue(msgObj);
+        }
 
         if (messageQueue.Count > maxMessages)
         {
