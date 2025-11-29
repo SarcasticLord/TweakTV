@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5426542236284569968}
   - component: {fileID: 5004625027880159443}
-  - component: {fileID: 974860081781330059}
   m_Layer: 0
   m_Name: PlayerHitbox
   m_TagString: Hitbox
@@ -55,20 +54,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.5, y: 1.5, z: 1.5}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &974860081781330059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2070859564955905641}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 246e58ba003903a4681a437324964793, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  forceAmount: 100
-  forceDirection: {x: 0, y: 0, z: 0}
 --- !u!1001 &1956297323340409524
 PrefabInstance:
   m_ObjectHideFlags: 0

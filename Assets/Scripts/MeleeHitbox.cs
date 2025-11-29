@@ -10,10 +10,11 @@ public class WeaponHitbox : MonoBehaviour
 
         Debug.Log($"Hitbox triggered with {other.name}");
         Rigidbody rb = other.attachedRigidbody;
-
+        BeeChase bee = other.GetComponent<BeeChase>();
         if (rb != null)
         {
-            rb.AddForce(forceDirection * forceAmount, ForceMode.Impulse);
+            //bee.StartCoroutine(bee.KnockedOut());
+            //rb.AddForce(forceDirection * forceAmount, ForceMode.Impulse);
             Debug.Log($"Applied force to {other.name}");
         }
         // Check if the collided object has the EnemyHealth component
