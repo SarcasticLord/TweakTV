@@ -6,11 +6,11 @@ using UnityEngine.AI;
 
 public class EnemyStates : MonoBehaviour
 {
-    enum EnemyState { Wander, Chase, Attack, Victory }
+    public enum EnemyState { Wander, Chase, Attack, Victory, KnockedOut}
     EnemyState currentState;
 
-    public Transform player;
-    public PlayerHealth health;
+    private Transform player;
+    private PlayerHealth health;
     public float detectionRange = 10f;
     public float attackRange = 2f;
     public float wanderRadius = 5f;
@@ -28,6 +28,10 @@ public class EnemyStates : MonoBehaviour
     private Vector3 wanderTarget;
     private float idleTimer;
     private bool canAttack = true;
+
+    public float knockOutDuration = 3f;
+    public GameObject unconsciousIndicator;
+    private GameObject indicatorInstance;
 
 
     private Rigidbody rb;
@@ -67,6 +71,11 @@ public class EnemyStates : MonoBehaviour
                 break;
             case EnemyState.Victory:
                 break;
+
+            case EnemyState.KnockedOut:
+                KnockedOutBehavior();
+                break;
+
         }
     }
 
@@ -168,5 +177,46 @@ public class EnemyStates : MonoBehaviour
         canAttack = true;
     }
 
+
+    public void KnockOut()
+    {
+        currentState = EnemyState.KnockedOut;
+
+        // Disable NavMeshAgent
+        agent.isStopped = true;
+        agent.enabled = false;
+
+
+        // Optional: Apply force for dramatic effect
+        rb.AddForce(new Vector3(0,5,0) * 1f, ForceMode.Impulse);
+
+        // Spawn indicator
+        if (unconsciousIndicator != null && indicatorInstance == null)
+        {
+            indicatorInstance = Instantiate(unconsciousIndicator, transform.position + Vector3.up * 1.5f, Quaternion.identity);
+            indicatorInstance.transform.SetParent(transform);
+        }
+
+        StartCoroutine(RecoverFromKnockOut());
+    }
+
+    IEnumerator RecoverFromKnockOut()
+    {
+        yield return new WaitForSeconds(knockOutDuration);
+
+        // Remove indicator
+        if (indicatorInstance != null) Destroy(indicatorInstance);
+
+        // Restore NavMeshAgent
+        agent.enabled = true;
+        agent.isStopped = false;
+
+        currentState = EnemyState.Wander; // Or Chase if player is near
+    }
+
+    void KnockedOutBehavior()
+    {
+       KnockOut();
+    }
 
 }

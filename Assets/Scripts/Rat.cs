@@ -9,21 +9,23 @@ public class RatController : MonoBehaviour
     [SerializeField] private int maxHealth = 5;
     private int currentHealth;
 
-    [Header("Hit Reaction Settings")]
-    public float disableDuration = 2f; // Time to disable movement
+    //[Header("Hit Reaction Settings")]
+    //public float disableDuration = 2f; // Time to disable movement
     public GameObject hitParticle;
-    public GameObject unconsciousIndicator; // Prefab to hover above rat
-    public float indicatorHeight = 1.5f;
+    //public GameObject unconsciousIndicator; // Prefab to hover above rat
+    //public float indicatorHeight = 1.5f;
 
     private ChatDisplay chat;
-    private EnemyStates movementScript; // Reference to chase script
-    private GameObject indicatorInstance;
-    private Animator animator;
+    //private EnemyStates movementScript; // Reference to chase script
+    //private GameObject indicatorInstance;
+    //private Animator animator;
 
+    private EnemyStates ratStates;
     void Start()
     {
+        ratStates = gameObject.GetComponent<EnemyStates>();
         currentHealth = maxHealth;
-        movementScript = GetComponent<EnemyStates>(); // Replace with actual chase script type
+        //movementScript = GetComponent<EnemyStates>(); // Replace with actual chase script type
     }
 
     // ------------------- HEALTH -------------------
@@ -43,10 +45,10 @@ public class RatController : MonoBehaviour
         {
             Die();
         }
-        else
-        {
-            KnockOut();
-        }
+        //else
+        //{
+        //    ratStates.KnockOut();
+        //}
     }
 
     private void Die()
@@ -82,42 +84,40 @@ public class RatController : MonoBehaviour
     }
 
     // ------------------- KNOCKOUT LOGIC -------------------
-    private void KnockOut()
-    {
-        //if (movementScript != null) movementScript.enabled = false;
+    //private void KnockOut()
+    //{
+    //    if (movementScript != null) movementScript.enabled = false;
 
-        Rigidbody rb = GetComponent<Rigidbody>();
+    //    Rigidbody rb = gameObject.GetComponent<Rigidbody>();
 
-        if (rb != null)
-        {
-            rb.useGravity = true;
-            rb.AddForce(new Vector3(0,45,0) * 7, ForceMode.Impulse);
-            Debug.Log($"Applied force to {gameObject.name}");
-        }
-        animator.speed = 0;
-        // Spawn indicator above rat
-        if (unconsciousIndicator != null && indicatorInstance == null)
-        {
-            indicatorInstance = Instantiate(unconsciousIndicator, transform.position + Vector3.up * indicatorHeight, Quaternion.identity);
-            indicatorInstance.transform.SetParent(transform); // Follow rat
-        }
+    //    if (rb != null)
+    //    {
+    //        rb.useGravity = true;
+    //        rb.AddForce(new Vector3(0,45,0) * 7, ForceMode.Impulse);
+    //        Debug.Log($"Applied force to {gameObject.name}");
+    //    }
+    //    // Spawn indicator above rat
+    //    if (unconsciousIndicator != null && indicatorInstance == null)
+    //    {
+    //        indicatorInstance = Instantiate(unconsciousIndicator, transform.position + Vector3.up * indicatorHeight, Quaternion.identity);
+    //        indicatorInstance.transform.SetParent(transform); // Follow rat
+    //    }
 
-        StartCoroutine(RecoverFromKnockOut());
-    }
+    //    StartCoroutine(RecoverFromKnockOut());
+    //}
 
-    private IEnumerator RecoverFromKnockOut()
-    {
-        yield return new WaitForSeconds(disableDuration);
+    //private IEnumerator RecoverFromKnockOut()
+    //{
+    //    yield return new WaitForSeconds(disableDuration);
 
-        //if (movementScript != null) movementScript.enabled = true;
+    //    if (movementScript != null) movementScript.enabled = true;
 
-        Rigidbody rb = GetComponent<Rigidbody>();
-        if (rb != null) rb.useGravity = false;
-        animator.speed = 1;
-        if (indicatorInstance != null)
-        {
-            Destroy(indicatorInstance);
-        }
-    }
+    //    Rigidbody rb = gameObject.GetComponent<Rigidbody>();
+    //    if (rb != null) rb.useGravity = false;
+    //    if (indicatorInstance != null)
+    //    {
+    //        Destroy(indicatorInstance);
+    //    }
+    //}
 
 }
