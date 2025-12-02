@@ -20,6 +20,7 @@ TagManager:
   - KeyPad
   - PlayerHealth
   - HitboxSpawn
+  - BearTrap
   layers:
   - Default
   - TransparentFX

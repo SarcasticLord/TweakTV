@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -6,8 +7,14 @@ using UnityEngine.AI;
 
 public class EnemyStates : MonoBehaviour
 {
-    public enum EnemyState { Wander, Chase, Attack, Victory, KnockedOut}
+    public enum EnemyState { Wander, Chase, Attack, Victory, KnockedOut }
     EnemyState currentState;
+
+    [SerializeField] private int maxHealth = 5;
+    private int currentHealth;
+    public GameObject hitParticle;
+    public int knockOutChance;
+
 
     private Transform player;
     private PlayerHealth health;
@@ -33,11 +40,15 @@ public class EnemyStates : MonoBehaviour
     public GameObject unconsciousIndicator;
     private GameObject indicatorInstance;
 
+    private ChatDisplay chat;
+
+
 
     private Rigidbody rb;
 
     void Start()
     {
+        currentHealth = maxHealth;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         health = GameObject.FindGameObjectWithTag("PlayerHealth").GetComponent<PlayerHealth>();
         animator = GetComponent<Animator>();
@@ -45,6 +56,7 @@ public class EnemyStates : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         currentState = EnemyState.Wander;
         SetNewWanderTarget();
+        Debug.Log($"Starting Health: {currentHealth}");
     }
 
     void Update()
@@ -55,7 +67,7 @@ public class EnemyStates : MonoBehaviour
         }
 
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
-       
+
         switch (currentState)
         {
             case EnemyState.Wander:
@@ -73,7 +85,7 @@ public class EnemyStates : MonoBehaviour
                 break;
 
             case EnemyState.KnockedOut:
-                KnockedOutBehavior();
+                KnockOut();
                 break;
 
         }
@@ -144,7 +156,7 @@ public class EnemyStates : MonoBehaviour
 
     void SetNewWanderTarget()
     {
-        Vector3 randomDirection = Random.insideUnitSphere * wanderRadius;
+        Vector3 randomDirection = UnityEngine.Random.insideUnitSphere * wanderRadius;
         randomDirection += transform.position;
         NavMeshHit hit;
         NavMesh.SamplePosition(randomDirection, out hit, wanderRadius, 1);
@@ -180,15 +192,12 @@ public class EnemyStates : MonoBehaviour
 
     public void KnockOut()
     {
-        currentState = EnemyState.KnockedOut;
-
         // Disable NavMeshAgent
         agent.isStopped = true;
-        agent.enabled = false;
 
 
-        // Optional: Apply force for dramatic effect
-        rb.AddForce(new Vector3(0,5,0) * 1f, ForceMode.Impulse);
+        //// Optional: Apply force for dramatic effect
+        //rb.AddForce(new Vector3(0, 5, 0) * 1f, ForceMode.Impulse);
 
         // Spawn indicator
         if (unconsciousIndicator != null && indicatorInstance == null)
@@ -214,9 +223,63 @@ public class EnemyStates : MonoBehaviour
         currentState = EnemyState.Wander; // Or Chase if player is near
     }
 
-    void KnockedOutBehavior()
+    public void TakeDamage(int damageAmount)
     {
-       KnockOut();
+        GameObject chatObject = GameObject.Find("Chat");
+        if (chatObject != null)
+        {
+            chat = chatObject.GetComponent<ChatDisplay>();
+            //Chat
+        }
+
+        currentHealth -= damageAmount;
+        Debug.Log($"Rat took damage: Current Health {currentHealth}");
+
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+        else
+        {
+            int knockOut = UnityEngine.Random.Range(0, knockOutChance+1);
+            Debug.Log($"KnockOut Value: {knockOut}");
+            if(knockOut == 0)
+            {
+                currentState = EnemyState.KnockedOut;
+            }
+        }
     }
 
+    private void Die()
+    {
+        Destroy(gameObject);
+    }
+
+    // ------------------- HIT REACTION -------------------
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Train"))
+        {
+            TakeDamage(1);
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Hitbox"))
+        {
+            TakeDamage(1);
+            Destroy(other);
+            SpawnHitEffect();
+            Debug.Log("Rat hit by weapon! Disabling movement temporarily.");
+        }
+    }
+
+    private void SpawnHitEffect()
+    {
+        if (hitParticle != null)
+        {
+            Instantiate(hitParticle, transform.position, Quaternion.identity);
+        }
+    }
 }
