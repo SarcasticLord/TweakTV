@@ -184,29 +184,24 @@ public class ItemInstance
                 {
                     if (hit.collider.CompareTag("KeyPad"))
                     {
-                        Collider targetCollider = hit.collider;
-                        Rigidbody targetRb = targetCollider.GetComponent<Rigidbody>();
 
-                        if (targetCollider != null)
+                        // Change the third material to red
+                        Renderer renderer = hit.collider.GetComponent<Renderer>();
+                        if (renderer != null && renderer.materials.Length >= 3)
+
                         {
-                            targetCollider.enabled = true;
+                            Material[] mats = renderer.materials;
+                            mats[2].color = Color.green; // Change color of third material
+                            renderer.materials = mats;
                         }
 
-                        if (targetRb != null)
-                        {
-                            // Enable collider if needed
-                            hit.collider.enabled = true;
+                        // Remove the tag
+                        hit.collider.tag = "Untagged";
 
-                            // Remove constraints
-                            targetRb.constraints = RigidbodyConstraints.None;
-                            // Calculate direction from target to caster
-                            Vector3 directionToCaster = (camera.position - hit.transform.position).normalized;
-                            // Apply impulse force toward the caster
-                            targetRb.AddForce(directionToCaster * 5, ForceMode.Impulse);
+                        // Destroy after 5 seconds
 
-                        }
-                        UnityEngine.Object.Destroy(hit.collider.gameObject, 5f);
                         currentDurability--;
+
                     }
                 }
             }

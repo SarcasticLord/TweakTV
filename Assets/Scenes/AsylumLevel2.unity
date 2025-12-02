@@ -24276,6 +24276,55 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &224737542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224737543}
+  - component: {fileID: 224737544}
+  m_Layer: 0
+  m_Name: Singleton(Only Make Active if Playng from Scene)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &224737543
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224737542}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1901.7971, y: 924.7368, z: 1284.3759}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &224737544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 224737542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5917e39460b965d498c4dfc46ad3395e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  highscore: 0
+  time: 0
+  bestTime: 99999
+  totalElapsedTime: 0
 --- !u!1001 &225581021
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -203633,11 +203682,15 @@ MonoBehaviour:
   offMaterial: {fileID: 0}
   Exit: {fileID: 0}
   trackedtag: Collectibles
-  exitPrefab: {fileID: 1796259965190363843, guid: e9343cb1497a55240a3dc3cc083e58dd, type: 3}
+  exitItemPrefab: {fileID: 0}
   spawnPointsContainer: {fileID: 305741795}
   exitSpawn: 0
   streamSniperSpawn: {fileID: 2041462639}
   streamSniper: {fileID: 1896502746524963116, guid: 53438b95031d1c34e831334360bcb89b, type: 3}
+  doorPivot: {fileID: 0}
+  openAngle: 90
+  speed: 2
+  isOpen: 0
 --- !u!4 &2041462639
 Transform:
   m_ObjectHideFlags: 0
@@ -212115,6 +212168,7 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 224737543}
   - {fileID: 1056699799}
   - {fileID: 1251779341}
   - {fileID: 1685025483}

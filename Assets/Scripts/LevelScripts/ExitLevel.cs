@@ -81,6 +81,11 @@ public class ExitGame : MonoBehaviour
                 playerTransition.EndLevel();
                 Debug.Log($"Scene: {SceneManager.GetActiveScene().name}");
             }
+            if (currentScene.name == "TweakHQ")
+            {
+                playerTransition.EndLevel();
+                Debug.Log($"Scene: {SceneManager.GetActiveScene().name}");
+            }
         }
     }
 

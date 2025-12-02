@@ -44858,6 +44858,55 @@ Transform:
   - {fileID: 19954238}
   m_Father: {fileID: 1195711536}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &461293107
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 461293109}
+  - component: {fileID: 461293108}
+  m_Layer: 0
+  m_Name: Singleton(Only Make Active if Playng from Scene)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &461293108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461293107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5917e39460b965d498c4dfc46ad3395e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  highscore: 0
+  time: 0
+  bestTime: 99999
+  totalElapsedTime: 0
+--- !u!4 &461293109
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461293107}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1901.7971, y: 924.7368, z: 1284.3759}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &461602522
 GameObject:
   m_ObjectHideFlags: 0
@@ -57834,55 +57883,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2022999442}
   m_SourcePrefab: {fileID: 100100000, guid: f9f8e36c0c0264d43ae39d4b70b87539, type: 3}
---- !u!1 &554922802
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 554922804}
-  - component: {fileID: 554922803}
-  m_Layer: 0
-  m_Name: Singleton
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &554922803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554922802}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5917e39460b965d498c4dfc46ad3395e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: 0
-  highscore: 0
-  time: 0
-  bestTime: 99999
-  totalElapsedTime: 0
---- !u!4 &554922804
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554922802}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1901.7971, y: 924.7368, z: 1284.3759}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &554981797
 GameObject:
   m_ObjectHideFlags: 0
@@ -205168,11 +205168,15 @@ MonoBehaviour:
   offMaterial: {fileID: -3846018093981099296, guid: b9a30b774f617544aa3112ad6fad6554, type: 3}
   Exit: {fileID: 1324672744033641291, guid: 3490cfbb4aae0c7428d85194c225a5ec, type: 3}
   trackedtag: Enemy
-  exitPrefab: {fileID: 0}
+  exitItemPrefab: {fileID: 0}
   spawnPointsContainer: {fileID: 0}
   exitSpawn: 0
   streamSniperSpawn: {fileID: 1279549009}
   streamSniper: {fileID: 1896502746524963116, guid: 53438b95031d1c34e831334360bcb89b, type: 3}
+  doorPivot: {fileID: 0}
+  openAngle: 90
+  speed: 2
+  isOpen: 0
 --- !u!1001 &1506955871
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -266571,4 +266575,4 @@ SceneRoots:
   - {fileID: 8945062}
   - {fileID: 794712196}
   - {fileID: 831091464}
-  - {fileID: 554922804}
+  - {fileID: 461293109}
