@@ -24455,6 +24455,7 @@ MonoBehaviour:
   highscore: 0
   time: 0
   bestTime: 99999
+  TimeAsString: 
   totalElapsedTime: 0
 --- !u!1001 &225581021
 PrefabInstance:
@@ -159154,7 +159155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6098103265918108656, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6911618263080409418, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_LocalScale.z
