@@ -1,3 +1,4 @@
+using EasyPeasyFirstPersonController;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -19,7 +20,6 @@ public class GameStats : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void EndLevel()
     {
-        
         Singleton.Instance.score = subs;
         if (Singleton.Instance.score < Singleton.Instance.highscore)
         {
