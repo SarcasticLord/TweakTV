@@ -94,16 +94,15 @@ public class PlayerHealth : MonoBehaviour
     }
     public void Death()
     {
+        StartCoroutine(playerHit.Stunned(100));
         StartCooldown();
         weapons.SetActive(false);
         hud.SetActive(false);
-
         if (deathScreen != null)
         {
             deathScreen.enabled = true;
         }
         deathSound.Play();
-        StartCoroutine(playerHit.Stunned(100));
         targetPosition = player.transform.position + new Vector3(0, -1.3f, 0);
         targetRotation = Quaternion.Euler(player.transform.eulerAngles + new Vector3(-25f, 0, 40f));
         StartCoroutine(FallToSide());
