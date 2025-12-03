@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f7353ab15f9e6a441b794158e6f95f80, type: 3}
       propertyPath: m_Name
-      value: StreamSniper
+      value: StreamSniperRat
       objectReference: {fileID: 0}
     - target: {fileID: 6324240423935976452, guid: f7353ab15f9e6a441b794158e6f95f80, type: 3}
       propertyPath: m_IsActive
@@ -82,12 +82,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f7353ab15f9e6a441b794158e6f95f80, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3635477988195674640}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f7353ab15f9e6a441b794158e6f95f80, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2864819418403037636}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f7353ab15f9e6a441b794158e6f95f80, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1093704236226368234}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f7353ab15f9e6a441b794158e6f95f80, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7018086539362700975}
@@ -187,8 +181,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82619dac841a15e4d8e2919f74150fa7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 4455998166221778454, guid: b31476184a934af4c93c55496ff611cf, type: 3}
-  health: {fileID: 0}
+  maxHealth: 5
+  hitParticle: {fileID: 0}
+  knockOutChance: 0
   detectionRange: 100
   attackRange: 2
   wanderRadius: 100
@@ -199,35 +194,8 @@ MonoBehaviour:
   hitbox: {fileID: 1371328489957405031, guid: c54074abc2658d64494eca7b6e0adadf, type: 3}
   offset: 0
   attackCooldown: 1
---- !u!114 &2864819418403037636
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1896502746524963116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45171b32112595644b07209a65c808d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 300
---- !u!114 &1093704236226368234
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1896502746524963116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db004be46825ec341834c83bbf181156, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  disableDuration: 10
-  attackDuration: 1
-  hitParticle: {fileID: 3567050154118531774, guid: 3f8d026cd8203754ea2721da63e7d5b4, type: 3}
-  offset: 0
+  knockOutDuration: 3
+  unconsciousIndicator: {fileID: 0}
 --- !u!95 &7018086539362700975
 Animator:
   serializedVersion: 7
