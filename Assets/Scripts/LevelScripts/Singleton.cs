@@ -13,9 +13,9 @@ public class Singleton : MonoBehaviour
 
 
     // Level-based stats
-    //public Dictionary<int, int> levelScores = new Dictionary<int, int>();
-    //public Dictionary<int, int> levelHighScores = new Dictionary<int, int>();
-    //public Dictionary<int, float> levelBestTimes = new Dictionary<int, float>();
+    public Dictionary<int, int> levelScores = new Dictionary<int, int>();
+    public Dictionary<int, int> levelHighScores = new Dictionary<int, int>();
+    public Dictionary<int, float> levelBestTimes = new Dictionary<int, float>();
 
     // Global stats
     public float totalElapsedTime;
@@ -35,25 +35,24 @@ public class Singleton : MonoBehaviour
 
     public void UpdateScore(int level, int score)
     {
-        //levelScores[level] = score;
+        levelScores[level] = score;
 
-        //// Update high score if beaten
-        //if (!levelHighScores.ContainsKey(level) || score > levelHighScores[level])
-        //{
-        //    levelHighScores[level] = score;
-        //}
+        // Update high score if beaten
+        if (!levelHighScores.ContainsKey(level) || score > levelHighScores[level])
+        {
+            levelHighScores[level] = score;
+        }
     }
 
-    public void UpdateTime(float time)
+    public void UpdateTime(int level, float time)
     {
+        totalElapsedTime += time;
 
-        //totalElapsedTime += time;
-
-        //// Update best time if beaten
-        //if (!levelBestTimes.ContainsKey(level) || time < levelBestTimes[level])
-        //{
-        //    levelBestTimes[level] = time;
-        //}
+        // Update best time if beaten
+        if (!levelBestTimes.ContainsKey(level) || time < levelBestTimes[level])
+        {
+            levelBestTimes[level] = time;
+        }
     }
 
 }
