@@ -23,13 +23,11 @@ public class ChatDisplay : MonoBehaviour
     public TextMeshProUGUI chatMode;
     private string[] usernames;
     private string[] messages;
+    //Add list of textfiles here
     public bool isSuperChat;
     private GameStats player;
     private int lastMinute = -1;
     public string modName;
-
-
-
 
     void Update()
     {

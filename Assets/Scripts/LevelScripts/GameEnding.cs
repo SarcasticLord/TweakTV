@@ -13,13 +13,16 @@ public class GameStats : MonoBehaviour
     public TextMeshProUGUI timerText; // Assign a UI Text element in the Inspector
     public float elapsedTime;
     private float endtimer;
+    private PlayerHit playerHit;
     private void Start()
     {
+        playerHit = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHit>();
         elapsedTime = 0f;
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void EndLevel()
     {
+        StartCoroutine(playerHit.Stunned(20));
         Singleton.Instance.score = subs;
         if (Singleton.Instance.score < Singleton.Instance.highscore)
         {

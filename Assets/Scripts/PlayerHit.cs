@@ -47,14 +47,13 @@ public class PlayerHit : MonoBehaviour
         }
         if (other.CompareTag("BearTrap") == true)
         {
-            Debug.Log("Player Stunned!");
-            stunned = true;
             StartCoroutine(Stunned(stunDuration));
         }
     }
 
-    IEnumerator Stunned(int duration)
+    public IEnumerator Stunned(int duration)
     {
+        stunned = true;
         yield return new WaitForSeconds(duration);
         stunned = false;
     }

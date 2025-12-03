@@ -12,6 +12,7 @@ public class ExitGame : MonoBehaviour
     public GameObject player;
     private UnityEngine.SceneManagement.Scene currentScene;
     public float cooldownDuration = 3f;
+    public FirstPersonController firstPersonController;
 
 
 
@@ -20,6 +21,7 @@ public class ExitGame : MonoBehaviour
 
     void Start()
     {
+        firstPersonController = GameObject.FindGameObjectWithTag("WholePlayer").GetComponent<FirstPersonController>();
         Debug.Log($"Scene: {SceneManager.GetActiveScene()}");
         currentScene = SceneManager.GetActiveScene();
         weapons = GameObject.FindGameObjectWithTag("Hotbar");
@@ -32,7 +34,7 @@ public class ExitGame : MonoBehaviour
     {
         if (other.CompareTag("WholePlayer"))
         {
-            player.GetComponent<FirstPersonController>().enabled = false;
+            firstPersonController.enabled = false;
             weapons.SetActive(false);
             hud.SetActive(false);
             Debug.Log("You beat the level!");
@@ -83,7 +85,7 @@ public class ExitGame : MonoBehaviour
                 Debug.Log($"Scene: {SceneManager.GetActiveScene().name}");
             }
             if (currentScene.name == "TweakHQ")
-            { 
+            {
                 playerTransition.EndLevel();
                 Debug.Log($"Scene: {SceneManager.GetActiveScene().name}");
             }
