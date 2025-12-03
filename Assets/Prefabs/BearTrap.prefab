@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 910117492281049271}
   - component: {fileID: 8938230773852049658}
   - component: {fileID: 3770643898823538464}
-  - component: {fileID: 6391617679248699590}
   - component: {fileID: 3124630320423333636}
-  m_Layer: 0
+  - component: {fileID: 3377789100822692051}
+  - component: {fileID: 4395893921118479580}
+  m_Layer: 3
   m_Name: BearTrap
   m_TagString: BearTrap
   m_Icon: {fileID: 0}
@@ -29,13 +30,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1988639602174545962}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalRotation: {x: -0.7069834, y: 0, z: 0, w: 0.7072302}
   m_LocalPosition: {x: -103.99653, y: 0.57, z: -46.985184}
   m_LocalScale: {x: 15, y: 91.19986, z: 1.6241323}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -89.98, y: 0, z: 0}
 --- !u!33 &910117492281049271
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -113,34 +114,11 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!136 &6391617679248699590
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1988639602174545962}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.064667635
-  m_Height: 0.020393558
-  m_Direction: 1
-  m_Center: {x: -0.00021490641, y: 0.0001507392, z: 0.023325654}
 --- !u!114 &3124630320423333636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,3 +132,46 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   closedTrap: {fileID: 6157334120660741159, guid: 506ab5676d41c8940b1ff89f84b190aa, type: 3}
+--- !u!65 &3377789100822692051
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988639602174545962}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.123702765, y: 0.020393554, z: 0.28}
+  m_Center: {x: -0.00021490641, y: 0.00015073919, z: 0.023325654}
+--- !u!64 &4395893921118479580
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988639602174545962}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1597984597895746204, guid: bcbdd73968964a04bb11ff964497ead5, type: 3}

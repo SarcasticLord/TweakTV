@@ -5846,7 +5846,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 124289510}
-  - component: {fileID: 124289511}
   m_Layer: 0
   m_Name: Flashlight (8)
   m_TagString: Untagged
@@ -5871,33 +5870,6 @@ Transform:
   - {fileID: 830918083}
   m_Father: {fileID: 1813354364}
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: -180}
---- !u!54 &124289511
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 124289509}
-  serializedVersion: 4
-  m_Mass: 20
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1001 &125026798
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7377,7 +7349,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 138223639}
-  - component: {fileID: 138223640}
   m_Layer: 0
   m_Name: Flashlight (3)
   m_TagString: Untagged
@@ -7402,33 +7373,6 @@ Transform:
   - {fileID: 176335960}
   m_Father: {fileID: 1813354364}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180}
---- !u!54 &138223640
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 138223638}
-  serializedVersion: 4
-  m_Mass: 20
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &141045745
 GameObject:
   m_ObjectHideFlags: 0
@@ -24677,7 +24621,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 402905642}
-  - component: {fileID: 402905643}
   m_Layer: 0
   m_Name: Flashlight (9)
   m_TagString: Untagged
@@ -24702,33 +24645,6 @@ Transform:
   - {fileID: 340094221}
   m_Father: {fileID: 1813354364}
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: -180}
---- !u!54 &402905643
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 402905641}
-  serializedVersion: 4
-  m_Mass: 20
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1001 &403145078
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24915,7 +24831,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 406966028}
-  - component: {fileID: 406966029}
   m_Layer: 0
   m_Name: Flashlight (5)
   m_TagString: Untagged
@@ -24940,33 +24855,6 @@ Transform:
   - {fileID: 1244373651}
   m_Father: {fileID: 1813354364}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -180}
---- !u!54 &406966029
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 406966027}
-  serializedVersion: 4
-  m_Mass: 20
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &409856686
 GameObject:
   m_ObjectHideFlags: 0
@@ -26564,7 +26452,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 426424748}
-  - component: {fileID: 426424749}
   m_Layer: 0
   m_Name: Flashlight (2)
   m_TagString: Untagged
@@ -26589,33 +26476,6 @@ Transform:
   - {fileID: 2040357254}
   m_Father: {fileID: 1813354364}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180}
---- !u!54 &426424749
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 426424747}
-  serializedVersion: 4
-  m_Mass: 20
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1001 &427674046
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48265,7 +48125,6 @@ Transform:
   - {fileID: 1582283055}
   - {fileID: 569187929}
   - {fileID: 979321990}
-  - {fileID: 1234222701}
   - {fileID: 1038636726}
   - {fileID: 1821308147}
   - {fileID: 1813354364}
@@ -51278,7 +51137,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 791760082}
-  - component: {fileID: 791760083}
   m_Layer: 0
   m_Name: Flashlight (7)
   m_TagString: Untagged
@@ -51303,33 +51161,6 @@ Transform:
   - {fileID: 29147572}
   m_Father: {fileID: 1813354364}
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: -180}
---- !u!54 &791760083
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 791760081}
-  serializedVersion: 4
-  m_Mass: 20
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &792395391 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2728219760671135872, guid: 6c466bed7d816784bac4ffa2714579af, type: 3}
@@ -57346,7 +57177,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 837711701}
-  - component: {fileID: 837711702}
   m_Layer: 0
   m_Name: Flashlight (6)
   m_TagString: Untagged
@@ -57371,33 +57201,6 @@ Transform:
   - {fileID: 1040470563}
   m_Father: {fileID: 1813354364}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -180}
---- !u!54 &837711702
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 837711700}
-  serializedVersion: 4
-  m_Mass: 20
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1001 &837931583
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -88439,84 +88242,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 75565752}
   m_SourcePrefab: {fileID: 100100000, guid: 8995c0059113fd1429001f2b40bdbb9f, type: 3}
---- !u!1001 &1234222700
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 715143005}
-    m_Modifications:
-    - target: {fileID: 6103816211244793047, guid: c42114bfad8f00346b4443534e7121b1, type: 3}
-      propertyPath: m_Name
-      value: BatWithNails (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6103816211244793047, guid: c42114bfad8f00346b4443534e7121b1, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6213634414923906966, guid: c42114bfad8f00346b4443534e7121b1, type: 3}
-      propertyPath: itemSpawn
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6213634414923906966, guid: c42114bfad8f00346b4443534e7121b1, type: 3}
-      propertyPath: itemPrefab
-      value: 
-      objectReference: {fileID: 6751759981710865965, guid: 468ef7d13c51b4d40940939fbd19f1b0, type: 3}
-    - target: {fileID: 6213634414923906966, guid: c42114bfad8f00346b4443534e7121b1, type: 3}
-      propertyPath: pickupPrompt
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6319360677113294658, guid: c42114bfad8f00346b4443534e7121b1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -30.291
-      objectReference: {fileID: 0}
-    - target: {fileID: 6319360677113294658, guid: c42114bfad8f00346b4443534e7121b1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 10.79
-      objectReference: {fileID: 0}
-    - target: {fileID: 6319360677113294658, guid: c42114bfad8f00346b4443534e7121b1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 484.39737
-      objectReference: {fileID: 0}
-    - target: {fileID: 6319360677113294658, guid: c42114bfad8f00346b4443534e7121b1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6319360677113294658, guid: c42114bfad8f00346b4443534e7121b1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6319360677113294658, guid: c42114bfad8f00346b4443534e7121b1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6319360677113294658, guid: c42114bfad8f00346b4443534e7121b1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6319360677113294658, guid: c42114bfad8f00346b4443534e7121b1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6319360677113294658, guid: c42114bfad8f00346b4443534e7121b1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6319360677113294658, guid: c42114bfad8f00346b4443534e7121b1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c42114bfad8f00346b4443534e7121b1, type: 3}
---- !u!4 &1234222701 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6319360677113294658, guid: c42114bfad8f00346b4443534e7121b1, type: 3}
-  m_PrefabInstance: {fileID: 1234222700}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1239976916
 GameObject:
   m_ObjectHideFlags: 0
@@ -101992,7 +101717,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1487806548}
-  - component: {fileID: 1487806549}
   m_Layer: 0
   m_Name: Flashlight (4)
   m_TagString: Untagged
@@ -102017,33 +101741,6 @@ Transform:
   - {fileID: 256185371}
   m_Father: {fileID: 1813354364}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -180}
---- !u!54 &1487806549
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1487806547}
-  serializedVersion: 4
-  m_Mass: 20
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1491019035
 GameObject:
   m_ObjectHideFlags: 0
@@ -136803,7 +136500,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1232415781646240662, guid: 53438b95031d1c34e831334360bcb89b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 16.546177
+      value: 11.546177
       objectReference: {fileID: 0}
     - target: {fileID: 1232415781646240662, guid: 53438b95031d1c34e831334360bcb89b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -136900,33 +136597,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5885376460982138330}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &3127414692062637953
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3337454956163862818}
-  serializedVersion: 4
-  m_Mass: 20
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!108 &3291312292050654111
 Light:
   m_ObjectHideFlags: 0
@@ -137001,7 +136671,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5885376460982138330}
-  - component: {fileID: 3127414692062637953}
   m_Layer: 0
   m_Name: Flashlight (1)
   m_TagString: Untagged
