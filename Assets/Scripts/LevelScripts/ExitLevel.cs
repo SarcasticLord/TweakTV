@@ -77,7 +77,6 @@ public class ExitGame : MonoBehaviour
             {
                 StartCooldown();
                 other.transform.position = transform.position;
-                other.transform.rotation = Quaternion.Euler(0f, 270f, 0f);
             }
             if (currentScene.name == "AsylumLevel2")
             {

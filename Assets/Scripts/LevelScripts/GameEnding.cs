@@ -24,6 +24,7 @@ public class GameStats : MonoBehaviour
     {
         StartCoroutine(playerHit.Stunned(20));
         Singleton.Instance.score = subs;
+        Singleton.Instance.totalElapsedTime = elapsedTime;
         if (Singleton.Instance.score < Singleton.Instance.highscore)
         {
             Singleton.Instance.highscore = Singleton.Instance.score;

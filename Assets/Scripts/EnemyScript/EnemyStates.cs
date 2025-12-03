@@ -211,6 +211,7 @@ public class EnemyStates : MonoBehaviour
         // Spawn indicator
         if (unconsciousIndicator != null && indicatorInstance == null)
         {
+
             indicatorInstance = Instantiate(unconsciousIndicator, transform.position + Vector3.up * 1.5f, Quaternion.identity);
             indicatorInstance.transform.SetParent(transform);
         }

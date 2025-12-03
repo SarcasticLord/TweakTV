@@ -336,6 +336,8 @@ RectTransform:
   - {fileID: 2317742590708509189}
   - {fileID: 6293083941172974297}
   - {fileID: 5472012022074503745}
+  - {fileID: 3103404930443400676}
+  - {fileID: 5825935396063535360}
   m_Father: {fileID: 2845278801459582791}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1411,7 +1413,7 @@ RectTransform:
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 2845278801459582791}
+  m_Father: {fileID: 245590331695883963}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1864,7 +1866,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2845278801459582791}
+    m_TransformParent: {fileID: 245590331695883963}
     m_Modifications:
     - target: {fileID: 4584718276196612589, guid: 5180827ed17f8cc428c6f78f1cb6364d, type: 3}
       propertyPath: m_Name
@@ -1940,11 +1942,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7328860170788544450, guid: 5180827ed17f8cc428c6f78f1cb6364d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -996.8386
       objectReference: {fileID: 0}
     - target: {fileID: 7328860170788544450, guid: 5180827ed17f8cc428c6f78f1cb6364d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 164.99994
+      value: -349.0016
       objectReference: {fileID: 0}
     - target: {fileID: 7328860170788544450, guid: 5180827ed17f8cc428c6f78f1cb6364d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2170,12 +2172,6 @@ PrefabInstance:
       addedObject: {fileID: 6293537493396133475}
     - targetCorrespondingSourceObject: {fileID: 7330583044269739835, guid: c82236c16aae9d34fbd437f8dea6e2c9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5825935396063535360}
-    - targetCorrespondingSourceObject: {fileID: 7330583044269739835, guid: c82236c16aae9d34fbd437f8dea6e2c9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 3103404930443400676}
-    - targetCorrespondingSourceObject: {fileID: 7330583044269739835, guid: c82236c16aae9d34fbd437f8dea6e2c9, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 245590331695883963}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 9156347144040445547, guid: c82236c16aae9d34fbd437f8dea6e2c9, type: 3}
@@ -2251,7 +2247,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
