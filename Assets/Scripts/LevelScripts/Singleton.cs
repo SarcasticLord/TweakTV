@@ -9,7 +9,7 @@ public class Singleton : MonoBehaviour
     public int highscore;
     public float time;
     public float bestTime;
-
+    public string TimeAsString;
 
 
     // Level-based stats

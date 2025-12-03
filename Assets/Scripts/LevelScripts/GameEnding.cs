@@ -14,6 +14,9 @@ public class GameStats : MonoBehaviour
     public float elapsedTime;
     private float endtimer;
     private PlayerHit playerHit;
+
+    public string TimeAsString;
+
     private void Start()
     {
         playerHit = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHit>();
@@ -23,6 +26,7 @@ public class GameStats : MonoBehaviour
     public void EndLevel()
     {
         StartCoroutine(playerHit.Stunned(20));
+        Singleton.Instance.TimeAsString = timerText.text;
         Singleton.Instance.score = subs;
         Singleton.Instance.totalElapsedTime = elapsedTime;
         if (Singleton.Instance.score < Singleton.Instance.highscore)
@@ -49,5 +53,6 @@ public class GameStats : MonoBehaviour
         int seconds = Mathf.FloorToInt(elapsedTime % 60);
 
         timerText.text = $"{hours:00}:{minutes:00}:{seconds:00}";
+
     }
 }
