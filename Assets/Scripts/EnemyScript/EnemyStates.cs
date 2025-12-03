@@ -42,12 +42,15 @@ public class EnemyStates : MonoBehaviour
 
     private ChatDisplay chat;
 
+    private AudioSource audioSource;
+
 
 
     private Rigidbody rb;
 
     void Start()
     {
+        //audioSource = GetComponent<AudioSource>();
         currentHealth = maxHealth;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         health = GameObject.FindGameObjectWithTag("PlayerHealth").GetComponent<PlayerHealth>();
@@ -71,20 +74,26 @@ public class EnemyStates : MonoBehaviour
         switch (currentState)
         {
             case EnemyState.Wander:
+                //audioSource.Play();
                 WanderBehavior(distanceToPlayer);
                 break;
 
             case EnemyState.Chase:
+                //audioSource.Play();
                 ChaseBehavior(distanceToPlayer);
                 break;
 
             case EnemyState.Attack:
+                //audioSource.Play();
                 AttackBehavior(distanceToPlayer);
                 break;
+
             case EnemyState.Victory:
+                //audioSource.Stop();
                 break;
 
             case EnemyState.KnockedOut:
+                //audioSource.Stop();
                 KnockOut();
                 break;
 
@@ -194,7 +203,7 @@ public class EnemyStates : MonoBehaviour
     {
         // Disable NavMeshAgent
         agent.isStopped = true;
-
+        audioSource.Stop();
 
         //// Optional: Apply force for dramatic effect
         //rb.AddForce(new Vector3(0, 5, 0) * 1f, ForceMode.Impulse);
