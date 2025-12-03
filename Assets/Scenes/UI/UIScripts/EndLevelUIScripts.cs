@@ -20,6 +20,15 @@ public class EndLevelUIScripts : MonoBehaviour
         _endStreamButton.RegisterCallback<ClickEvent>(OnEndStreamClick);
     }
 
+    private void Start()
+    {
+        Label time_label= _document.rootVisualElement.Q("TimeElapsed") as Label;
+        if (time_label != null )
+        {
+            time_label.text = Singleton.Instance.time.ToString();
+        }
+    }
+
     private void OnDisable()
     {
         _endStreamButton.UnregisterCallback<ClickEvent>(OnEndStreamClick);
