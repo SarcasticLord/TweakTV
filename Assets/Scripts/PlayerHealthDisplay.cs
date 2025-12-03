@@ -27,12 +27,14 @@ public class PlayerHealth : MonoBehaviour
     private Quaternion targetRotation;
     private GameObject weapons;
     private GameObject hud;
+    private Rigidbody rb;
 
 
     private void Start()
     {
         weapons = GameObject.FindGameObjectWithTag("Hotbar");
         hud = GameObject.FindGameObjectWithTag("HUD");
+        rb = player.GetComponent<Rigidbody>();
         if (deathScreen != null)
         {
             deathScreen.enabled = false;
@@ -95,13 +97,14 @@ public class PlayerHealth : MonoBehaviour
         StartCooldown();
         weapons.SetActive(false);
         hud.SetActive(false);
+
         if (deathScreen != null)
         {
             deathScreen.enabled = true;
         }
         deathSound.Play();
-        FirstPersonController fps = player.GetComponent<FirstPersonController>();
-        fps.enabled = false;
+        
+        rb.isKinematic = true;
         targetPosition = player.transform.position + new Vector3(0, -1.3f, 0);
         targetRotation = Quaternion.Euler(player.transform.eulerAngles + new Vector3(-25f, 0, 40f));
         StartCoroutine(FallToSide());
