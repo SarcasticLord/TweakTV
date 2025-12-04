@@ -14,14 +14,9 @@ public class PickupAndThrow : MonoBehaviour
     private Rigidbody heldRigidbody;
     private bool isHolding = false;
     public Camera _camera;
-    public GameObject FPSController;
-    private FirstPersonController firstPersonController;
-    private CharacterController characterController;
 
     void Start()
     {
-        firstPersonController = FPSController.GetComponent<FirstPersonController>();
-        characterController = FPSController.GetComponent<CharacterController>();
     }
 
     void Update()
