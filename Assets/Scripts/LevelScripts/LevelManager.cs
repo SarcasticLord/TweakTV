@@ -1,6 +1,8 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
+using static EnemyStates;
 
 public class LevelManager : MonoBehaviour
 {
@@ -21,17 +23,28 @@ public class LevelManager : MonoBehaviour
     public bool isOpen = false;
     private bool keycardSpawned = false;
     private bool doorOpen = false;
+    public float timeToSpawn;
+    private float gameTime;
+    private bool sniperSpawned = false;
 
 
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
+        gameTime = GameObject.FindGameObjectWithTag("WholePlayer").GetComponent<GameStats>().elapsedTime;
+        Debug.Log($"Game Time: {gameTime}");
         Scene currentScene = SceneManager.GetActiveScene();
         int objectCount = GameObject.FindGameObjectsWithTag(trackedtag).Length;
         Debug.Log("Total GameObjects in scene: " + objectCount);
 
         // Print the scene name
         Debug.Log("Current Scene: " + currentScene.name);
+
+        if (gameTime >= timeToSpawn && !sniperSpawned)
+        {
+            SpawnStreamSniper();
+            sniperSpawned=true;
+        }
 
         //TweakHQ-Spawns Keycard
         if (currentScene.name == "TweakHQ" && !exitSpawn && keycardSpawned == false)
@@ -90,6 +103,7 @@ public class LevelManager : MonoBehaviour
         //TweakHQ End Level
         
     }
+
     //Universal
     public void SpawnStreamSniper()
     {
@@ -114,10 +128,11 @@ public class LevelManager : MonoBehaviour
         // Pick a random spawn point
         int randomIndex = Random.Range(0, childCount);
         Transform chosenSpawn = spawnPointsContainer.GetChild(randomIndex);
-        
+
         // Instantiate the door at the chosen spawn point
         Instantiate(exitItemPrefab, chosenSpawn.position, chosenSpawn.rotation);
     }
+
     //For the Subway
     public void ToggleLights()
     {
@@ -142,6 +157,5 @@ public class LevelManager : MonoBehaviour
             }
         }
     }
-
 
 }

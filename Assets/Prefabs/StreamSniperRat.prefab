@@ -186,7 +186,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 300
   hitParticle: {fileID: 3567050154118531774, guid: 3f8d026cd8203754ea2721da63e7d5b4, type: 3}
-  knockOutChance: 10
+  knockOutChance: 1
   detectionRange: 100
   attackRange: 2
   wanderRadius: 100
@@ -194,11 +194,11 @@ MonoBehaviour:
   wanderSpeed: 10
   chaseSpeed: 14
   attackSpeed: 0
-  hitbox: {fileID: 1371328489957405031, guid: c54074abc2658d64494eca7b6e0adadf, type: 3}
+  hitbox: {fileID: 1371328489957405031, guid: fc0efd528086b9c4aa76c8cf682344d1, type: 3}
   offset: 0
   attackCooldown: 1
   knockOutDuration: 3
-  unconsciousIndicator: {fileID: 919132149155446097, guid: 4f7a197490bc59d4694850a01778edfb, type: 3}
+  unconsciousIndicator: {fileID: 0}
 --- !u!95 &7018086539362700975
 Animator:
   serializedVersion: 7
@@ -259,14 +259,14 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 0.8
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1.78
-  MinDistance: 3
-  MaxDistance: 12
+  MinDistance: 4.109272
+  MaxDistance: 10.42387
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0

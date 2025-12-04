@@ -13,17 +13,18 @@ public class PlayerHit : MonoBehaviour
     public AudioSource grunt;
     public GameObject vfx;
     private Vector3 currentPos;
+    private GameObject playerCamera;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Start()
     {
         health = FindAnyObjectByType<PlayerHealth>();
         playerMovement = GameObject.FindGameObjectWithTag("WholePlayer").GetComponent<Transform>();
+        playerCamera = GameObject.FindGameObjectWithTag("MainCamera");
     }
     private void Update()
     {
         if (stunned)
         {
-            
             playerMovement.position = currentPos;
         }
     }
@@ -47,8 +48,10 @@ public class PlayerHit : MonoBehaviour
         }
         if (other.CompareTag("BearTrap") == true)
         {
+            CameraShake shake =  playerCamera.GetComponent<CameraShake>();
             currentPos = playerMovement.position;
             grunt.Play();
+            shake.StartShake();
             StartCoroutine(Stunned(stunDuration));
         }
     }
