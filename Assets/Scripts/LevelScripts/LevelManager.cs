@@ -12,7 +12,7 @@ public class LevelManager : MonoBehaviour
     public Material offMaterial;
     public GameObject Exit;
     public string trackedtag;
-    public GameObject exitItemPrefab;
+    public GameObject Keycard;
     public Transform spawnPointsContainer;
     public bool exitSpawn = false;
     public Transform streamSniperSpawn;
@@ -51,7 +51,7 @@ public class LevelManager : MonoBehaviour
         {
             Debug.Log("Keycard Spawned!");
             int childCount = spawnPointsContainer.childCount;
-            SpawnExit(childCount);
+            SpawnKeycard(childCount);
             keycardSpawned = true;
         }
 
@@ -76,9 +76,10 @@ public class LevelManager : MonoBehaviour
                 if (currentScene.name == "subway")
                 {
                     Debug.Log("You won in the Subway scene!");
-                    ToggleLights();
+                    
                     if (exitSpawn)
                     {
+                        ToggleLights();
                         SpawnStreamSniper();
                         Debug.Log("Lights off");
                         Instantiate(Exit, gameObject.transform.position, gameObject.transform.rotation);
@@ -105,8 +106,6 @@ public class LevelManager : MonoBehaviour
                 exitSpawn = true;
             }
         }
-        //TweakHQ End Level
-        
     }
 
     //Universal
@@ -132,6 +131,15 @@ public class LevelManager : MonoBehaviour
 
         // Instantiate the door at the chosen spawn point
         Instantiate(Exit, chosenSpawn.position, chosenSpawn.rotation);
+    }
+    public void SpawnKeycard(int childCount)
+    {
+        // Pick a random spawn point
+        int randomIndex = Random.Range(0, childCount);
+        Transform chosenSpawn = spawnPointsContainer.GetChild(randomIndex);
+
+        // Instantiate the door at the chosen spawn point
+        Instantiate(Keycard, chosenSpawn.position, chosenSpawn.rotation);
     }
 
     //For the Subway

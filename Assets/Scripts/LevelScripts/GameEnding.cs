@@ -25,7 +25,7 @@ public class GameStats : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void EndLevel()
     {
-        StartCoroutine(playerHit.Stunned(20));
+        //StartCoroutine(playerHit.Stunned(20));
         Singleton.Instance.TimeAsString = timerText.text;
         Singleton.Instance.score = subs;
         Singleton.Instance.totalElapsedTime = elapsedTime;

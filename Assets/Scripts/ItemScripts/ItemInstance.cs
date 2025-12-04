@@ -214,7 +214,7 @@ public class ItemInstance
     async void UseItem(int cooldownMilliseconds)
     {
             Debug.Log("Skill used!");
-            fpc.walkSpeed = 50f;
+            fpc.walkSpeed = 25f;
             coffeeVolume.enabled = true;
             await StartCooldown(cooldownMilliseconds);
             fpc.walkSpeed = 7f;

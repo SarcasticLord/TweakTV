@@ -4524,7 +4524,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6098103265918108656, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6911618263080409418, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12507,6 +12507,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1251779341}
     m_Modifications:
+    - target: {fileID: 778145156973020975, guid: b31476184a934af4c93c55496ff611cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902478086235417878, guid: b31476184a934af4c93c55496ff611cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3681066631951096400, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: m_Radius
       value: 0.52
@@ -18957,7 +18965,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6098103265918108656, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6911618263080409418, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_LocalScale.z
@@ -69370,7 +69378,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6098103265918108656, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6911618263080409418, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_LocalScale.z
@@ -74551,7 +74559,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6098103265918108656, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6911618263080409418, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_LocalScale.z
@@ -77066,7 +77074,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6098103265918108656, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6911618263080409418, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_LocalPosition.x
@@ -77729,7 +77737,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6098103265918108656, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6911618263080409418, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_LocalScale.z
@@ -103438,7 +103446,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6098103265918108656, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6911618263080409418, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_LocalScale.z
@@ -114289,7 +114297,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6098103265918108656, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6911618263080409418, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_LocalScale.z
@@ -126407,7 +126415,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6098103265918108656, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6911618263080409418, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_LocalScale.z
@@ -143632,7 +143640,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6098103265918108656, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6911618263080409418, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_LocalScale.z
@@ -159271,7 +159279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6098103265918108656, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6911618263080409418, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_LocalScale.z
@@ -194647,7 +194655,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6098103265918108656, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6911618263080409418, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_LocalScale.z
@@ -203005,7 +203013,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6098103265918108656, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6911618263080409418, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_LocalScale.z
@@ -206117,7 +206125,7 @@ MonoBehaviour:
   offMaterial: {fileID: 0}
   Exit: {fileID: 1796259965190363843, guid: e9343cb1497a55240a3dc3cc083e58dd, type: 3}
   trackedtag: Collectibles
-  exitItemPrefab: {fileID: 0}
+  Keycard: {fileID: 0}
   spawnPointsContainer: {fileID: 305741795}
   exitSpawn: 0
   streamSniperSpawn: {fileID: 2041462639}
@@ -206127,7 +206135,7 @@ MonoBehaviour:
   speed: 2
   isOpen: 0
   timeToSpawn: 300
-  minObjects: 0
+  minObjects: 5
 --- !u!4 &2041462639
 Transform:
   m_ObjectHideFlags: 0
@@ -213079,7 +213087,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6098103265918108656, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6911618263080409418, guid: 635dd4489ec07754b8fec673ee2f6dfe, type: 3}
       propertyPath: m_LocalScale.z

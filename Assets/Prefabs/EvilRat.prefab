@@ -22,15 +22,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 701b1121dc2d14a4f812e9758079d29d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -97.28553
+      value: 16.104
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 701b1121dc2d14a4f812e9758079d29d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 701b1121dc2d14a4f812e9758079d29d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.4
+      value: -121.08002
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 701b1121dc2d14a4f812e9758079d29d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -70,7 +70,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 701b1121dc2d14a4f812e9758079d29d, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Collectibles
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -185,7 +185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82619dac841a15e4d8e2919f74150fa7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 15
+  maxHealth: 3
   hitParticle: {fileID: 3567050154118531774, guid: 3f8d026cd8203754ea2721da63e7d5b4, type: 3}
   knockOutChance: 1
   detectionRange: 25
@@ -197,9 +197,9 @@ MonoBehaviour:
   attackSpeed: 0
   hitbox: {fileID: 1371328489957405031, guid: c54074abc2658d64494eca7b6e0adadf, type: 3}
   offset: 0
-  attackCooldown: 1
+  attackCooldown: 10
   knockOutDuration: 5
-  unconsciousIndicator: {fileID: 0}
+  unconsciousIndicator: {fileID: 4611314927788911721, guid: 965cfbcce72ea574193ec6a1d16ad4f8, type: 3}
 --- !u!95 &832057380762405404
 Animator:
   serializedVersion: 7
@@ -265,8 +265,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 0.53
-  MinDistance: 1
-  MaxDistance: 10
+  MinDistance: 3
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0

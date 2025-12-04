@@ -79,12 +79,13 @@ public class ExitGame : MonoBehaviour
                 StartCooldown();
                 other.transform.position = transform.position;
             }
-            if (currentScene.name == "AsylumLevel2")
+            else if (currentScene.name == "AsylumLevel2")
             {
+                other.transform.position = transform.position;
                 playerTransition.EndLevel();
                 Debug.Log($"Scene: {SceneManager.GetActiveScene().name}");
             }
-            if (currentScene.name == "TweakHQ")
+            else if (currentScene.name == "TweakHQ")
             {
                 playerTransition.EndLevel();
                 other.transform.position = transform.position;
