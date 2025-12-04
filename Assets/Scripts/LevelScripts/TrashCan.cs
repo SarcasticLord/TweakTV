@@ -14,7 +14,7 @@ public class TrashCan : MonoBehaviour
         {
             Destroy(other.gameObject);
             Instantiate(confetti, gameObject.transform.position, Quaternion.Euler(-90,0,0));
-
+            gameObject.GetComponent<AudioSource>().Play();
         }
     }
 
