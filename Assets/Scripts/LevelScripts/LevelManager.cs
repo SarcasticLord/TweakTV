@@ -26,13 +26,13 @@ public class LevelManager : MonoBehaviour
     public float timeToSpawn;
     private float gameTime;
     private bool sniperSpawned = false;
+    public int minObjects = 1;
 
 
     // Update is called once per frame
     public void Update()
     {
         gameTime = GameObject.FindGameObjectWithTag("WholePlayer").GetComponent<GameStats>().elapsedTime;
-        Debug.Log($"Game Time: {gameTime}");
         Scene currentScene = SceneManager.GetActiveScene();
         int objectCount = GameObject.FindGameObjectsWithTag(trackedtag).Length;
         Debug.Log("Total GameObjects in scene: " + objectCount);
@@ -55,7 +55,7 @@ public class LevelManager : MonoBehaviour
             keycardSpawned = true;
         }
 
-        if (objectCount <= 5)
+        if (objectCount <= minObjects)
         {
             if (currentScene.name == "AsylumLevel2" && !exitSpawn)
             {
@@ -73,12 +73,17 @@ public class LevelManager : MonoBehaviour
             if (objectCount <= 0)
             {
                 
-                if (currentScene.name == "subway" && !exitSpawn)
+                if (currentScene.name == "subway")
                 {
                     Debug.Log("You won in the Subway scene!");
                     ToggleLights();
-                    Debug.Log("Lights off");
-                    Instantiate(Exit, gameObject.transform.position, gameObject.transform.rotation);
+                    if (exitSpawn)
+                    {
+                        SpawnStreamSniper();
+                        Debug.Log("Lights off");
+                        Instantiate(Exit, gameObject.transform.position, gameObject.transform.rotation);
+                        exitSpawn = false;
+                    }
                 }
                 //TweakHQ
                 if(currentScene.name == "TweakHQ")
@@ -119,24 +124,19 @@ public class LevelManager : MonoBehaviour
     //For the Asylum
     public void SpawnExit(int childCount)
     {
-        Scene currentScene = SceneManager.GetActiveScene();
-        if (currentScene.name != "TweakHQ")
-        {
-            exitSpawn = true;
-        }
+        exitSpawn = true;
 
         // Pick a random spawn point
         int randomIndex = Random.Range(0, childCount);
         Transform chosenSpawn = spawnPointsContainer.GetChild(randomIndex);
 
         // Instantiate the door at the chosen spawn point
-        Instantiate(exitItemPrefab, chosenSpawn.position, chosenSpawn.rotation);
+        Instantiate(Exit, chosenSpawn.position, chosenSpawn.rotation);
     }
 
     //For the Subway
     public void ToggleLights()
     {
-        SpawnStreamSniper();
         GameObject[] lights = GameObject.FindGameObjectsWithTag("SubwayLight");
         foreach (GameObject lightObj in lights)
         {

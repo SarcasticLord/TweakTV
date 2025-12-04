@@ -34,6 +34,7 @@ public class ExitGame : MonoBehaviour
     {
         if (other.CompareTag("WholePlayer"))
         {
+            other.transform.position = transform.position;
             firstPersonController.enabled = false;
             weapons.SetActive(false);
             hud.SetActive(false);
@@ -86,6 +87,7 @@ public class ExitGame : MonoBehaviour
             if (currentScene.name == "TweakHQ")
             {
                 playerTransition.EndLevel();
+                other.transform.position = transform.position;
                 Debug.Log($"Scene: {SceneManager.GetActiveScene().name}");
             }
         }

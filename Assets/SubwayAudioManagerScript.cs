@@ -15,7 +15,7 @@ public class SubwayAudioManagerScript : MonoBehaviour
     {
         float randomDelay = Random.Range(minDelay, maxDelay);
         Invoke("PlayAudio", randomDelay);
-        Debug.Log($"Next action in: {randomDelay} seconds.");
+        //Debug.Log($"Next action in: {randomDelay} seconds.");
     }
 
     void PlayAudio()

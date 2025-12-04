@@ -15,13 +15,15 @@ public class PickupAndThrow : MonoBehaviour
     private bool isHolding = false;
     public Camera _camera;
 
-    void Start()
-    {
-    }
-
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.T))
+        // If the held object was destroyed or missing, reset the hold state.
+        if (isHolding && (heldObject == null || heldRigidbody == null))
+        {
+            ClearHoldState();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             if (isHolding)
             {
@@ -33,35 +35,17 @@ public class PickupAndThrow : MonoBehaviour
             }
         }
 
-        if (isHolding && heldObject != null)
+        // Move/rotate the held object to the hold point (only if valid)
+        if (isHolding && heldObject != null && heldRigidbody != null)
         {
-            // Sync position and rotation of the entire GameObject to holdPoint
             heldObject.transform.position = holdPoint.position;
             heldObject.transform.rotation = holdPoint.rotation;
+            // Optionally also zero velocities to prevent jitter
+            heldRigidbody.linearVelocity = Vector3.zero;
+            heldRigidbody.angularVelocity = Vector3.zero;
         }
     }
 
-    //Old Pickup Method
-    //void TryPickup()
-    //{
-    //    Ray ray = new Ray(transform.position, transform.forward);
-    //    if (Physics.Raycast(ray, out RaycastHit hit, pickupRange, pickupLayer))
-    //    {
-    //        GameObject targetObject = hit.collider.gameObject;
-    //        Rigidbody rb = targetObject.GetComponent<Rigidbody>();
-    //        if (rb != null)
-    //        {
-    //            heldObject = targetObject;
-    //            heldRigidbody = rb;
-    //            heldRigidbody.useGravity = false;
-    //            heldRigidbody.linearVelocity = Vector3.zero;
-    //            heldRigidbody.angularVelocity = Vector3.zero;
-    //            heldRigidbody.constraints = RigidbodyConstraints.FreezeRotation;
-
-    //            isHolding = true;
-    //        }
-    //    }
-    //}
     void TryPickup()
     {
         // Get all objects in a sphere
@@ -94,8 +78,10 @@ public class PickupAndThrow : MonoBehaviour
             {
                 heldObject = closest.gameObject;
                 heldRigidbody = rb;
+
+                // Prepare rigidbody for holding
                 heldRigidbody.useGravity = false;
-                heldRigidbody.linearVelocity = Vector3.zero;
+                heldRigidbody.linearVelocity = Vector3.zero;          // Use Rigidbody.velocity (not linearVelocity)
                 heldRigidbody.angularVelocity = Vector3.zero;
                 heldRigidbody.constraints = RigidbodyConstraints.FreezeRotation;
 
@@ -104,23 +90,46 @@ public class PickupAndThrow : MonoBehaviour
         }
     }
 
-    void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.green;
-        Gizmos.DrawWireSphere(transform.position + transform.forward * pickupRange * 0.5f, pickupRange);
-    }
-
     void ThrowObject()
     {
+        // If the object got destroyed or missing, just clear and return
+        if (heldObject == null || heldRigidbody == null)
+        {
+            ClearHoldState();
+            return;
+        }
+
+        // Restore physics settings before throwing
         heldRigidbody.useGravity = true;
         heldRigidbody.constraints = RigidbodyConstraints.None;
-        
-        Vector3 throwDirection = _camera.transform.forward;
+
+        Vector3 throwDirection = _camera != null ? _camera.transform.forward : transform.forward;
         heldRigidbody.AddForce(throwDirection * throwForce, ForceMode.Impulse);
 
+        ClearHoldState();
+    }
+
+    /// <summary>
+    /// Safely clears the state of the currently held object.
+    /// Does not assume the object or rigidbody exists.
+    /// </summary>
+    private void ClearHoldState()
+    {
+        // If the rb still exists, ensure it's usable again (gravity on, constraints none).
+        if (heldRigidbody != null)
+        {
+            heldRigidbody.useGravity = true;
+            heldRigidbody.constraints = RigidbodyConstraints.None;
+        }
 
         heldObject = null;
         heldRigidbody = null;
         isHolding = false;
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(transform.position + transform.forward * pickupRange * 0.5f, pickupRange);
     }
 }

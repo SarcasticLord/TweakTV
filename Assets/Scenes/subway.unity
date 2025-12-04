@@ -728,7 +728,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4827336216684728739, guid: cc1a3018731a87441a84f69b4e06232b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4827336216684728739, guid: cc1a3018731a87441a84f69b4e06232b, type: 3}
       propertyPath: m_TagString
@@ -208646,6 +208646,8 @@ MonoBehaviour:
   openAngle: 90
   speed: 2
   isOpen: 0
+  timeToSpawn: 0
+  minObjects: 1
 --- !u!1001 &1506955871
 PrefabInstance:
   m_ObjectHideFlags: 0
