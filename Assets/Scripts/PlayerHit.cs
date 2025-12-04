@@ -7,24 +7,24 @@ public class PlayerHit : MonoBehaviour
 {
     public int damageAmount;
     private PlayerHealth health;
-    private FirstPersonController playerMovement;
+    private Transform playerMovement;
     private bool stunned;
     public int stunDuration = 3;
+    public AudioSource grunt;
+    public GameObject vfx;
+    private Vector3 currentPos;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Start()
     {
         health = FindAnyObjectByType<PlayerHealth>();
-        playerMovement = GameObject.FindGameObjectWithTag("WholePlayer").GetComponent<FirstPersonController>();
+        playerMovement = GameObject.FindGameObjectWithTag("WholePlayer").GetComponent<Transform>();
     }
     private void Update()
     {
         if (stunned)
         {
-            playerMovement.enabled = false;
-        }
-        else
-        {
-            playerMovement.enabled = true;
+            
+            playerMovement.position = currentPos;
         }
     }
 
@@ -47,6 +47,8 @@ public class PlayerHit : MonoBehaviour
         }
         if (other.CompareTag("BearTrap") == true)
         {
+            currentPos = playerMovement.position;
+            grunt.Play();
             StartCoroutine(Stunned(stunDuration));
         }
     }
@@ -54,7 +56,9 @@ public class PlayerHit : MonoBehaviour
     public IEnumerator Stunned(int duration)
     {
         stunned = true;
+        vfx.SetActive(true);
         yield return new WaitForSeconds(duration);
+        vfx.SetActive(false);
         stunned = false;
     }
     // Update is called once per frame

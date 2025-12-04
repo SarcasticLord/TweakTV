@@ -7120,6 +7120,11 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!82 &473477935 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3088820546005276048, guid: b31476184a934af4c93c55496ff611cf, type: 3}
+  m_PrefabInstance: {fileID: 987055495}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &515066829
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7833,6 +7838,10 @@ PrefabInstance:
     - target: {fileID: 4827336216684728739, guid: cc1a3018731a87441a84f69b4e06232b, type: 3}
       propertyPath: m_Name
       value: EvilRat
+      objectReference: {fileID: 0}
+    - target: {fileID: 4827336216684728739, guid: cc1a3018731a87441a84f69b4e06232b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5311419732026411801, guid: cc1a3018731a87441a84f69b4e06232b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10147,6 +10156,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2571994894616173778, guid: b31476184a934af4c93c55496ff611cf, type: 3}
+      propertyPath: vfx
+      value: 
+      objectReference: {fileID: 1290598957}
+    - target: {fileID: 2571994894616173778, guid: b31476184a934af4c93c55496ff611cf, type: 3}
+      propertyPath: grunt
+      value: 
+      objectReference: {fileID: 473477935}
+    - target: {fileID: 3088820546005276048, guid: b31476184a934af4c93c55496ff611cf, type: 3}
+      propertyPath: Loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3088820546005276048, guid: b31476184a934af4c93c55496ff611cf, type: 3}
+      propertyPath: m_Pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3088820546005276048, guid: b31476184a934af4c93c55496ff611cf, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 6418180475301049370, guid: 3cca0d92c4792984aa7b7f53a00b8297, type: 2}
+    - target: {fileID: 3088820546005276048, guid: b31476184a934af4c93c55496ff611cf, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3088820546005276048, guid: b31476184a934af4c93c55496ff611cf, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3374823194403190876, guid: b31476184a934af4c93c55496ff611cf, type: 3}
+      propertyPath: m_Name
+      value: DeathSound
+      objectReference: {fileID: 0}
     - target: {fileID: 4455998166221778454, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -108
@@ -11812,6 +11853,55 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1588555605}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1290598957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1290598959}
+  - component: {fileID: 1290598958}
+  m_Layer: 0
+  m_Name: Stunned
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1290598958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290598957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 5e8a142f92effe2489f09c2449795088, type: 2}
+--- !u!4 &1290598959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290598957}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.5608096, y: -1.3540164, z: 7.9908614}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1293975876
 PrefabInstance:
@@ -19942,6 +20032,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StreamSniper
       objectReference: {fileID: 0}
+    - target: {fileID: 1896502746524963116, guid: 53438b95031d1c34e831334360bcb89b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3635477988195674640, guid: 53438b95031d1c34e831334360bcb89b, type: 3}
       propertyPath: hitbox
       value: 
@@ -20804,6 +20898,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 832575519}
   - {fileID: 1397825152}
+  - {fileID: 1290598959}
   - {fileID: 1588555605}
   - {fileID: 134345595}
   - {fileID: 6550062593679239350}
@@ -20817,7 +20912,6 @@ SceneRoots:
   - {fileID: 1348102470}
   - {fileID: 833813328}
   - {fileID: 745287195}
-  - {fileID: 987055495}
   - {fileID: 1096764509}
   - {fileID: 585126352}
   - {fileID: 534933653}
@@ -20829,3 +20923,4 @@ SceneRoots:
   - {fileID: 1798720280}
   - {fileID: 713654521}
   - {fileID: 5641276487747847150}
+  - {fileID: 987055495}
