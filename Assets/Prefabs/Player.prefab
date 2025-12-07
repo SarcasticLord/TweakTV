@@ -797,11 +797,11 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 0
-  m_Color: {r: 0.93710685, g: 0.8882881, b: 0.56874716, a: 1}
-  m_Intensity: 100
+  m_Color: {r: 0.98742133, g: 0.95689887, b: 0.7483287, a: 1}
+  m_Intensity: 15
   m_Range: 100
-  m_SpotAngle: 108.864784
-  m_InnerSpotAngle: 10
+  m_SpotAngle: 111.98518
+  m_InnerSpotAngle: 13.120436
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -829,7 +829,7 @@ Light:
       e32: 0
       e33: 1
     m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
+  m_Cookie: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
   m_RenderMode: 0
@@ -2500,7 +2500,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageAmount: 0
   stunDuration: 3
-  grunt: {fileID: 0}
+  grunt: {fileID: 3088820546005276048}
   vfx: {fileID: 0}
 --- !u!136 &2517690507910407999
 CapsuleCollider:
@@ -2653,6 +2653,34 @@ MonoBehaviour:
   maxShakeDistance: 200
   maxShakeIntensity: 0.3
   shakeFrequency: 25
+  defaultDuration: 1
+  defaultIntensity: 0.3
+  defaultFrequency: 20
+  useUnscaledTime: 0
+  intensityOverTime:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!20 &4455998166401971959 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 9156347143994207883, guid: c82236c16aae9d34fbd437f8dea6e2c9, type: 3}

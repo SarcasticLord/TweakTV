@@ -104567,58 +104567,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 778145156973020975, guid: b31476184a934af4c93c55496ff611cf, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1732075959845819099, guid: b31476184a934af4c93c55496ff611cf, type: 3}
-      propertyPath: m_Cookie
-      value: 
-      objectReference: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
-    - target: {fileID: 1732075959845819099, guid: b31476184a934af4c93c55496ff611cf, type: 3}
-      propertyPath: m_Color.b
-      value: 0.7483287
-      objectReference: {fileID: 0}
-    - target: {fileID: 1732075959845819099, guid: b31476184a934af4c93c55496ff611cf, type: 3}
-      propertyPath: m_Color.g
-      value: 0.95689887
-      objectReference: {fileID: 0}
-    - target: {fileID: 1732075959845819099, guid: b31476184a934af4c93c55496ff611cf, type: 3}
-      propertyPath: m_Color.r
-      value: 0.98742133
-      objectReference: {fileID: 0}
-    - target: {fileID: 1732075959845819099, guid: b31476184a934af4c93c55496ff611cf, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1732075959845819099, guid: b31476184a934af4c93c55496ff611cf, type: 3}
-      propertyPath: m_Intensity
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 1732075959845819099, guid: b31476184a934af4c93c55496ff611cf, type: 3}
-      propertyPath: m_SpotAngle
-      value: 111.98518
-      objectReference: {fileID: 0}
-    - target: {fileID: 1732075959845819099, guid: b31476184a934af4c93c55496ff611cf, type: 3}
-      propertyPath: m_InnerSpotAngle
-      value: 13.120436
-      objectReference: {fileID: 0}
     - target: {fileID: 2571994894616173778, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: vfx
       value: 
       objectReference: {fileID: 647947072}
-    - target: {fileID: 2571994894616173778, guid: b31476184a934af4c93c55496ff611cf, type: 3}
-      propertyPath: grunt
-      value: 
-      objectReference: {fileID: 1508795742}
-    - target: {fileID: 2601176392338067263, guid: b31476184a934af4c93c55496ff611cf, type: 3}
-      propertyPath: defaultDuration
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902478086235417878, guid: b31476184a934af4c93c55496ff611cf, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4455998166221778454, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.4332676
@@ -104663,20 +104615,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player1
       objectReference: {fileID: 0}
-    - target: {fileID: 5446625250855173797, guid: b31476184a934af4c93c55496ff611cf, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b31476184a934af4c93c55496ff611cf, type: 3}
---- !u!82 &1508795742 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 3088820546005276048, guid: b31476184a934af4c93c55496ff611cf, type: 3}
-  m_PrefabInstance: {fileID: 1508795741}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1517088887
 PrefabInstance:
   m_ObjectHideFlags: 0
