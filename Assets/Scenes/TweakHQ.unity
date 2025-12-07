@@ -104610,6 +104610,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1732075959845819099, guid: b31476184a934af4c93c55496ff611cf, type: 3}
+      propertyPath: m_Intensity
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 2571994894616173778, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: vfx
       value: 
@@ -124755,7 +124759,7 @@ MonoBehaviour:
   triggerLayers:
     serializedVersion: 2
     m_Bits: 128
-  blendSeconds: 5
+  blendSeconds: 3
 --- !u!1001 &1878062220
 PrefabInstance:
   m_ObjectHideFlags: 0
