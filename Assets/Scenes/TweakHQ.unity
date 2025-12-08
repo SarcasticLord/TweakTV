@@ -104610,6 +104610,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 778145156973020975, guid: b31476184a934af4c93c55496ff611cf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1732075959845819099, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: m_Intensity
       value: 50
@@ -104618,6 +104622,10 @@ PrefabInstance:
       propertyPath: vfx
       value: 
       objectReference: {fileID: 647947072}
+    - target: {fileID: 2902478086235417878, guid: b31476184a934af4c93c55496ff611cf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4455998166221778454, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.4332676
@@ -104662,6 +104670,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player1
       objectReference: {fileID: 0}
+    - target: {fileID: 4455998166221778455, guid: b31476184a934af4c93c55496ff611cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5417222899953396521, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: pickupAngle
       value: 30
@@ -104669,6 +104681,10 @@ PrefabInstance:
     - target: {fileID: 5417222899953396521, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: pickupRange
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6495341938528304781, guid: b31476184a934af4c93c55496ff611cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
