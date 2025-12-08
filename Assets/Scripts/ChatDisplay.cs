@@ -84,7 +84,7 @@ public class ChatDisplay : MonoBehaviour
 
    public void CycleChatSource()
    {
-       string[] chatOptions = { "Chat","Combat","Death" };
+       string[] chatOptions = { "chat","combat", "death", "bored" };
        messageType += 1;
        if (messageType > chatOptions.Length-1)
        {

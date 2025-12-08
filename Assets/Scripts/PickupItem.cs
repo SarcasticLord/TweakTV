@@ -50,7 +50,7 @@ public class PickupItem : MonoBehaviour
     {
         if (playerInRange == true) {
             pickupPrompt.sprite = pickup;
-            if (playerInRange && Input.GetMouseButtonDown(1))
+            if (playerInRange && Input.GetKeyDown(KeyCode.E))
             {
                 if (inventoryManager != null && inventoryManager.hotbarUI != null)
                 {

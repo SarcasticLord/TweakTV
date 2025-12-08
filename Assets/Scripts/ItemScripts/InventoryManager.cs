@@ -47,7 +47,7 @@ public class InventoryManager : MonoBehaviour
     {
 
         // Switch item with Tab
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Tab))
         {
             SwitchItem(1); // Cycle forward
         }
