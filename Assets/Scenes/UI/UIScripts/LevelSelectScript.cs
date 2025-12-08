@@ -7,8 +7,11 @@ public class LevelSelectScript : MonoBehaviour
     public GameController controller;
 
     public GameObject AsylumSelectedIcon;
+    public GameObject AsylumImage;
     public GameObject SubwaySelectedIcon;
+    public GameObject SubwayImage;
     public GameObject TweakHQSelectedIcon;
+    public GameObject TweakHQImage; 
 
 
     [SerializeField] private string TitleScreen = "TitleScreen";
@@ -30,6 +33,10 @@ public class LevelSelectScript : MonoBehaviour
         AsylumSelectedIcon.SetActive(true);
         SubwaySelectedIcon.SetActive(false);
         TweakHQSelectedIcon.SetActive(false);
+
+        AsylumImage.SetActive(true);
+        SubwayImage.SetActive(false);
+        TweakHQImage.SetActive(false);
 
         _back = _document.rootVisualElement.Q("BackButton") as Button;
         _back.RegisterCallback<ClickEvent>(OnBackClick);
@@ -78,6 +85,11 @@ public class LevelSelectScript : MonoBehaviour
         AsylumSelectedIcon.SetActive(true);
         SubwaySelectedIcon.SetActive(false);
         TweakHQSelectedIcon.SetActive(false);
+        
+        AsylumImage.SetActive(true);
+        SubwayImage.SetActive(false);
+        TweakHQImage.SetActive(false);
+        
         controller.SelectLevel("AsylumLevel2");
     }
 
@@ -87,6 +99,11 @@ public class LevelSelectScript : MonoBehaviour
         AsylumSelectedIcon.SetActive(false);
         SubwaySelectedIcon.SetActive(true);
         TweakHQSelectedIcon.SetActive(false);
+
+        AsylumImage.SetActive(false);
+        SubwayImage.SetActive(true);
+        TweakHQImage.SetActive(false);
+
         controller.SelectLevel("subway");
     }
 
@@ -96,6 +113,11 @@ public class LevelSelectScript : MonoBehaviour
         AsylumSelectedIcon.SetActive(false);
         SubwaySelectedIcon.SetActive(false);
         TweakHQSelectedIcon.SetActive(true);
+        
+        AsylumImage.SetActive(false);
+        SubwayImage.SetActive(false);
+        TweakHQImage.SetActive(true);
+        
         controller.SelectLevel("TweakHQ");
     }
 
