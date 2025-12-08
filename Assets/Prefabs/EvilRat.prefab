@@ -198,7 +198,7 @@ MonoBehaviour:
   hitbox: {fileID: 1371328489957405031, guid: c54074abc2658d64494eca7b6e0adadf, type: 3}
   offset: 0
   attackCooldown: 10
-  enemyScore: 100
+  enemyScore: 10
   knockOutDuration: 5
   unconsciousIndicator: {fileID: 4611314927788911721, guid: 965cfbcce72ea574193ec6a1d16ad4f8, type: 3}
 --- !u!95 &832057380762405404

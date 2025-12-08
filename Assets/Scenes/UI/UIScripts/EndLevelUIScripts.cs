@@ -31,7 +31,7 @@ public class EndLevelUIScripts : MonoBehaviour
         Label sub_score_label= _document.rootVisualElement.Q("SubScore") as Label;
         if(sub_score_label != null )
         {
-            sub_score_label.text = Singleton.Instance.scoreAsString;
+            sub_score_label.text = Singleton.Instance.score.ToString();
         }
 
         Label donation_label= _document.rootVisualElement.Q("DonationsGained") as Label;
@@ -49,7 +49,7 @@ public class EndLevelUIScripts : MonoBehaviour
         Label tweak_cut_label = _document.rootVisualElement.Q("TweaksCutEntry") as Label;
         if (tweak_cut_label != null)
         {
-            //tweak_cut_label = 
+            tweak_cut_label.text = Singleton.Instance.highscoreAsString;
         }
 
         Label total_entry_label= _document.rootVisualElement.Q("TotalEntry") as Label;
@@ -67,6 +67,7 @@ public class EndLevelUIScripts : MonoBehaviour
     private void OnEndStreamClick(ClickEvent evt)
     {
         Debug.Log("Ending Stream");
+        Singleton.Instance.score = 0;
         SceneManager.LoadScene(TitleScreen);
     }
 

@@ -145,6 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9565c224b3ebcb9499b2fbecf8d87ef5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 10
   confetti: {fileID: 3567050154118531774, guid: a9c26a548801c9b4494df62ddfa5f66a, type: 3}
 --- !u!82 &4336403540636540301
 AudioSource:

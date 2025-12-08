@@ -100,7 +100,7 @@ public class PlayerHealth : MonoBehaviour
             }
         }
 
-        Debug.Log($"Player took damage: Current Health {health}");
+        //Debug.Log($"Player took damage: Current Health {health}");
     }
 
     private IEnumerator TemporaryInvincibility()

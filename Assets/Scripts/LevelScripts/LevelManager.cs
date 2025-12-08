@@ -27,6 +27,8 @@ public class LevelManager : MonoBehaviour
     private float gameTime;
     private bool sniperSpawned = false;
     public int minObjects = 1;
+    public float floatScore;
+
 
 
     // Update is called once per frame
@@ -47,16 +49,21 @@ public class LevelManager : MonoBehaviour
         }
 
         //TweakHQ-Spawns Keycard
-        if (currentScene.name == "TweakHQ" && !exitSpawn && keycardSpawned == false)
+        if (currentScene.name == "TweakHQ")
         {
-            Debug.Log("Keycard Spawned!");
-            int childCount = spawnPointsContainer.childCount;
-            SpawnKeycard(childCount);
-            keycardSpawned = true;
+            floatScore -= 1f *Time.deltaTime;
+            if(!exitSpawn && keycardSpawned == false){
+                floatScore = 300f;
+                Debug.Log("Keycard Spawned!");
+                int childCount = spawnPointsContainer.childCount;
+                SpawnKeycard(childCount);
+                keycardSpawned = true;
+            }
         }
 
         if (objectCount <= minObjects)
         {
+            Debug.Log("Objective Completed!");
             if (currentScene.name == "AsylumLevel2" && !exitSpawn)
             {
                 Debug.Log("You won in the Asylum scene!");
@@ -69,27 +76,28 @@ public class LevelManager : MonoBehaviour
                 }
                 SpawnExit(childCount);
             }
+            if (currentScene.name == "subway")
+            {
+                Debug.Log("You won in the Subway scene!");
+
+                if (!exitSpawn)
+                {
+                    ToggleLights();
+                    SpawnStreamSniper();
+                    Debug.Log("Lights off");
+                    Instantiate(Exit, gameObject.transform.position, gameObject.transform.rotation);
+                    exitSpawn = true;
+                }
+            }
 
             if (objectCount <= 0)
             {
-                
-                if (currentScene.name == "subway")
-                {
-                    Debug.Log("You won in the Subway scene!");
-                    
-                    if (exitSpawn)
-                    {
-                        ToggleLights();
-                        SpawnStreamSniper();
-                        Debug.Log("Lights off");
-                        Instantiate(Exit, gameObject.transform.position, gameObject.transform.rotation);
-                        exitSpawn = false;
-                    }
-                }
+               
                 //TweakHQ
                 if(currentScene.name == "TweakHQ")
                 {
                     isOpen = true;
+                    Singleton.Instance.score = Mathf.FloorToInt(floatScore);
                     float targetAngle = openAngle;
                     doorPivot.localRotation = Quaternion.Lerp(
                         doorPivot.localRotation,
@@ -111,10 +119,14 @@ public class LevelManager : MonoBehaviour
     //Universal
     public void SpawnStreamSniper()
     {
+        Scene currentScene = SceneManager.GetActiveScene();
         exitSpawn = true;
         // Pick a random spawn point
         Transform chosenSpawn = streamSniperSpawn;
-
+        if(currentScene.name == "subway")
+        {
+            ToggleColorLights(true);
+        }
         // Instantiate the door at the chosen spawn point
         Instantiate(streamSniper, chosenSpawn.position, chosenSpawn.rotation);
     }
@@ -166,4 +178,17 @@ public class LevelManager : MonoBehaviour
         }
     }
 
+    public void ToggleColorLights(bool state)
+    {
+        GameObject[] lights = GameObject.FindGameObjectsWithTag("SubwayLight");
+        foreach (GameObject lightObj in lights)
+        {
+            Light lightComponent = lightObj.GetComponentInChildren<Light>();
+            if (lightComponent != null)
+            {
+                lightComponent.color = state ? new Color(1f, 0f, 0f) : new Color(250f / 255f, 1f, 215f / 255f);
+                lightComponent.intensity = state ? 500 : 50;
+            }
+        }
+    }
 }

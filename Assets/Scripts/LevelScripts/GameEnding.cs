@@ -2,6 +2,7 @@ using EasyPeasyFirstPersonController;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.UI;
 
 public class GameStats : MonoBehaviour
@@ -25,14 +26,18 @@ public class GameStats : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void EndLevel()
     {
-        //StartCoroutine(playerHit.Stunned(20));
         Singleton.Instance.targetLevel = "EndLevelScene";
         Singleton.Instance.TimeAsString = timerText.text;
-        Singleton.Instance.score = subs;
         Singleton.Instance.totalElapsedTime = elapsedTime;
-        if (Singleton.Instance.score < Singleton.Instance.highscore)
+        Singleton.Instance.scoreAsString = Singleton.Instance.score.ToString();
+        //if (Singleton.Instance.score > Singleton.Instance.highscore)
+        //{
+        //    Singleton.Instance.highscore = Singleton.Instance.score;
+        //    Singleton.Instance.highscoreAsString = Singleton.Instance.highscore.ToString();
+        //}
+        if (Singleton.Instance.time < Singleton.Instance.bestTime)
         {
-            Singleton.Instance.highscore = Singleton.Instance.score;
+            Singleton.Instance.bestTime = Singleton.Instance.time;
         }
         endtimer += Time.fixedDeltaTime;
         canvas.alpha = endtimer /fadeDuration;

@@ -245,7 +245,7 @@ public class EnemyStates : MonoBehaviour
         }
 
         currentHealth -= damageAmount;
-        Debug.Log($"Rat took damage: Current Health {currentHealth}");
+        //Debug.Log($"Rat took damage: Current Health {currentHealth}");
 
         if (currentHealth <= 0)
         {

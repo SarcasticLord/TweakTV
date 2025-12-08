@@ -92794,6 +92794,7 @@ MonoBehaviour:
   isOpen: 0
   timeToSpawn: 90
   minObjects: 1
+  floatScore: 0
 --- !u!4 &1286153650
 Transform:
   m_ObjectHideFlags: 0
@@ -104612,7 +104613,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 778145156973020975, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1732075959845819099, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: m_Intensity
@@ -104624,7 +104625,7 @@ PrefabInstance:
       objectReference: {fileID: 647947072}
     - target: {fileID: 2902478086235417878, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4455998166221778454, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -115818,7 +115819,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1684763154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115836,6 +115837,10 @@ MonoBehaviour:
   time: 0
   bestTime: 99999
   TimeAsString: 
+  scoreAsString: 
+  highscoreAsString: 
+  targetLevel: 
+  currentLevel: 
   totalElapsedTime: 0
 --- !u!4 &1684763155
 Transform:
