@@ -185,11 +185,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82619dac841a15e4d8e2919f74150fa7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 3
+  maxHealth: 2
   hitParticle: {fileID: 3567050154118531774, guid: 3f8d026cd8203754ea2721da63e7d5b4, type: 3}
   knockOutChance: 1
   detectionRange: 25
-  attackRange: 3
+  attackRange: 2
   wanderRadius: 15
   idleTime: 2
   wanderSpeed: 4
@@ -198,6 +198,7 @@ MonoBehaviour:
   hitbox: {fileID: 1371328489957405031, guid: c54074abc2658d64494eca7b6e0adadf, type: 3}
   offset: 0
   attackCooldown: 10
+  enemyScore: 100
   knockOutDuration: 5
   unconsciousIndicator: {fileID: 4611314927788911721, guid: 965cfbcce72ea574193ec6a1d16ad4f8, type: 3}
 --- !u!95 &832057380762405404

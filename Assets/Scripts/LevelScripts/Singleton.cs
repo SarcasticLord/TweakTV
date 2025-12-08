@@ -10,6 +10,9 @@ public class Singleton : MonoBehaviour
     public float time;
     public float bestTime;
     public string TimeAsString;
+    public string scoreAsString;
+    public string targetLevel;
+    public string currentLevel;
 
 
     // Level-based stats
@@ -41,6 +44,7 @@ public class Singleton : MonoBehaviour
         if (!levelHighScores.ContainsKey(level) || score > levelHighScores[level])
         {
             levelHighScores[level] = score;
+            scoreAsString = score.ToString();
         }
     }
 

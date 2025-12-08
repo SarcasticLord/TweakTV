@@ -41,6 +41,7 @@ public class PreStreamScript : MonoBehaviour
     {
         SelectedLevel = controller.GetSelectedLevel();
         Debug.Log(SelectedLevel);
+        Singleton.Instance.currentLevel = SelectedLevel;
         SceneManager.LoadScene(SelectedLevel);
     }
 }

@@ -26,6 +26,7 @@ public class GameStats : MonoBehaviour
     public void EndLevel()
     {
         //StartCoroutine(playerHit.Stunned(20));
+        Singleton.Instance.targetLevel = "EndLevelScene";
         Singleton.Instance.TimeAsString = timerText.text;
         Singleton.Instance.score = subs;
         Singleton.Instance.totalElapsedTime = elapsedTime;

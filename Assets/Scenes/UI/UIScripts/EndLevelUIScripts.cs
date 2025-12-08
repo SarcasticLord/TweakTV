@@ -31,7 +31,7 @@ public class EndLevelUIScripts : MonoBehaviour
         Label sub_score_label= _document.rootVisualElement.Q("SubScore") as Label;
         if(sub_score_label != null )
         {
-            //sub_score_label =
+            sub_score_label.text = Singleton.Instance.scoreAsString;
         }
 
         Label donation_label= _document.rootVisualElement.Q("DonationsGained") as Label;

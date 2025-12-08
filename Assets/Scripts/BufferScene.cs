@@ -7,6 +7,7 @@ public class AutoSceneLoader : MonoBehaviour
 
     void Start()
     {
+        nextSceneName = Singleton.Instance.targetLevel;
         // Immediately load the specified scene
         SceneManager.LoadScene(nextSceneName);
     }

@@ -1,5 +1,6 @@
 using EasyPeasyFirstPersonController;
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using static EnemyStates;
 
@@ -35,7 +36,7 @@ public class PlayerHit : MonoBehaviour
         {
             Destroy(other);
             Debug.Log("Player Hit!");
-            damageAmount = 1;
+            damageAmount = other.GetComponent<BeeHitbox>().damage;
             Debug.Log($"Damage Taken: {damageAmount}");
             health.PlayerTakeDamage(damageAmount);
         }

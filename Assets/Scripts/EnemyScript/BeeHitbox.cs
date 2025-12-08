@@ -7,6 +7,6 @@ public class BeeHitbox : MonoBehaviour
     public int damage = 1;
     private void Start()
     {
-        Destroy(gameObject, .5f);
+        Destroy(gameObject, .1f);
     }
 }

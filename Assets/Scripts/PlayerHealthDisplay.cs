@@ -1,9 +1,11 @@
+
 using EasyPeasyFirstPersonController;
 using System.Collections;
 using System.Security.Cryptography;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
 using static UnityEngine.GraphicsBuffer;
@@ -28,12 +30,19 @@ public class PlayerHealth : MonoBehaviour
     private GameObject weapons;
     private GameObject hud;
     private PlayerHit playerHit;
+    private FirstPersonController fpc;
 
+    // === Invincibility fields ===
+    [Header("Invincibility Frames")]
+    public float invincibleDuration = 1.0f;   // how long i-frames last
+    public float flashInterval = 0.1f;        // UI flash speed during i-frames
+    private bool isInvincible = false;        // gate damage
 
     private void Start()
     {
         weapons = GameObject.FindGameObjectWithTag("Hotbar");
         hud = GameObject.FindGameObjectWithTag("HUD");
+        fpc = GameObject.FindGameObjectWithTag("WholePlayer").GetComponent<FirstPersonController>();
         playerHit = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHit>();
         if (deathScreen != null)
         {
@@ -44,10 +53,10 @@ public class PlayerHealth : MonoBehaviour
             imageComponent = GetComponent<Image>();
         }
         health = maxHealth;
-        CreateHealth(health-1);
+        CreateHealth(health - 1);
         UpdateLayout();
-
     }
+
     void CreateHealth(int count)
     {
         for (int i = 0; i < count; i++)
@@ -62,14 +71,25 @@ public class PlayerHealth : MonoBehaviour
         }
         Debug.Log("Health Created.");
     }
+
     public void PlayerTakeDamage(int damageAmount)
     {
-        //GameObject chatobject = GameObject.Find("Chat");
+        // Early-out if invincible
+        if (isInvincible || playerIsDead) return;
+
+        // Apply damage
         health -= damageAmount;
+
+        // Remove bars based on damage
         for (int i = 0; i < damageAmount; i++)
         {
             RemoveTopBar();
         }
+
+        // Start temporary invincibility (so consecutive hits don’t stack immediately)
+        StartCoroutine(TemporaryInvincibility());
+
+        // Low health & death handling
         if (health <= 1)
         {
             StartCoroutine(LowHealth(.2f));
@@ -79,7 +99,37 @@ public class PlayerHealth : MonoBehaviour
                 Death();
             }
         }
+
         Debug.Log($"Player took damage: Current Health {health}");
+    }
+
+    private IEnumerator TemporaryInvincibility()
+    {
+        isInvincible = true;
+
+        // Optional: flash the HUD image while invincible
+        float elapsed = 0f;
+        Color original = imageComponent != null ? imageComponent.color : Color.white;
+        while (elapsed < invincibleDuration)
+        {
+            elapsed += Time.deltaTime;
+
+            if (imageComponent != null)
+            {
+                // simple flash between red and white
+                imageComponent.color = (Mathf.FloorToInt(elapsed / flashInterval) % 2 == 0)
+                    ? new Color(1f, 0.6f, 0.6f, original.a)
+                    : original;
+            }
+
+            yield return null;
+        }
+
+        // restore color
+        if (imageComponent != null)
+            imageComponent.color = original;
+
+        isInvincible = false;
     }
 
     public void RemoveTopBar()
@@ -92,10 +142,12 @@ public class PlayerHealth : MonoBehaviour
 
         UpdateLayout(); // Reposition remaining bars
     }
+
     public void Death()
-    {
-        StartCoroutine(playerHit.Stunned(100));
+    {    
         StartCooldown();
+        Singleton.Instance.targetLevel = "DeathScreen";
+        fpc.enabled= false;
         weapons.SetActive(false);
         hud.SetActive(false);
         if (deathScreen != null)
@@ -116,15 +168,16 @@ public class PlayerHealth : MonoBehaviour
 
         while (elapsed < fallDuration)
         {
-
             elapsed += Time.deltaTime;
             float t = elapsed / fallDuration;
             player.transform.position = Vector3.Lerp(startPos, targetPosition, t);
             player.transform.rotation = Quaternion.Lerp(startRot, targetRotation, t);
             yield return null;
         }
-
-        // Ensure final position and rotation are set
+        if (elapsed >= fallDuration)
+        {
+            StartCooldown();
+        }
         player.transform.position = targetPosition;
         player.transform.rotation = targetRotation;
     }
@@ -141,21 +194,21 @@ public class PlayerHealth : MonoBehaviour
             child.anchoredPosition = new Vector2(currentX, 0);
             currentX += child.sizeDelta.x + spacing;
         }
-
     }
+
     private IEnumerator LowHealth(float duration)
     {
-        //int time = 10;
-        while (!lowHealth)
+        // Note: 'lowHealth' is never set to true elsewhere, so this loop will run until disabled externally.
+        // If you want it to stop when health rises, add conditions or set lowHealth=true to exit.
+        imageComponent.color = Color.white;
+        while (!lowHealth && health == 1)
         {
-
             imageComponent.color = Color.red;
             yield return new WaitForSeconds(duration);
 
             imageComponent.color = Color.white;
             yield return new WaitForSeconds(duration);
         }
-
     }
 
     void Update()
@@ -163,25 +216,21 @@ public class PlayerHealth : MonoBehaviour
         UpdateLayout();
     }
 
-
     public void StartCooldown()
     {
         StartCoroutine(CooldownAndChangeScene());
-
     }
 
     private IEnumerator CooldownAndChangeScene()
     {
-
         yield return new WaitForSeconds(2);
-        StartCoroutine(PlayerCooldown()); // Replace with your scene name
+        StartCoroutine(PlayerCooldown());
     }
+
     private IEnumerator PlayerCooldown()
     {
         GameStats playerTransition = player.GetComponent<GameStats>();
         yield return new WaitForSeconds(2f);
-        playerTransition.EndLevel();
+        SceneManager.LoadScene("Buffer");
     }
 }
-
-

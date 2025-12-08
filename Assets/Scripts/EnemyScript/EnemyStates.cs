@@ -36,6 +36,8 @@ public class EnemyStates : MonoBehaviour
     private float idleTimer;
     private bool canAttack = true;
 
+    public int enemyScore;
+
     public float knockOutDuration = 3f;
     public GameObject unconsciousIndicator;
     private GameObject indicatorInstance;
@@ -291,5 +293,10 @@ public class EnemyStates : MonoBehaviour
         {
             Instantiate(hitParticle, transform.position, Quaternion.identity);
         }
+    }
+
+    private void OnDestroy()
+    {
+        Singleton.Instance.score += enemyScore;
     }
 }
