@@ -31,7 +31,7 @@ public class ChatDisplay : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Tab) && !isSuperChat)
+        if (Input.GetKeyDown(KeyCode.T) && !isSuperChat)
         {
             CycleChatSource();
         }
