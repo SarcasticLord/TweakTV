@@ -34,19 +34,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1039eab4dea8d44459f205f822d557d0, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0.6830128
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1039eab4dea8d44459f205f822d557d0, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0.18301241
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1039eab4dea8d44459f205f822d557d0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: 0.6830128
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1039eab4dea8d44459f205f822d557d0, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.18301235
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1039eab4dea8d44459f205f822d557d0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -58,7 +58,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1039eab4dea8d44459f205f822d557d0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -30
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1039eab4dea8d44459f205f822d557d0, type: 3}
       propertyPath: m_ConstrainProportionsScale
@@ -86,7 +86,7 @@ PrefabInstance:
       objectReference: {fileID: -5495902117074765545, guid: e22f5a34a958a2844aac7516ba334fb2, type: 3}
     - target: {fileID: 919132149155446097, guid: 1039eab4dea8d44459f205f822d557d0, type: 3}
       propertyPath: m_Name
-      value: Kepad
+      value: keypad
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1039eab4dea8d44459f205f822d557d0, type: 3}
       propertyPath: m_TagString

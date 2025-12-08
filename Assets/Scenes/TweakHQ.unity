@@ -67765,19 +67765,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1509515839209575451, guid: 9013bd35b72a04345a5b725926712af7, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0.6830128
       objectReference: {fileID: 0}
     - target: {fileID: 1509515839209575451, guid: 9013bd35b72a04345a5b725926712af7, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0.18301241
       objectReference: {fileID: 0}
     - target: {fileID: 1509515839209575451, guid: 9013bd35b72a04345a5b725926712af7, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: 0.6830128
       objectReference: {fileID: 0}
     - target: {fileID: 1509515839209575451, guid: 9013bd35b72a04345a5b725926712af7, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.18301235
       objectReference: {fileID: 0}
     - target: {fileID: 1509515839209575451, guid: 9013bd35b72a04345a5b725926712af7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -67789,11 +67789,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1509515839209575451, guid: 9013bd35b72a04345a5b725926712af7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -30
       objectReference: {fileID: 0}
     - target: {fileID: 2285911083503439521, guid: 9013bd35b72a04345a5b725926712af7, type: 3}
       propertyPath: m_Name
       value: Keypad
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512928010582430673, guid: 9013bd35b72a04345a5b725926712af7, type: 3}
+      propertyPath: m_Mass
+      value: 9999
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -104612,7 +104616,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 778145156973020975, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1732075959845819099, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: m_Intensity
@@ -104624,7 +104628,7 @@ PrefabInstance:
       objectReference: {fileID: 647947072}
     - target: {fileID: 2902478086235417878, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4455998166221778454, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -115836,6 +115840,9 @@ MonoBehaviour:
   time: 0
   bestTime: 99999
   TimeAsString: 
+  scoreAsString: 
+  targetLevel: 
+  currentLevel: 
   totalElapsedTime: 0
 --- !u!4 &1684763155
 Transform:
