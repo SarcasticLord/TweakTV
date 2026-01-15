@@ -9,12 +9,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4892bb6aed9ef384e844bca93f320f0a, type: 3}
+  m_Script: {fileID: 11500000, guid: f0d87e3181990174daca12fb41deebe0, type: 3}
   m_Name: Coffee
   m_EditorClassIdentifier: 
   itemName: Coffee
-  icon: {fileID: 21300000, guid: df969a0ff0b947d41b8d7b7a20a072d5, type: 3}
-  maxDurability: 2
+  icon: {fileID: 21300000, guid: 739886aa8ad16264aba4bd71452a5985, type: 3}
   itemType: 0
-  flashlightLight: {fileID: 0}
-  weaponAnimator: {fileID: 0}
+  maxDurability: 2
+  maxItems: 1
+  hitbox: {fileID: 0}
+  highlightColor: {r: 0.10878444, g: 1, b: 0, a: 1}
+  behavior: {fileID: 11400000, guid: ef9952b373104324d979dc507b0f4880, type: 2}
+  holdLocalPosition: {x: 0.5, y: 0.15, z: 0.3}
+  holdLocalRotation: {x: -90, y: 0, z: 0}
+  holdLocalScale: {x: 10.000152, y: 10.014994, z: 17.65587}

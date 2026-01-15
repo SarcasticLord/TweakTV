@@ -1,26 +1,31 @@
 
 using UnityEngine;
-using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(Collider))]
 public class PickupItem : MonoBehaviour
 {
-    public ItemData itemData; // Assign in Inspector
-    private bool playerInRange = false;
-    private InventoryManager inventoryManager;
-    public GameObject itemPrefab;
-    private Image pickupPrompt;
+    [Header("Data")]
+    public ItemData itemData;    // Assign in Inspector
+
+    [Header("UI")]
     public Sprite crosshair;
     public Sprite pickup;
-    public Transform itemSpawn;
 
+    [Header("Spawn (optional if you keep)")]
+    public Transform itemSpawn;  // Can be unused now, since we don't instantiate
+
+    private bool playerInRange = false;
+    private InventoryManager inventoryManager;
+    private Image pickupPrompt;
 
     private void Start()
     {
-        GameObject crosshairObject = GameObject.Find("Crosshair");
-        pickupPrompt = crosshairObject.GetComponent<Image>();
+        var crosshairObject = GameObject.Find("Crosshair");
+        pickupPrompt = crosshairObject ? crosshairObject.GetComponent<Image>() : null;
         playerInRange = false;
     }
+
     private void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -31,7 +36,6 @@ public class PickupItem : MonoBehaviour
             {
                 pickupPrompt.sprite = pickup;
             }
-
         }
     }
 
@@ -42,42 +46,94 @@ public class PickupItem : MonoBehaviour
             playerInRange = false;
             inventoryManager = null;
         }
-        pickupPrompt.sprite = crosshair;
-
+        if (pickupPrompt != null)
+            pickupPrompt.sprite = crosshair;
     }
 
     private void Update()
     {
-        if (playerInRange == true) {
-            pickupPrompt.sprite = pickup;
-            if (playerInRange && Input.GetKeyDown(KeyCode.E))
-            {
-                if (inventoryManager != null && inventoryManager.hotbarUI != null)
-                {
-                    if (inventoryManager.hotbarUI.IsFull(inventoryManager.inventory))
-                    {
-                        Debug.Log("Inventory full. Cannot pick up item.");
-                        return;
-                    }
-                    Destroy(gameObject);
-                    playerInRange = false;
-                    pickupPrompt.sprite = crosshair;
-                    GameObject instance = Instantiate(itemPrefab, itemSpawn.transform.position, itemSpawn.transform.rotation);
-                    instance.transform.SetParent(itemSpawn, true);
-                    instance.transform.localRotation = Quaternion.identity;
-                    instance.transform.localPosition = Vector3.zero;
-                    instance.SetActive(false);
-                    Rigidbody rb = instance.GetComponent<Rigidbody>();
-                    if (rb != null)
-                    {
-                        rb.isKinematic = true; // Prevent physics interaction
-                        rb.useGravity = false;
-                    }
+        if (!playerInRange) return;
 
-                    inventoryManager.PickUpItem(itemData, instance);
-                }
+        if (pickupPrompt != null)
+            pickupPrompt.sprite = pickup;
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            if (inventoryManager == null || inventoryManager.hotbarUI == null)
+                return;
+
+            if (inventoryManager.hotbarUI.IsFull(inventoryManager.inventory))
+            {
+                Debug.Log("Inventory full. Cannot pick up item.");
+                return;
             }
+
+            // Determine durability to carry into inventory
+            var droppedState = GetComponent<DroppedItemState>();
+            int durabilityFromWorld = droppedState ? droppedState.currentDurability : itemData.maxDurability;
+
+            // Prepare this world object to become the held instance
+            PrepareForPickup(gameObject);
+
+            // Hand off to InventoryManager: NO instantiation, preserve durability
+            inventoryManager.PickUpItemWithDurability(itemData, gameObject, durabilityFromWorld);
+
+            // Clear prompt/state
+            playerInRange = false;
+            if (pickupPrompt != null)
+                pickupPrompt.sprite = crosshair;
+
+            // Optional: remove DroppedItemState since it's now held
+            if (droppedState != null)
+            {
+                Destroy(droppedState);
+            }
+
+            // Optional: disable this trigger so we don't re-fire while held
+            var pickupCollider = GetComponent<Collider>();
+            if (pickupCollider != null)
+            {
+                pickupCollider.enabled = false;
+            }
+
+            // NOTE: Do NOT Destroy(this.gameObject)
+            // The InventoryManager/equip system now owns it and will parent it to the hold point,
+            // and control active state based on selected slot.
         }
     }
-}
 
+    /// <summary>
+    /// Disables physics and enables animator so the item behaves as a held prop.
+    /// Colliders are disabled to avoid self-interaction while held.
+    /// </summary>
+    private void PrepareForPickup(GameObject go)
+    {
+        // Disable physics
+        var rb = go.GetComponent<Rigidbody>();
+        if (rb != null)
+        {
+            rb.isKinematic = true;
+            rb.useGravity = false;
+            rb.linearVelocity = Vector3.zero;
+            rb.angularVelocity = Vector3.zero;
+        }
+
+        // Disable colliders while held (optional)
+        foreach (var col in go.GetComponentsInChildren<Collider>())
+        {
+            // Keep the pickup trigger disabled, too
+            col.enabled = false;
+        }
+
+        // Enable Animator for held animations (attack, flashlight toggle, etc.)
+        var animator = go.GetComponent<Animator>();
+        if (animator != null)
+        {
+            animator.enabled = true;
+        }
+
+        // Let InventoryManager control visibility.
+        // It will SetActive(true) only for the selected slot’s instance.
+        go.SetActive(false);
+    }
+}

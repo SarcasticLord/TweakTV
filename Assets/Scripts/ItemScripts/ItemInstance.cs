@@ -56,7 +56,7 @@ public class ItemInstance
         }
 
         //Flashlight
-        if (data.itemType == ItemType.Flashlight && data.itemName == "Flashlight")
+        if (data.itemType == ItemType.Light && data.itemName == "Flashlight")
         {
             Transform lightTransform = worldObject.transform.Find("FlashlightLight");
             if (lightTransform != null)
@@ -153,7 +153,7 @@ public class ItemInstance
             }
         }
         //Coffee
-        if (data.itemType == ItemType.Healing && data.itemName == "Coffee")
+        if (data.itemType == ItemType.Consumable && data.itemName == "Coffee")
         {
             if (canUseSkill)
             {
