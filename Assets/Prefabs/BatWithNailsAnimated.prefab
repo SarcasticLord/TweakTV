@@ -129,9 +129,6 @@ PrefabInstance:
       addedObject: {fileID: 8954803989361256615}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b9a30b774f617544aa3112ad6fad6554, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8746989500848785298}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b9a30b774f617544aa3112ad6fad6554, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 6226470876845007359}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b9a30b774f617544aa3112ad6fad6554, type: 3}
       insertIndex: -1
@@ -142,6 +139,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b9a30b774f617544aa3112ad6fad6554, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4244536463329319645}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b9a30b774f617544aa3112ad6fad6554, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2672842623080032931}
     - targetCorrespondingSourceObject: {fileID: 63156137431654320, guid: b9a30b774f617544aa3112ad6fad6554, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4643187259784546931}
@@ -207,22 +207,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.5, y: 2.5, z: 2.5}
   m_Center: {x: 0.9970468, y: 0.73329306, z: 0.0057965517}
---- !u!114 &8746989500848785298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6751759981710865965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43e3bde465274104dab85d1dcb187078, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemData: {fileID: 11400000, guid: e15dd54eb9d107e42a8280d61bd3e28b, type: 2}
-  crosshair: {fileID: 21300000, guid: 19dea4e266019f24a98ab8f7fd50c875, type: 3}
-  pickup: {fileID: 21300000, guid: f0f26e279532bcd49aa894093f883385, type: 3}
-  itemSpawn: {fileID: 0}
 --- !u!114 &6226470876845007359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -302,3 +286,19 @@ CapsuleCollider:
   m_Height: 2.27
   m_Direction: 1
   m_Center: {x: 0.9970468, y: 0.73329306, z: 0.0057965517}
+--- !u!114 &2672842623080032931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6751759981710865965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c42b87f71f1e91e4eb2341547541aaf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemData: {fileID: 11400000, guid: e15dd54eb9d107e42a8280d61bd3e28b, type: 2}
+  crosshair: {fileID: 21300000, guid: 19dea4e266019f24a98ab8f7fd50c875, type: 3}
+  pickup: {fileID: 21300000, guid: f0f26e279532bcd49aa894093f883385, type: 3}
+  itemSpawn: {fileID: 0}
