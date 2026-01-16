@@ -12,5 +12,10 @@ public class Beartrap : MonoBehaviour
             Instantiate(closedTrap, gameObject.transform.position, gameObject.transform.rotation);
             Destroy(gameObject);
         }
+        if (other.CompareTag("Player"))
+        {
+            Instantiate(closedTrap, gameObject.transform.position, gameObject.transform.rotation);
+            Destroy(gameObject);
+        }
     }
 }

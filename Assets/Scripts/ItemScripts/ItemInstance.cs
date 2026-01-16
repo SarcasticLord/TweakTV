@@ -27,7 +27,7 @@ public class ItemInstance
     private FirstPersonController fpc;
     private Volume coffeeVolume;
     private GameObject visual = GameObject.Find("CoffeeVisual");
-    private GameObject playerObject = GameObject.Find("Player");
+    private GameObject playerObject = GameObject.FindGameObjectWithTag("WholePlayer");
 
     public void Start()
     {
