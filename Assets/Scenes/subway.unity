@@ -28231,7 +28231,7 @@ MonoBehaviour:
   usernamesFile: {fileID: 4900000, guid: 6e9d294211885404d8512cb78bdec309, type: 3}
   messageFile: {fileID: 4900000, guid: 1b5dcbba5a474474bb13d5509f76543c, type: 3}
   messageDelay: 2
-  chatMode: {fileID: 0}
+  chatMode: {fileID: 394114178}
   isSuperChat: 0
   modName: 
 --- !u!114 &208729850
@@ -160834,6 +160834,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 355.17493
       objectReference: {fileID: 0}
+    - target: {fileID: 331569993071771042, guid: b31476184a934af4c93c55496ff611cf, type: 3}
+      propertyPath: hotbarUI
+      value: 
+      objectReference: {fileID: 1926914019}
     - target: {fileID: 890879753132543441, guid: b31476184a934af4c93c55496ff611cf, type: 3}
       propertyPath: m_SizeDelta.y
       value: 652.41
