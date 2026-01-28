@@ -30955,11 +30955,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7328860170788544450, guid: 5180827ed17f8cc428c6f78f1cb6364d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 277.71356
+      value: 261.82983
       objectReference: {fileID: 0}
     - target: {fileID: 7328860170788544450, guid: 5180827ed17f8cc428c6f78f1cb6364d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 126.61624
+      value: 121.70096
       objectReference: {fileID: 0}
     - target: {fileID: 7328860170788544450, guid: 5180827ed17f8cc428c6f78f1cb6364d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -43415,7 +43415,7 @@ GameObject:
   - component: {fileID: 400462257}
   - component: {fileID: 400462256}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: camcorners
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -173142,7 +173142,7 @@ GameObject:
   - component: {fileID: 1142687713}
   - component: {fileID: 1142687712}
   m_Layer: 5
-  m_Name: Image
+  m_Name: camcorners
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -191072,7 +191072,7 @@ GameObject:
   - component: {fileID: 1346119387}
   - component: {fileID: 1346119386}
   m_Layer: 5
-  m_Name: Image (3)
+  m_Name: camcorners
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -199210,7 +199210,7 @@ GameObject:
   - component: {fileID: 1450597377}
   - component: {fileID: 1450597376}
   m_Layer: 5
-  m_Name: Image (2)
+  m_Name: camcorners
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -259296,11 +259296,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 258705369558184299, guid: 24d01d1b91f25354db553e9d1ab4a164, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 323.93573
+      value: 282.21045
       objectReference: {fileID: 0}
     - target: {fileID: 258705369558184299, guid: 24d01d1b91f25354db553e9d1ab4a164, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -109.848816
+      value: -160.02478
       objectReference: {fileID: 0}
     - target: {fileID: 333113481237830816, guid: 24d01d1b91f25354db553e9d1ab4a164, type: 3}
       propertyPath: m_Name
