@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0d87e3181990174daca12fb41deebe0, type: 3}
+  m_Name: Crowbar
+  m_EditorClassIdentifier: 
+  itemName: Crowbar
+  icon: {fileID: 21300000, guid: dad042378c5885244bea851deec27dd3, type: 3}
+  itemType: 4
+  maxDurability: 20
+  maxItems: 1
+  hitbox: {fileID: 0}
+  highlightColor: {r: 0, g: 1, b: 0.45745444, a: 1}
+  behavior: {fileID: 11400000, guid: d29f9977811737b468598f42e7d15bc3, type: 2}
+  holdLocalPosition: {x: 0.75, y: 0.2, z: 0}
+  holdLocalRotation: {x: 315, y: 0, z: 180}
+  holdLocalScale: {x: 3, y: 2.3013194, z: 37.629307}
