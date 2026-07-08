@@ -23,14 +23,27 @@ public class ChatDisplay : MonoBehaviour
     public TextMeshProUGUI chatMode;
     private string[] usernames;
     private string[] messages;
-
-
+    //Add list of textfiles here
+    public bool isSuperChat;
+    private GameStats player;
+    private int lastMinute = -1;
+    public string modName;
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Tab))
+        if (Input.GetKeyDown(KeyCode.T) && !isSuperChat)
         {
             CycleChatSource();
+        }
+        if (isSuperChat)
+        {
+            int currentMinute = Mathf.FloorToInt(player.elapsedTime / 60f);
+            if (currentMinute != lastMinute)
+            {
+                Debug.Log($"{player.elapsedTime} time.");
+                AddMessage($"{currentMinute} minutes have passed...");
+                lastMinute = currentMinute;
+            }
         }
     }
 
@@ -39,13 +52,18 @@ public class ChatDisplay : MonoBehaviour
 
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("WholePlayer").GetComponent<GameStats>();
         usernames = usernamesFile.text.Split('\n');
         messages = messageFile.text.Split('\n');
-        for (int i = 0; i < 6; i++)
+        if (!isSuperChat)
         {
-            AddMessage("");
+            for (int i = 0; i < 6; i++)
+            {
+                AddMessage("");
+            }
+            StartCoroutine(DisplayMessagesWithDelay());
         }
-        StartCoroutine(DisplayMessagesWithDelay());
+
     }
 
 
@@ -66,7 +84,7 @@ public class ChatDisplay : MonoBehaviour
 
    public void CycleChatSource()
    {
-       string[] chatOptions = { "Chat","Combat","Death" };
+       string[] chatOptions = { "chat","combat", "death", "bored" };
        messageType += 1;
        if (messageType > chatOptions.Length-1)
        {
@@ -126,9 +144,18 @@ public class ChatDisplay : MonoBehaviour
 
     public void AddMessage(string newMessage)
     {
-        GameObject msgObj = Instantiate(messagePrefab, chatPanel);
-        msgObj.GetComponent<TextMeshProUGUI>().text = newMessage;
-        messageQueue.Enqueue(msgObj);
+        if (!isSuperChat)
+        {
+            GameObject msgObj = Instantiate(messagePrefab, chatPanel);
+            msgObj.GetComponent<TextMeshProUGUI>().text = newMessage;
+            messageQueue.Enqueue(msgObj);
+        }
+        if (isSuperChat)
+        {
+            GameObject msgObj = Instantiate(messagePrefab, chatPanel);
+            msgObj.GetComponent<TextMeshProUGUI>().text = $"{modName}: {newMessage}";
+            messageQueue.Enqueue(msgObj);
+        }
 
         if (messageQueue.Count > maxMessages)
         {

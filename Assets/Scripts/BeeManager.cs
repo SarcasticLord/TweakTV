@@ -4,7 +4,6 @@ public class BeeHealth : MonoBehaviour
 {
     [SerializeField] private int maxHealth = 5;
     private int currentHealth;    
-    private ChatDisplay chat;
 
     void Start()
     {
@@ -12,10 +11,9 @@ public class BeeHealth : MonoBehaviour
     }
 
     // Call this method to reduce health
-    public void TakeDamage(int damageAmount)
+    public void BeeTakeDamage(int damageAmount)
     {
         GameObject chatobject = GameObject.Find("Chat");
-        chat = chatobject.GetComponent<ChatDisplay>();
 
         currentHealth -= damageAmount;
         Debug.Log($"Bee took damage: Current Health {currentHealth}");

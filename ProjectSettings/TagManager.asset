@@ -6,6 +6,21 @@ TagManager:
   tags:
   - Item
   - Hitbox
+  - Enemy
+  - Endpoint1
+  - Endpoint2
+  - SubwayLight
+  - Train
+  - Crowable
+  - Exit
+  - WholePlayer
+  - HUD
+  - Hotbar
+  - Collectibles
+  - KeyPad
+  - PlayerHealth
+  - HitboxSpawn
+  - BearTrap
   layers:
   - Default
   - TransparentFX
@@ -13,10 +28,10 @@ TagManager:
   - Throwables
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Obstacles
+  - Player
+  - NoFog
+  - Pickups
   - 
   - 
   - 

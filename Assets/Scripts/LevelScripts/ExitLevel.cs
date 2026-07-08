@@ -1,0 +1,102 @@
+using EasyPeasyFirstPersonController;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class ExitGame : MonoBehaviour
+{ 
+    private GameObject weapons;
+    private GameObject hud;
+    public GameObject player;
+    private UnityEngine.SceneManagement.Scene currentScene;
+    public float cooldownDuration = 3f;
+    public FirstPersonController firstPersonController;
+
+
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+
+    void Start()
+    {
+        firstPersonController = GameObject.FindGameObjectWithTag("WholePlayer").GetComponent<FirstPersonController>();
+        Debug.Log($"Scene: {SceneManager.GetActiveScene()}");
+        currentScene = SceneManager.GetActiveScene();
+        weapons = GameObject.FindGameObjectWithTag("Hotbar");
+        hud = GameObject.FindGameObjectWithTag("HUD");
+        player = GameObject.FindGameObjectWithTag("WholePlayer");
+        Debug.Log($"Player: {player.name}");
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("WholePlayer"))
+        {
+            other.transform.position = transform.position;
+            firstPersonController.enabled = false;
+            weapons.SetActive(false);
+            hud.SetActive(false);
+            Debug.Log("You beat the level!");
+            Singleton.Instance.time = player.GetComponent<GameStats>().elapsedTime;
+            if (Singleton.Instance.time < Singleton.Instance.bestTime)
+            {
+                Singleton.Instance.bestTime = Singleton.Instance.time;
+            }
+        }
+    }
+
+
+
+    public void StartCooldown()
+    {
+        StartCoroutine(CooldownAndChangeScene());
+        
+    }
+
+    private IEnumerator CooldownAndChangeScene()
+    {
+
+        yield return new WaitForSeconds(cooldownDuration);
+        StartCoroutine(PlayerCooldown()); // Replace with your scene name
+    }
+    private IEnumerator PlayerCooldown()
+    {
+        GameStats playerTransition = player.GetComponent<GameStats>();
+        yield return new WaitForSeconds(2f);
+        playerTransition.EndLevel();
+    }
+
+
+    private void OnTriggerStay(Collider other)
+    {
+        GameStats playerTransition = player.GetComponent<GameStats>();
+        if (other.CompareTag("WholePlayer"))
+        {
+            if (currentScene.name == "subway")
+            {
+                StartCooldown();
+                other.transform.position = transform.position;
+            }
+            else if (currentScene.name == "AsylumLevel2")
+            {
+                other.transform.position = transform.position;
+                playerTransition.EndLevel();
+                Debug.Log($"Scene: {SceneManager.GetActiveScene().name}");
+            }
+            else if (currentScene.name == "TweakHQ")
+            {
+                playerTransition.EndLevel();
+                other.transform.position = transform.position;
+                Debug.Log($"Scene: {SceneManager.GetActiveScene().name}");
+            }
+        }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+}
